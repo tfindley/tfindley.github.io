@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Employment on Tristan Findley</title>
+    <link>http://localhost:1313/categories/employment/</link>
+    <description>Recent content in Employment on Tristan Findley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>tfindley@outlook.com (Tristan Findley)</managingEditor>
+    <webMaster>tfindley@outlook.com (Tristan Findley)</webMaster>
+    <copyright>© 2024 Tristan Findley</copyright>
+    <lastBuildDate>Mon, 11 Sep 2006 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/employment/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Royal Holloway University London</title>
+      <link>http://localhost:1313/about/experience/rhul/</link>
+      <pubDate>Mon, 11 Sep 2006 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/experience/rhul/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/experience/rhul/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

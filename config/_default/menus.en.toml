@@ -1,0 +1,101 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "Posts"
+pageRef = "posts"
+identifier = "lZAy3sY8et"
+weight = 1
+
+[[main]]
+name = "Technical"
+parent = "lZAy3sY8et"
+pageRef = "categories/technical"
+identifier = "QtySZvHspa"
+weight = 11
+
+[[main]]
+name = "Journal"
+parent = "lZAy3sY8et"
+pageRef = "categories/journal"
+identifier = "nf8PCRgCwO"
+weight = 12
+
+[[main]]
+name = "About"
+pageRef = "about"
+identifier = "cAVLZkfSlh"
+weight = 20
+
+[[main]]
+name = "Professional Experience"
+pageRef = "about/experience"
+parent = "cAVLZkfSlh"
+weight = 21
+
+[[main]]
+name = "Photography"
+pageRef = "photo"
+identifier = "0I1hfmImIJ"
+weight = 30
+
+[[main]]
+name = "The Gear"
+parent = "0I1hfmImIJ"
+pageRef = "photo/gear"
+weight = 31
+
+[[main]]
+name = "The Brand"
+parent = "0I1hfmImIJ"
+pageRef = "photo/brand"
+weight = 32
+
+
+[[main]]
+pre = "github"
+url = "https://github.com/tfindley"
+identifier = "qkopxrtF8s"
+weight = 9999
+
+[[main]]
+ pre = "ko-fi"
+ url = "https://ko-fi.com/tfindley"
+ identifier = "fqexx42fg"
+ name = ""
+ weight = 8888
+
+# [[subnavigation]]
+#  name = ""
+#  pre = "github"
+#  url = "https://github.com/tfindley"
+#  weight = 20
+
+
+
+[[footer]]
+none = "none"
+
+[[footer]]
+name = "Posts:Tags"
+pageRef = "tags"
+identifier = "oNgL7hIciZ"
+weight = 2
+
+[[footer]]
+name = "Posts:Categories"
+pageRef = "categories"
+identifier = "zF45JBwuUT"
+weight = 1
+
+[[footer]]
+ name = "View my GitHub"
+ pre = "github"
+ url = "https://github.com/tfindley"
+ weight = 90
+
+[[footer]]
+ name = "Support me on Ko-Fi"
+ pre = "ko-fi"
+ url = "https://ko-fi.com/tfindley"
+ weight = 80

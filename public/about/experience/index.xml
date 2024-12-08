@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Professional Experience on Tristan Findley</title>
+    <link>http://localhost:1313/about/experience/</link>
+    <description>Recent content in Professional Experience on Tristan Findley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>tfindley@outlook.com (Tristan Findley)</managingEditor>
+    <webMaster>tfindley@outlook.com (Tristan Findley)</webMaster>
+    <copyright>© 2024 Tristan Findley</copyright>
+    <lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/about/experience/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SiXworks Ltd</title>
+      <link>http://localhost:1313/about/experience/sixworks/</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/experience/sixworks/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/experience/sixworks/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Vlaams Instituut voor Biotechnologie</title>
+      <link>http://localhost:1313/about/experience/vib/</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/experience/vib/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/experience/vib/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>UKCloud Ltd</title>
+      <link>http://localhost:1313/about/experience/ukcloud/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/experience/ukcloud/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/experience/ukcloud/featured.JPG" />
+    </item>
+    
+    <item>
+      <title>Vodafone Secure Services, Vodafone Ltd</title>
+      <link>http://localhost:1313/about/experience/vss/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/experience/vss/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/experience/vss/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>University of Surrey</title>
+      <link>http://localhost:1313/about/experience/uos/</link>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/experience/uos/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/experience/uos/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Royal Holloway University London</title>
+      <link>http://localhost:1313/about/experience/rhul/</link>
+      <pubDate>Mon, 11 Sep 2006 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/experience/rhul/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/experience/rhul/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Larch Computer Services</title>
+      <link>http://localhost:1313/about/experience/larch/</link>
+      <pubDate>Wed, 01 Jun 2005 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/experience/larch/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Farnborough Sixth Form College</title>
+      <link>http://localhost:1313/about/experience/fsfc/</link>
+      <pubDate>Thu, 01 Nov 2001 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/experience/fsfc/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

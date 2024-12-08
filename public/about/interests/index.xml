@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Interests and Hobbies on Tristan Findley</title>
+    <link>http://localhost:1313/about/interests/</link>
+    <description>Recent content in My Interests and Hobbies on Tristan Findley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>tfindley@outlook.com (Tristan Findley)</managingEditor>
+    <webMaster>tfindley@outlook.com (Tristan Findley)</webMaster>
+    <copyright>© 2024 Tristan Findley</copyright>
+    <atom:link href="http://localhost:1313/about/interests/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/interests/computer_hardware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/interests/computer_hardware/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/interests/gaming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/interests/gaming/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/interests/motorcycling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/interests/motorcycling/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Martial Arts</title>
+      <link>http://localhost:1313/about/interests/martial_arts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/interests/martial_arts/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Skiing</title>
+      <link>http://localhost:1313/about/interests/skiing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/interests/skiing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>WordPress</title>
+      <link>http://localhost:1313/about/interests/wordpress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/interests/wordpress/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

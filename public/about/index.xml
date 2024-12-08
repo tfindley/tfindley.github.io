@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Me on Tristan Findley</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in About Me on Tristan Findley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>tfindley@outlook.com (Tristan Findley)</managingEditor>
+    <webMaster>tfindley@outlook.com (Tristan Findley)</webMaster>
+    <copyright>© 2024 Tristan Findley</copyright>
+    <lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Education</title>
+      <link>http://localhost:1313/about/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/education/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Filmography</title>
+      <link>http://localhost:1313/about/filmography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/filmography/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>http://localhost:1313/about/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/faq/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Creative World</title>
+      <link>http://localhost:1313/about/creative/creative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/creative/creative/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tristan&#39;s Skills</title>
+      <link>http://localhost:1313/about/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/about/skills/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Review on Tristan Findley</title>
+    <link>http://localhost:1313/tags/review/</link>
+    <description>Recent content in Review on Tristan Findley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>tfindley@outlook.com (Tristan Findley)</managingEditor>
+    <webMaster>tfindley@outlook.com (Tristan Findley)</webMaster>
+    <copyright>© 2024 Tristan Findley</copyright>
+    <lastBuildDate>Fri, 29 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>3 Legged Thing meets Peak Design - Tripod Plates Comparison</title>
+      <link>http://localhost:1313/posts/2015-07-29-3lt_meets_peakdesign/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/posts/2015-07-29-3lt_meets_peakdesign/</guid>
+      <description>&lt;p&gt;So this is a bit of a niche post, but I figured it was worthy of a little bit of attention. Those of you who are UK and US based photographers have probably come across the company &amp;lsquo;3 Legged Thing&amp;rsquo;, makers of some truly lovely tripods. Recently, 3 Legged Thing have teamed up with Peak Design, another company that I have great respect for. This partnership appears to go beyond the simple of selling Peak Design products on the UK 3 Legged Thing website.&lt;/p&gt;
+&lt;p&gt;In recent months 3 Legged Thing have been teasing us all with photos of a new tripod Quick Release plate which is compatible both with the 3 Legged Thing tripods and the Peak Design Capture Pro clip. I figured I&amp;rsquo;d ask the staff at 3LT if they were available yet, and low and behold they sent me one out along with some spare parts that I&amp;rsquo;d requested for my 3 Legged Thing Tim tripod, so I figured that I&amp;rsquo;d return the favour by writing a little about it, and comparing it to the other tripod plates.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2015-07-29-3lt_meets_peakdesign/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Peak Design Capture Pro and POV Kit - Review</title>
+      <link>http://localhost:1313/posts/2014-09-02-pd_capturepro_pov_review/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      <author>tfindley@outlook.com (Tristan Findley)</author>
+      <guid>http://localhost:1313/posts/2014-09-02-pd_capturepro_pov_review/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2014-09-02-pd_capturepro_pov_review/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
