@@ -1,0 +1,31 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Tristan Findley"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+
+[params.author]
+  name = "Tristan Findley"
+  email = "tfindley@outlook.com"
+  image = "img/tristan-findley.png"
+  imageQuality = 96
+  headline = "I'm only human"
+  bio = "A little bit about you"
+  links = [
+    { linkedin = "https://linkedin.com/in/tfindley" },
+    { github = "https://github.com/tfindley" },
+    { gitlab = "https://gitlab.com/tfindley" },
+    { keybase = "https://keybase.io/tfindley" },
+    { stack-overflow = "https://stackoverflow.com/users/28666042" },
+    { ko-fi = "https://ko-fi.com/tfindley" },
+    { instagram = "https://instagram.com/tristanfindley" },
+    { youtube = "https://www.youtube.com/channel/UCTzlh2rZXFmI0D95hoc14Gw" },
+    { steam = "https://steamcommunity.com/id/zeshinfox/" },
+  ]
+
