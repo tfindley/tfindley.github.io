@@ -2,7 +2,7 @@
 none = "none"
 
 [[main]]
-name = "Posts"
+name = "All Posts"
 pageRef = "posts"
 identifier = "lZAy3sY8et"
 weight = 1
@@ -15,11 +15,25 @@ identifier = "QtySZvHspa"
 weight = 11
 
 [[main]]
+name = "Photography"
+parent = "lZAy3sY8et"
+pageRef = "categories/photography"
+identifier = "vas432gCf2"
+weight = 12
+
+[[main]]
 name = "Journal"
 parent = "lZAy3sY8et"
 pageRef = "categories/journal"
 identifier = "nf8PCRgCwO"
-weight = 12
+weight = 13
+
+[[main]]
+name = "Reviews"
+parent = "lZAy3sY8et"
+pageRef = "categories/reviews"
+identifier = "rev3255s2"
+weight = 14
 
 [[main]]
 name = "About"
