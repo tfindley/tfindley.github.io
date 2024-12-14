@@ -37,7 +37,7 @@ For the examples below, we will use NextDNS information. You will require your u
     - **IP Address:** *leave blank*
     - **Host name:** dns.nextdns.io *(note that we don't include the https protocol string)*
     - **Hashes:** *leave blank*
-    - **Path:** *your six character unique ID provided by NextDNS. e.g: `aBc123`
+    - **Path:** *your six character unique ID provided by NextDNS. e.g: `aBc123`. Don't forget the preceding `/`.
         - **Optional:** if you want to include a Device ID (useful in NextDNS if you want to log what specific devices are querying) add */device_name* to the end of the **path**. E.g: `aBc123/Router`
     - **DNSSEC:** Checked
     - **No Filter:** Unchecked
