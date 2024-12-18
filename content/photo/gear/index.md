@@ -1,6 +1,7 @@
 ---
 title: Photography Gear
 showPagination: false
+layout: simple
 ---
 
 ## Cameras (Current)
