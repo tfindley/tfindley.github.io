@@ -14,11 +14,20 @@ The need for self-promotion and digital assets prompted my delve into Desktop Pu
 
 ## Creative Experience
 
-| For | Type | Date | Type |
-| --- | ---- | ---- | ---- |
-| Backdoor Broadcasting | Paid Contract | 2014 - 2017 | Audio Podcast recording |
-| RP Photography by Design | Subcontract | 2012 - 2013 | Photography |
-| Royal Holloway University | Contract | 2012 - 2014 | Graphic Designer, Photographer
+| Client                     | Type           | Date        | Type                           |
+| -------------------------- | -------------- | ----------- | ------------------------------ |
+| Backdoor Broadcasting      | Subcontracting | 2014 - 2017 | Audio Podcast recording        |
+| RP Photography by Design   | Subcontracting | 2012 - 2013 | Photographer                   |
+| Royal Holloway University  | Contract       | 2012 - 2014 | Graphic Designer, Photographer |
+| L'altro Uomo               | Contract       | TBC         | Photographer                   |
+| Oak Hill Park Café         | Contract       | TBC         | Photographer                   |
+| UK Wolf Conservation Trust | Contract       | TBC         | Photographer                   |
+| Karluk Siberian Huskies    | Contract       | TBC         | Photographer                   |
+| B3 Media                   | Contract       | 2011        | Photographer                   |
+| Film Theatre               | Contract       | 2011        | Photographer                   |
+| Kinetic Energy Films       | Contract       | 2010        | Photographer                   |
+| After Dark Production      | Contract       | 2010        | Photographer                   |
+
 
 ## Business Skills
 
