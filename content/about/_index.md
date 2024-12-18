@@ -38,6 +38,18 @@ In my [Education](education) background, I graduated with a Bachelor of Science 
 
 ---
 
+## Interests
+
+- [Skiing](interests/skiing)
+- [Gaming](interests/gaming)
+- [Martial Arts](interests/martial_arts)
+- Outdoors / Hiking
+- [Travel](/travel)
+- [Photography](/photo)
+- [Motorcycling](interests/motorcycling)
+
+---
+
 ## Links
 
 - [Professional Experience](experience)
