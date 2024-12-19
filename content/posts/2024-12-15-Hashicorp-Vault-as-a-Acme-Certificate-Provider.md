@@ -1,5 +1,5 @@
 ---
-title: 
+title: Hashicorp Vault as an ACME Certificate Provider
 date: 2024-12-15
 author: Tristan Findley
 categories:
@@ -25,7 +25,7 @@ showTableOfContents: true
 draft: false
 ---
 
-In my eyes, one of the greatest things that ever happened in the world of TLS was the start of the 'HTTPS Everywhere' movement. This gave rise to the worlds websites defaulting to HTTPS over HTTP, and reduction in price of TLS/SSL certificates to free thanks to ACME and LetsEncrypt.
+In my eyes, one of the greatest things that ever happened in the world of TLS was the start of the 'HTTPS Everywhere' movement. This gave rise to the worlds websites defaulting to HTTPS over HTTP, and reduction in price of TLS/SSL certificates to free thanks to [ACME (Automatic Certificate Management Environment)](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment) and [LetsEncrypt](https://letsencrypt.org/).
 
 For those of us who run public-facing web services, this is great, so long as you have a method to request those certificates. Even for those of us running homelabs, getting a certificate for an internal service is (with a small cost and some effort) relatively straight forward (I'll likely cover this in a future post). However this leaves homelab or corporate environments that run on internally build Certificate Authorities generating and distributing certificates using old fashioned methods, and typically this means not easily compatible with DevOps methedologies.
 
