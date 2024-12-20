@@ -5,6 +5,8 @@ I know this isn't exactly 'professional', but we all have to unwind once in a wh
 So I'm a PC Gamer. I've tried the occasional console - XBox 360, PS3, etc, but I always end up back at PC's (the hangout for the true Hardcore gamer - Mouse and keyboard FTW!).
 
 ### Steam Gaming Profile
+![Steam Replay 2024](steam_replay_2024.png)
+
 Steamprofile badge by Steamprofile.com
 
 Find me on [Steam](http://store.steampowered.com/) under [ZeshinFox](https://steamcommunity.com/id/zeshinfox/) - Come and play!
