@@ -12,9 +12,9 @@ constrainItemsWidth: false
   breakLines=true
   lifeLike=true
   waitUntilVisible=true
-  initialString="who is Tristan... ?"
+  initialString="Taking a holistic view of IT"
 >}}
-"DevOps Engineer"
+"Site Reliability Engineer"
 "DevOps Team Lead"
 "DevOps Manager"
 {{< /typeit >}}
