@@ -33,4 +33,28 @@ showReadingTime: false
 #     btn_class: "btn--primary"
 #     btn_label: "Learn more"      
 ---
-Information Coming Soon
+**Automation Engineer (DevOps), Change Manager, Major Incident Coordinator**
+
+06/03/2024 - Present
+
+My primary role is as a DevOps Focused Automation Engineer, building critical infrastructure for the Vlaams Institute of Biotechnology (Vlaams Instituut voor Biotechnologie) Data Core. My function is similar to that of a Site Reliability Engineer in that I am required to envision, design and prototype new services and ways of working, and implemenent a production version with Resiliance, Redundancy and Availability as key aspects.
+
+Since starting with Data Core in 2024, I have designed and implemented the following policies, procedures and working practices in accordance with NIS2 and ISO27001:
+
+- Change Management
+- Major Incident Management
+- Solution Development
+
+---
+
+## My responsibilities include
+
+- Coming Soon
+
+## Notable Projects
+
+- Coming Soon
+
+## Technology Shortlist
+
+- Coming Soon
