@@ -132,8 +132,10 @@ else
 	mkdir $SCRIPTPATH/crt/live/$CERT
 fi
 
-NEW_KEY=$SCRIPTPATH/crt/live/$CERT/$CERT.key
-NEW_CRT=$SCRIPTPATH/crt/live/$CERT/$CERT.crt
+NEW_KEY=$SCRIPTPATH/crt/live/$CERT/privkey.pem
+NEW_CRT=$SCRIPTPATH/crt/live/$CERT/cert.pem
+NEW_FULLCHAIN=$SCRIPTPATH/crt/live/$CERT/fullchain.pem
+NEW_CHAIN=$SCRIPTPATH/crt/live/$CERT/chain.pem
 NEW_CSR=$SCRIPTPATH/csr/$CERT.csr
 NEW_CFG=$SCRIPTPATH/conf/$CERT.conf
 CA_KEY=$SCRIPTPATH/ca/myCA.key
@@ -148,6 +150,13 @@ openssl req -new -key $NEW_KEY -out $NEW_CSR -config $NEW_CFG
 echo "Generating CRT"
 openssl x509 -req -in $NEW_CSR -CA $CA_PEM -CAkey $CA_KEY -CAcreateserial -out $NEW_CRT -days 365 -sha256 -extfile $NEW_CFG -extensions req_ext
 
+echo "Generate Chain"
+cp $CA_PEM $NEW_CHAIN
+
+echo "Generating Full Chain"
+cat $NEW_CRT > $NEW_FULLCHAIN
+cat $CA_PEM >> $NEW_FULLCHAIN
+
 echo ""
 echo "Done"
 exit 0
@@ -159,10 +168,6 @@ chmod +x $DOMAIN/gencert.sh
 echo ""
 echo "Done"
 exit 0
-```
-
-```bash
-mkdir ca conf crt csr crt/live crt/archive
 ```
 
 Once saved, make the file executable:
@@ -198,13 +203,11 @@ ssl
    └── gencert.sh
 ```
 
-Inside your ssl directory you should now see a directory with the name of the domain you entered (in this example, sub.domain.tld).
+Inside your ssl directory you should now see a directory with the name of the domain you entered (in this example, `sub.domain.tld`).
 
-cd into this directory and you should see a 'gencert.sh' script.
+cd into this directory and you should see a `gencert.sh` script. This script is used in conjunction with a configuration file (stored in the `conf` directory) to generate you a new certificate.
 
-This script is used in conjunction with a configuration file (stored in the 'conf' directory) to generate you a new certificate.
-
-If you cd into the 'conf' directory you will now see a sample configuration file in here. This file is non-functional, but you can use it as a template to create a real conf for a certificate request (csr). 
+If you cd into the `conf` directory you will now see a sample configuration file in here. This file is non-functional, but you can use it as a template to create a real conf for a certificate request (csr). 
 
 
 Create a file in conf using the following configuration:
@@ -213,16 +216,7 @@ Create a file in conf using the following configuration:
 or
 > conf/name.domain.tld.conf
 
-i.e:
-> conf/mdb.graylog.vib.local
-
-The content of this file should reflect the following
-
-Be sure to edit:
-- `commonName`
-- `[alt_names]`
-	- `DNS.[0-*]`
-	- `IP.[1-*]` (if applicable )
+The content of this file should look like the following example
 
 ```
 [ req ]
@@ -253,7 +247,14 @@ IP.2			= 10.181.3.4
 IP.3			= 10.181.3.10
 ```
 
-Now to generate a certificate, run:
+Be sure to edit:
+- `commonName`
+- `[alt_names]`
+	- `DNS.[0-*]`
+	- `IP.[1-*]` (if applicable )
+
+
+Now to generate a certificate, cd to the root directory containing the gencert.sh bash script and run:
 
 ```bash
 ./gencert.sh name.subdomain.domain.tld
