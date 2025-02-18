@@ -1,5 +1,9 @@
 ---
-title: HomeLab
+permalink: /tech/homelab/
+title: "HomeLab"
+excerpt: ""
+toc: false
+classes: wide
 ---
 Where the magic happens
 
