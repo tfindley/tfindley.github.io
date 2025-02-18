@@ -10,4 +10,7 @@ This page will be (when it's written) all about tech and my joy of tech - becaus
 
 ## Battlestation
 
-[View my Battlestation](battlestation)
+- [View my Battlestation](battlestation)
+- [Meshtastic](meshtastic)
+- [HomeLab](homelab)
+- [Self-Hosted](selfhosted)
