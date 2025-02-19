@@ -38,11 +38,14 @@ cd into that directory and create a new file called 'generate.sh'
 cd ssl
 ```
 
-Clone the following repository: [https://github.com/tfindley/Self-Signed-CA](https://github.com/tfindley/Self-Signed-CA)
+Clone the following repository:
 
-```
+{{< github repo="tfindley/Self-Signed-CA" >}}
+
+```bash
 git clone https://github.com/tfindley/Self-Signed-CA.git
 ```
+
 You should now see the following files inside your SSL Directry:
 
 ```plaintext
