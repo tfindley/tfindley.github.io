@@ -36,240 +36,229 @@ cd into that directory and create a new file called 'generate.sh'
 
 ```bash
 cd ssl
-touch generate.sh
 ```
 
-Now you need to edit 'generate.sh' using your favourite text editor (vim, nano, emacs, etc) and add the following code:
+Clone the following repository: [https://github.com/tfindley/Self-Signed-CA](https://github.com/tfindley/Self-Signed-CA)
 
-```bash
-#!/bin/bash
-
-# To execute this script:
-# ./generate.sh sub.domain.tld
-# where sub.domain.tld is the domain name you wish to generate certificates for.
-
-# Get domain name. This should be in the format of domain.tld or sub.domain.tld
-DOMAIN=$1
-
-# Ensure domain name is set
-if [ -z $DOMAIN ]; then
-	echo "domain not specified"
-	exit 1
-fi
-
-# Create directory structure for the new domain
-mkdir $DOMAIN
-mkdir -p $DOMAIN/ca
-mkdir -p $DOMAIN/crt/archive
-mkdir -p $DOMAIN/crt/live
-mkdir -p $DOMAIN/conf
-mkdir -p $DOMAIN/csr
-
-# Build your domain RSA key - you will be prompted for a password to protect the key.
-echo ""
-openssl genrsa -des3 -out $DOMAIN/ca/myCA.key 4096
-
-# Build your domain certificate. You will be prompted for the key password that you just entered.
-echo ""
-openssl req -x509 -new -nodes -key $DOMAIN/ca/myCA.key -sha256 -days 1825 -out $DOMAIN/ca/myCA.pem
-
-echo ""
-echo "Done"
-
-# Generate a sample subdomain configuration
-cat <<EOF > $DOMAIN/conf/sample.$DOMAIN.conf
-[ req ]
-default_bits            = 4096
-distinguished_name      = req_distinguished_name
-req_extensions          = req_ext
-prompt                  = no
-default_md              = sha256
-
-[ req_distinguished_name ]
-countryName             = BE
-stateOrProvinceName     = East Flanders
-localityName            = Gent
-organizationName        = Vlaams Instituut voor Biotechnologie
-organizationalUnitName  = Data Core
-commonName              = service.$DOMAIN
-
-# Your commonName should match DNS.1 
-
-[ req_ext ]
-subjectAltName          = @alt_names
-
-[alt_names]
-DNS.1                   = service.$DOMAIN
-DNS.2                   = alias.$DOMAIN
-IP.1                    = 192.168.69.2
-IP.2                    = 192.168.69.3
-EOF
-
-# Build the gencert script
-cat <<EOF > $DOMAIN/gencert.sh
-#!/bin/bash
-CERT=$1
-DATETIME=$(date "+%Y%m%d-%H%M%S")
-SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-
-if [ -z $CERT ]; then
-	echo "Cert name not specified"
-	exit 1
-fi
-
-if [ ! -f $SCRIPTPATH/conf/$CERT.conf ]; then
-        echo "Config file $CERT.conf does not exist"
-        exit 1
-fi
-
-if [ ! -d $SCRIPTPATH/crt/live/$CERT ]; then
-	echo "Creating new cert directory"
-	mkdir $SCRIPTPATH/crt/live/$CERT
-else
-	echo "certificate already exists - moving to archive"
-	mv $SCRIPTPATH/crt/live/$CERT $SCRIPTPATH/crt/archive/$CERT.$DATETIME
-	echo "Creating new cert directory"
-	mkdir $SCRIPTPATH/crt/live/$CERT
-fi
-
-NEW_KEY=$SCRIPTPATH/crt/live/$CERT/privkey.pem
-NEW_CRT=$SCRIPTPATH/crt/live/$CERT/cert.pem
-NEW_FULLCHAIN=$SCRIPTPATH/crt/live/$CERT/fullchain.pem
-NEW_CHAIN=$SCRIPTPATH/crt/live/$CERT/chain.pem
-NEW_CSR=$SCRIPTPATH/csr/$CERT.csr
-NEW_CFG=$SCRIPTPATH/conf/$CERT.conf
-CA_KEY=$SCRIPTPATH/ca/myCA.key
-CA_PEM=$SCRIPTPATH/ca/myCA.pem
-
-echo "Generating Key"
-openssl genrsa -out $NEW_KEY
-
-echo "Generating CSR"
-openssl req -new -key $NEW_KEY -out $NEW_CSR -config $NEW_CFG
-
-echo "Generating CRT"
-openssl x509 -req -in $NEW_CSR -CA $CA_PEM -CAkey $CA_KEY -CAcreateserial -out $NEW_CRT -days 365 -sha256 -extfile $NEW_CFG -extensions req_ext
-
-echo "Generate Chain"
-cp $CA_PEM $NEW_CHAIN
-
-echo "Generating Full Chain"
-cat $NEW_CRT > $NEW_FULLCHAIN
-cat $CA_PEM >> $NEW_FULLCHAIN
-
-echo ""
-echo "Done"
-exit 0
-EOF
-
-# make the gencert script executable.
-chmod +x $DOMAIN/gencert.sh
-
-echo ""
-echo "Done"
-exit 0
 ```
-
-Once saved, make the file executable:
-
-```bash
-chmod +x generate.sh
+git clone https://github.com/tfindley/Self-Signed-CA.git
 ```
-
-You can now execute the script, with the domain name that you want to generate a certificate authority for. 
-
-```bash
-./generate.sh sub.domain.tld
-```
-
-This will prompt you for a password which is required to secure the CA's private key.
-
-Now you should have the following directory structure:
+You should now see the following files inside your SSL Directry:
 
 ```plaintext
 ssl
-├── generate.sh
-└─- sub.domain.tld
+├── config.json.sample
+├── default.json
+├── genca.sh
+├── gencnf.sh
+├── gencrt.sh
+├── README.md
+```
+
+At this point it is a good idea to review the three .sh files for their content. Never just run a script that you've downloaded from the internet. Whatever you do, do not run this with root privilages!
+
+Ensure the three .sh files are all executable
+
+```bash
+chmod +x *.sh
+```
+
+Now you can go ahead and create your Certificate Authority
+
+You can quickly boostrap this process by creating a `config.json` file based on the `config.json.sample` file I provided.
+
+```json
+{
+    "domain": "my.awesome.domain.tld",
+    "country": "GB",
+    "state": "Farnborough",
+    "locality": "Hampshire",
+    "organization": "My Awesome Company",
+    "organizational_unit": "IT Wizards",
+    "common_name": "My Awesome CA"
+}
+```
+
+Once you've edited the above fields, run the genca.sh script to generate your certificate authority
+
+```bash
+./genca.sh
+```
+
+Choose a passphrase and enter it to secure your key when prompted (twice). Then when prompted enter the passphrase again to use that key to generate your certificate.
+
+```plaintext
+./genca.sh
+config.json detected - loading variables... done.
+Building CA Key
++........+.......+...+..+.+......+.....+......+.......+...+........+.+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Enter PEM pass phrase:
+Verifying - Enter PEM pass phrase:
+Building CA Certificate
+Enter pass phrase for /path/to/ssl/my.awesome.domain.tld/ca/myCA.key:
+
+Finished
+
+  ------------------------------------------------------------------------
+                 Domain Configuration: /path/to/ssl/my.awesome.domain.tld/config.json
+            Certificate Authority PEM: /path/to/ssl/my.awesome.domain.tld/ca/myCA.pem
+            Certificate Authority Key: /path/to/ssl/my.awesome.domain.tld/ca/myCA.key
+  Certificate Authority Configuration: /path/to/ssl/my.awesome.domain.tld/ca/myCA.cnf
+  ------------------------------------------------------------------------
+```
+
+Congratulations - you now have a working Certificate Authority.
+
+Inside your ssl directory you should now see a directory with the name of the domain you entered (in this example, `my.awesome.domain.tld`). You should have the following directory structure:
+
+```plaintext
+ssl
+├── config.json.sample
+├── default.json
+├── genca.sh
+├── gencnf.sh
+├── gencrt.sh
+└── my.awesome.domain.tld
    ├── ca
+   │   ├── myCA.cnf
    │   ├── myCA.key
-   │   ├── myCA.pem
-   │   └── myCA.srl
-   ├── conf
-   │   └── sub.domain.tld.conf
+   │   └── myCA.pem
+   ├── cnf
+   ├── config.json
    ├── crt
    │   ├── archive
    │   └── live
-   ├── csr
-   └── gencert.sh
+   └── csr
 ```
 
-Inside your ssl directory you should now see a directory with the name of the domain you entered (in this example, `sub.domain.tld`).
+### Generate CSR
 
-cd into this directory and you should see a `gencert.sh` script. This script is used in conjunction with a configuration file (stored in the `conf` directory) to generate you a new certificate.
+Now you can generate your first Certificate Signing Request.
 
-If you cd into the `conf` directory you will now see a sample configuration file in here. This file is non-functional, but you can use it as a template to create a real conf for a certificate request (csr). 
+Run the `gencsr.sh` script and it will guide you through the process
 
+```bash
+./gencnf.sh
+```
 
-Create a file in conf using the following configuration:
-> conf/name.sub.domain.tld.conf
+You can optionally pass the domain name, or the domain name and subdomain to it to speed up the process
+
+```bash
+./gencnf.sh my.awesome.domain.tld
+```
 
 or
-> conf/name.domain.tld.conf
-
-The content of this file should look like the following example
-
-```
-[ req ]
-default_bits		= 4096
-distinguished_name	= req_distinguished_name
-req_extensions		= req_ext
-prompt			= no
-default_md		= sha256
-
-[ req_distinguished_name ]
-countryName		= BE
-stateOrProvinceName	= East Flanders
-localityName		= Gent
-organizationName	= Vlaams Instituut voor Biotechnologie
-organizationalUnitName	= VIB Data Core
-commonName		= mdb.graylog.vib.local
-
-[ req_ext ]
-subjectAltName		= @alt_names
-
-[alt_names]
-DNS.1			= mdb.graylog.vib.local
-DNS.2			= vm-vibglog-mdb01.vib.local
-DNS.3			= vm-vibglog-mdb02.vib.local
-DNS.4			= vm-vibglog-mdb03.vib.local
-IP.1			= 10.181.3.2
-IP.2			= 10.181.3.4
-IP.3			= 10.181.3.10
-```
-
-Be sure to edit:
-- `commonName`
-- `[alt_names]`
-	- `DNS.[0-*]`
-	- `IP.[1-*]` (if applicable )
-
-
-Now to generate a certificate, cd to the root directory containing the gencert.sh bash script and run:
 
 ```bash
-./gencert.sh name.subdomain.domain.tld
+./gencnf.sh my.awesome.domain.tld service
 ```
 
-i.e:
+```plaintext
+./gencnf.sh my.awesome.domain.tld service
+
+Domain is: my.awesome.domain.tld
+Subdomain is: service
+
+CSR will be created for service.my.awesome.domain.tld
+
+ Would you like localhost/127.0.0.1 to be added to the certificate?
+  (yes/no) [yes]:
+
+ Optional:
+ Enter alternate DNS names (Subject Alternate Names)
+ These must be Fully Qualified Domain Names (FQDN)
+   e.g:
+        something.my.awesome.domain.tld
+    or:
+        something.somewhere.my.awesome.domain.tld
+
+ You do not need to enter service.my.awesome.domain.tld again
+ (press enter after each, leave empty to finish):
+
+DNS.1 = service.my.awesome.domain.tld
+DNS.2 = localhost
+DNS.3 =
+
+ Recommended:
+ Enter IP address for each server or adapter
+ (press enter after each, leave empty to finish):
+
+IP.1 = 127.0.0.1
+IP.2 =
+
+Finished
+
+  ------------------------------------------------------------------------
+    Certificate generated for: service.my.awesome.domain.tld
+            Alternative Names:
+                               DNS.1 = service.my.awesome.domain.tld
+                               DNS.2 = localhost
+                                IP.1 = 127.0.0.1
+  ------------------------------------------------------------------------
+         Domain Configuration: /path/to/ssl/my.awesome.domain.tld/config.json
+    Certificate Configuration: /path/to/ssl/my.awesome.domain.tld/cnf/service.my.awesome.domain.tld.cnf
+  ------------------------------------------------------------------------
+```
+
+## Generate CRT
+
+Now that you have your Certificate Signing Request ready to go, you can generate your certificate.
+
+Run the `gencrt.sh` script and it will guide you through the process
+
 ```bash
-./gencert.sh mdb.graylog.vib.local
+./gencrt.sh
 ```
 
-Your new certificates will appear under crt/live/name.subdomain.domain.tld
+Again, you can optionally pass the domain name, or the domain name and subdomain to it to speed up the process
 
-If a certificate existed by that name previously, it will be moved to crt/archive/name.subdomain.domain.tld.YYYYMMDD-HHMMSS/
+```bash
+./gencrt.sh my.awesome.domain.tld
+```
+
+or
+
+```bash
+./gencrt.sh my.awesome.domain.tld service
+```
+
+When prompted, enter the passphrase you used to secure your CA Key. This is used to sign the certificate.
+
+```plaintext
+./gencrt.sh my.awesome.domain.tld service
+
+Domain is: my.awesome.domain.tld
+Subdomain is: service
+
+Cert will be created for service.my.awesome.domain.tld
+
+Creating new cert directory
+Generating Key... done
+Generating CSR... done
+Generating CRT...
+Certificate request self-signature ok
+subject=C = GB, ST = Farnborough, L = Hampshire, O = My Awesome Company, OU = IT Wizards, CN = service.my.awesome.domain.tld
+Enter pass phrase for /path/to/ssl/my.awesome.domain.tld/ca/myCA.key:
+done
+Create Chain... done
+Assemble Full Chain... done
+
+Finished
+
+  ------------------------------------------------------------------------
+              Certificate PEM: /path/to/ssl/my.awesome.domain.tld/crt/live/service.my.awesome.domain.tld/cert.pem
+              Certificate Key: /path/to/ssl/my.awesome.domain.tld/crt/live/service.my.awesome.domain.tld/privkey.pem
+            Certificate Chain: /path/to/ssl/my.awesome.domain.tld/crt/live/service.my.awesome.domain.tld/chain.pem
+       Certiticate Full Chain: /path/to/ssl/my.awesome.domain.tld/crt/live/service.my.awesome.domain.tld/fullchain.pem
+  ------------------------------------------------------------------------
+```
+
+Your new certificates will appear under `ssl/my.awesome.domain.tld/crt/live/name.subdomain.domain.tld/`
+
+If a certificate existed by that name previously, it will be moved to `ssl/my.awesome.domain.tld/crt/archive/name.subdomain.domain.tld.YYYYMMDD-HHMMSS/`
 
 You will have the following files (these filenames will match LetsEncrypt / Certbot generated certs):
+
 - cert.pem - your certificate
 - chain.pem - the chain for the certificate, also known as your CA or Certificate Authority
 - fullchain.pem - Your certificate plus your CA
@@ -279,51 +268,32 @@ By the end of this, your tree will look like the following (including two domain
 
 ```plaintext
 ssl
-├── generate.sh
-├── sub.domain.tld
-|   ├── ca
-|   │   ├── myCA.key
-|   │   ├── myCA.pem
-|   │   └── myCA.srl
-|   ├── conf
-|   │   └── service.sub.domain.tld.conf
-|   ├── crt
-|   │   ├── archive
-|   │   │   └── service.sub.domain.tld.20240826-152506
-|   │   │       ├── cert.pem
-|   │   │       ├── chain.pem
-|   │   │       ├── fullchain.pem
-|   │   │       └── privkey.pem
-|   │   └── live
-|   │       └── service.sub.domain.tld
-|   │           ├── cert.pem
-|   │           ├── chain.pem
-|   │           ├── fullchain.pem
-|   │           └── privkey.pem
-|   ├── csr
-|   │   └── service.sub.domain.tld
-|   └── gencert.sh
-└─- another.sub.domain.tld
+├── config.json.sample
+├── default.json
+├── genca.sh
+├── gencnf.sh
+├── gencrt.sh
+└── my.awesome.domain.tld
    ├── ca
+   │   ├── myCA.cnf
    │   ├── myCA.key
-   │   ├── myCA.pem
-   │   └── myCA.srl
-   ├── conf
-   │   └── service.another.sub.domain.tld.conf
+   │   └── myCA.pem
+   ├── cnf
+   |   └── service.my.awesome.domain.tld.cnf
+   ├── config.json
    ├── crt
    │   ├── archive
-   │   │   └── service.another.sub.domain.tld.20240826-152506
+   │   │   └── service.my.awesome.domain.tld.20240826-152506
    │   │       ├── cert.pem
    │   │       ├── chain.pem
    │   │       ├── fullchain.pem
    │   │       └── privkey.pem
    │   └── live
-   │       └── mdb.graylog.vib.local
+   │       └── service.my.awesome.domain.tld
    │           ├── cert.pem
    │           ├── chain.pem
    │           ├── fullchain.pem
    │           └── privkey.pem
-   ├── csr
-   │   └── service.another.sub.domain.tld.csr
-   └── gencert.sh
+   └── csr
+       └── service.my.awesome.domain.tld.csr
 ```
