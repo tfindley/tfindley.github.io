@@ -1,5 +1,5 @@
 ---
-permalink: /tech/meshtastic
+permalink: /about/tech/meshtastic
 title: "Meshtastic"
 excerpt: ""
 toc: false
