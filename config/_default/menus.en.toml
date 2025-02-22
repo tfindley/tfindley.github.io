@@ -56,9 +56,16 @@ weight = 21
 
 [[main]]
 name = "Technology"
-pageRef = "tech"
+pageRef = "about/tech"
+parent = "cAVLZkfSlh"
 identifier = "kEf23f8gS8fs"
-weight = 30
+weight = 22
+
+[[main]]
+name = "Coffee"
+pageRef = "about/coffee"
+parent = "cAVLZkfSlh"
+weight = 23
 
 [[main]]
 name = "Photography"
