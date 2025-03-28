@@ -44,7 +44,9 @@ However, it comes with some caveats:
 - Needs automation hooks (custom scripts)
 - Not all DNS providers are supported
 
-[Check out my DNS-01 automation scripts for Gandi ➜](#)
+[Check out my DNS-01 automation scripts to integrate with  Gandi LiveDNS ➜](https://github.com/tfindley/certbot)
+
+{{< github repo="tfindley/certbot" >}}
 
 ---
 
