@@ -1,5 +1,6 @@
 ---
 title: "Let's Encrypt with High Availability"
+author: Tristan Findley
 date: "2025-03-27"
 categories:
     - Technical
@@ -8,7 +9,8 @@ tags:
   - "certbot"
   - "ssl"
   - "ha"
-showTableOfContents: true
+showTableOfContents: false
+draft: false
 ---
 So you’ve built a rock-solid HA setup with two Linux servers, a VIP floating between them (thanks to Keepalived), and your favorite services humming along nicely. But then, the moment comes:
 
