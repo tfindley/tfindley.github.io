@@ -61,22 +61,55 @@ identifier = "kEf23f8gS8fs"
 weight = 30
 
 [[main]]
+name = "Home Lab"
+pageRef = "tech/homelab"
+parent = "kEf23f8gS8fs"
+identifier = "kEf23f8gS8bs"
+weight = 31
+
+[[main]]
+name = "Self Hosting"
+pageRef = "tech/selfhost"
+parent = "kEf23f8gS8fs"
+identifier = "kEf23f8gS8bs"
+weight = 32
+
+[[main]]
+name = "Battlestation"
+pageRef = "tech/battlestation"
+parent = "kEf23f8gS8fs"
+identifier = "kEf23f8gS8bs"
+weight = 33
+
+[[main]]
+name = "Meshtastic"
+pageRef = "tech/meshtastic"
+parent = "kEf23f8gS8fs"
+identifier = "kEf23f8gS8mt"
+weight = 34
+
+[[main]]
+name = "Coffee Corner"
+pageRef = "coffee"
+weight = 40
+
+[[main]]
 name = "Photography"
 pageRef = "photo"
 identifier = "0I1hfmImIJ"
-weight = 40
+weight = 50
 
 [[main]]
 name = "The Gear"
 parent = "0I1hfmImIJ"
 pageRef = "photo/gear"
-weight = 41
+weight = 51
 
 [[main]]
 name = "The Brand"
 parent = "0I1hfmImIJ"
 pageRef = "photo/brand"
-weight = 42
+weight = 52
 
 
 [[main]]
