@@ -9,7 +9,7 @@ tags:
   - "certbot"
   - "ssl"
   - "ha"
-showTableOfContents: false
+showTableOfContents: true
 draft: false
 ---
 So you’ve built a rock-solid HA setup with two Linux servers, a VIP floating between them (thanks to Keepalived), and your favorite services humming along nicely. But then, the moment comes:
