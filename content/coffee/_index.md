@@ -1,5 +1,5 @@
 ---
-permalink: /about/coffee
+permalink: /coffee
 title: "Coffee"
 excerpt: ""
 toc: false
@@ -8,4 +8,6 @@ layout: simple
 showPagination: false
 ---
 
-See our [Coffee Station](station)
+See our [Coffee Station](/coffee/station)
+
+See the [Coffee Index](/coffee/index)
