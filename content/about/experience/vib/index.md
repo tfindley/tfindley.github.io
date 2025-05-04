@@ -37,7 +37,7 @@ showReadingTime: false
 
 06/03/2024 - Present
 
-My primary role is as a DevOps Focused Automation Engineer, building critical infrastructure for the Vlaams Institute of Biotechnology (Vlaams Instituut voor Biotechnologie) Data Core. My function is similar to that of a Site Reliability Engineer in that I am required to envision, design and prototype new services and ways of working, and implemenent a production version with Resiliance, Redundancy and Availability as key aspects.
+Serving as a DevOps-focused engineer within the Data Core division, responsible for designing, building, and maintaining critical infrastructure to support high-performance scientific research. My role combines platform engineering and site reliability responsibilities, with a particular emphasis on helping the organisation implement and align with NIS2 and ISO27001 standards through both system design and governance process development.
 
 Since starting with Data Core in 2024, I have designed and implemented the following policies, procedures and working practices in accordance with NIS2 and ISO27001:
 
