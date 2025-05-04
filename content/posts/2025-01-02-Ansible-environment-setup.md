@@ -57,21 +57,25 @@ Using your package manager, you can install a later verison of Python and the re
 
 **RHEL:**
 
+**Note:** for the instrucitons below I have defined Python version 3.12, however you can usually install for the current system version of Python by requesting the module without the version number. i.e: `apt install python3-venv`
+
 ```bash
-yum install python3.12 python3.12-venv
+sudo yum update
+sudo yum install python3.12 python3.12-venv
 ```
 
 **Debian:**
 
 ```bash
-apt install python3.12 python3.12-venv
+sudo apt update
+sudo apt install python3.12 python3.12-venv
 ```
 
 Doing this will not replace your system's Python environment, but will install an additional environment alongside. How re-run `which python3` and you will see this is unaffected. Run `which python3.12` and you will see this points to a new location.
 
 ### Microsoft Windows
 
-For Windows I recommend using WSL2 and following the Linux instructions above.
+For Windows I recommend using WSL2 and following the Linux instructions above. I recommend using Ubuntu and following the Debian instructions above.
 
 ## Your developmnt directory
 
@@ -88,7 +92,8 @@ mkdir ~/devel
 Assuming you used this path, we're going to export it to a variable so we can reference this consistently throughout this document. If you used a different path, adjust this exported variable accordingly.
 
 ```bash
-EXPORT DEVEL="~/devel"
+cd ~/devel
+EXPORT DEVEL="$(pwd)"
 ```
 
 You can test this is set by running `echo $DEVEL` (which will echo the varialbe `DEVEL`) or run `env` which will print all currently set Environmental Variables
@@ -199,7 +204,7 @@ First we'll start off by creating your Python Virtual Environment - this is the 
 
 Now we need to create a new Python Virtual environment inside of which we can install Ansible
 ```zsh
-python3.12 -m venv $DEVEL/ansible/ansible/.venv
+python3.12 -m venv $DEVEL/ansible/.venv
 ```
 
 Now activate your new venv

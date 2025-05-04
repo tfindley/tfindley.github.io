@@ -37,7 +37,7 @@ showReadingTime: false
 
 06/03/2024 - Present
 
-My primary role is as a DevOps Focused Automation Engineer, building critical infrastructure for the Vlaams Institute of Biotechnology (Vlaams Instituut voor Biotechnologie) Data Core. My function is similar to that of a Site Reliability Engineer in that I am required to envision, design and prototype new services and ways of working, and implemenent a production version with Resiliance, Redundancy and Availability as key aspects.
+Serving as a DevOps-focused engineer within the Data Core division, responsible for designing, building, and maintaining critical infrastructure to support high-performance scientific research. My role combines platform engineering and site reliability responsibilities, with a particular emphasis on helping the organisation implement and align with NIS2 and ISO27001 standards through both system design and governance process development.
 
 Since starting with Data Core in 2024, I have designed and implemented the following policies, procedures and working practices in accordance with NIS2 and ISO27001:
 
@@ -47,14 +47,72 @@ Since starting with Data Core in 2024, I have designed and implemented the follo
 
 ---
 
-## My responsibilities include
+## Key Responsibilities
 
-- Coming Soon
+- Manage, maintain, and improve the existing infrastructure using expertise as an Automation Engineer and Site Reliability Engineer.
+- Identify and automate manual processes to introduce input validation, error checking, logging, and reporting.
+- Provision virtual infrastructure for internal and adjacent teams to support their daily functions.
+- Enhance and maintain the Configuration Management Database (Netbox) as the authoritative source of truth.
+- Act as a Subject Matter Expert, providing technical authority for code reviews and risk analysis to prioritize user experience, uptime, and reliability.
+- Serve as Change Manager and Chair of the Change Advisory Board, championing and updating processes aligned with ITIL best practices.
+- Function as Major Incident Coordinator during service outages, leading impact assessments and resolution efforts.
+- Leverage ISO27001 and ITIL expertise to implement processes and procedures that meet emerging NIS2 requirements.
+- Triage daily service issues and coach team members in Linux, automation, and IT best practices.
+- Manage the onboarding of researchers to VIB Datacore by provisioning object storage and account services.
+- Develop and maintain the VIB Datacore storage infrastructure, including designing and building a sensitive data storage and compute platform for Human Identifiable Data.
 
-## Notable Projects
+## Achievements
 
-- Coming Soon
+- Authored and implemented the Change Management Process, Procedure, and Policy.
+- Authored and implemented the Major Incident Management Process, Procedure, and Policy.
+- Designed and deployed the VIB Datacore SIEM Stack, integrating Wazuh, OpenSearch, Graylog, and MongoDB.
+- Implemented a highly available HashiCorp Vault solution, configured to:
+  - Act as an intermediary certificate authority with automated certificate issuing and renewal using Certbot.
+  - Provide S3 storage encryption in conjunction with MinIO.
+- Built a highly available Docker Swarm cluster with dedicated environments for development and customer testing.
+- Developed service endpoint monitoring and alerting to support active incident response and feed into the Major Incident process.
+- Automated virtual infrastructure deployment using Infrastructure as Code principles, reducing VM deployment to two commands:
+  - <90 seconds for provisioning any number of virtual machines.
+  - <5 minutes for fully configured, updated, and ready-to-use VMs.
 
 ## Technology Shortlist
 
-- Coming Soon
+### Automation
+
+- Ansible
+- Terraform
+
+### Infrastructure
+
+- VMWare
+- Docker / Containerisation
+- Linux (RHEL)
+
+### Core / Backend Services
+
+- NetBox
+- Hashicorp Vault
+- MinIO Key Encryption Service
+- MongoDB
+- Postgresql
+- Gitea
+
+### User Services
+
+- MinIO
+- Compute
+
+### SIEM Stack
+
+- Wazuh
+- OpenSearch / ElasticSearch
+- GrayLog
+
+### Scripting
+
+- Bash
+- Python
+
+### Monitoring
+
+- Uptime Kuma

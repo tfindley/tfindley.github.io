@@ -50,6 +50,13 @@ In my [Education](education) background, I graduated with a Bachelor of Science 
 
 ---
 
+## Other
+
+- [Coffee](coffee)
+- [tech](tech)
+
+---
+
 ## Links
 
 - [Professional Experience](experience)

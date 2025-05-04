@@ -2,9 +2,16 @@
 none = "none"
 
 [[main]]
-name = "All Posts"
+name = "Posts"
 pageRef = "posts"
 identifier = "lZAy3sY8et"
+weight = 1
+
+[[main]]
+name = "All Posts"
+parent = "lZAy3sY8et"
+pageRef = "posts"
+identifier = "2DDefc554"
 weight = 1
 
 [[main]]
@@ -48,22 +55,61 @@ parent = "cAVLZkfSlh"
 weight = 21
 
 [[main]]
+name = "Technology"
+pageRef = "tech"
+identifier = "kEf23f8gS8fs"
+weight = 30
+
+[[main]]
+name = "Home Lab"
+pageRef = "tech/homelab"
+parent = "kEf23f8gS8fs"
+identifier = "kEf23f8gS8bs"
+weight = 31
+
+[[main]]
+name = "Self Hosting"
+pageRef = "tech/selfhost"
+parent = "kEf23f8gS8fs"
+identifier = "kEf23f8gS8bs"
+weight = 32
+
+[[main]]
+name = "Battlestation"
+pageRef = "tech/battlestation"
+parent = "kEf23f8gS8fs"
+identifier = "kEf23f8gS8bs"
+weight = 33
+
+[[main]]
+name = "Meshtastic"
+pageRef = "tech/meshtastic"
+parent = "kEf23f8gS8fs"
+identifier = "kEf23f8gS8mt"
+weight = 34
+
+[[main]]
+name = "Coffee Corner"
+pageRef = "coffee"
+weight = 40
+
+[[main]]
 name = "Photography"
 pageRef = "photo"
 identifier = "0I1hfmImIJ"
-weight = 30
+weight = 50
 
 [[main]]
 name = "The Gear"
 parent = "0I1hfmImIJ"
 pageRef = "photo/gear"
-weight = 31
+weight = 51
 
 [[main]]
 name = "The Brand"
 parent = "0I1hfmImIJ"
 pageRef = "photo/brand"
-weight = 32
+weight = 52
 
 
 [[main]]
