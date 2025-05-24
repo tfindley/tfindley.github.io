@@ -10,7 +10,7 @@ showReadingTime: false
 
 **Platform Services Team Lead**
 
-DD/MM/2023 - DD/MM/2024
+01/02/2023 - 31/12/2024
 
 Team lead for the Platform Services team, consisting of four highly skilled DevOps Engineers. As a team we're building and delivering the vision of 'automation first' to the wider organization and our customer.
 

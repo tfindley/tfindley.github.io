@@ -8,7 +8,7 @@ showReadingTime: false
 
 **DevOps Engineer, Pastoral Manager, Scrum Master, Infrastructure Engineer**
 
-06/01/2020 - DD/MM/2023
+06/01/2020 - 31/01/2023
 
 A Member of the Automation Service Reliability (ASR) team, providing automation, infrastructure deployment, management and monitoring services. The primary focus of the team is to deliver to the businesses and its customers; key methodologies, tools and processes to improve the quality, availability and speed of delivery of UKCloud’s management platform and services through the use of automation tools
 

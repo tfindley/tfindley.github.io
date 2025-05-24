@@ -12,7 +12,7 @@ layout: simple
 # featureimage: img/tfindley_banner.png
 ---
 
-I’m Tristan Findley.
+I’m Tristan.
 
 I'm an Automation / DevOps / Site Reliability Engineer and qualified Team Leader with a background in IT Systems Administrator. My [Professional Experience](experience) totals 19+ years in Public and Private sectors covering Defence, Cloud Infrastructure, Telecommunications, Research and Further Education.
 
@@ -34,7 +34,7 @@ Adding my skills as a [Creative Professional](creative) in the Photography and V
 
 ---
 
-In my [Education](education) background, I graduated with a Bachelor of Science (BSc) degree in Computer Network Management and Design from Univesity of Portsmouth. 
+In my [Education](education) background, I graduated with a Bachelor of Science (BSc) degree in Computer Network Management and Design from Univesity of Portsmouth.
 
 ---
 
