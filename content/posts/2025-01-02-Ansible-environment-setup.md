@@ -41,7 +41,7 @@ For the following examples we will be installing Python 3.12 - you can change th
 
 Before continuing, run: `which python3` to locate your stock/system python binary, and `python3 --version` to find out what version you're running.
 
-In order to upgrade Python3 on MacOS, you require (Brew)[https://brew.sh/] - install this first, then come back here for more information
+In order to upgrade Python3 on MacOS, you require [Brew](https://brew.sh/) - install this first, then come back here for more information
 
 Next you need to run `brew install python3.12` 
 
@@ -77,7 +77,7 @@ Doing this will not replace your system's Python environment, but will install a
 
 For Windows I recommend using WSL2 and following the Linux instructions above. I recommend using Ubuntu and following the Debian instructions above.
 
-## Your developmnt directory
+## Your development directory
 
 Where you decide to store your code will ultimatley depend on your preference, existing directory structures, or habbits. We'll assume that you're only going to work in your home directory (~).
 
@@ -277,4 +277,4 @@ chmod +x $DEVEL/ansible/env.sh
 
 Now this file has been created and is executable it can be ran, however you can't simply ./ the file as this does not set environmental variables. Instead run: `source $DEVEL/ansible/env.sh`.
 
-If you've followed all of this correctly you should now have a fully working Ansible development environment
+If you've followed all of this correctly you should now have a fully working Ansible development environment.
