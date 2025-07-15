@@ -18,3 +18,5 @@ constrainItemsWidth: false
 "DevOps Team Lead"
 "DevOps Manager"
 {{< /typeit >}}
+
+Need to contact me? Use one of the links above, or book a meeting with me [here](https://cal.com/tfindley).
