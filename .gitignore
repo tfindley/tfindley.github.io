@@ -1,5 +1,6 @@
 # Hugo and Blowfish
 public/
+resources/_gen
 themes/blowfish/exampleSite
 
 # Binaries for programs and plugins
