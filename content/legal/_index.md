@@ -1,6 +1,6 @@
 ---
 title: Tristan Findley
-cardView: true
+cardView: false
 cardViewScreenWidth: false
 constrainItemsWidth: false
 ---
@@ -13,27 +13,20 @@ Information may be referenced or linked to, but requires FULL accreditation. Ple
 
 Neither ‘the author’, nor any user shall use ‘the site’ to access, or enable access to any material containing the following:
 
-Any computer material of a sexual or indecent nature
-Any images or text that denotes violence to humans or animals
-Any material that is racist, or promotes racial hatred
-Any material that promotes or contains a threat to the damage of property
-Any material concerning the possession, sale, supply or distribution of lethal weapons or explosives
-Any material that, by publishing it, may defame the reputation of a person as defined in the [Defamation Act 1996](http://www.opsi.gov.uk/Acts/acts1996/plain/ukpga_19960031_en_1)
-Any material concerning the possession, the making or the supply, use or distribution of prohibited drugs, as defined under the [Misuse of Drugs Act 2000](http://www.opsi.gov.uk/si/si2001/20013998.htm_)
+- Any computer material of a sexual or indecent nature
+- Any images or text that denotes violence to humans or animals
+- Any material that is racist, or promotes racial hatred
+- Any material that promotes or contains a threat to the damage of property
+- Any material concerning the possession, sale, supply or distribution of lethal weapons or explosives
+- Any material that, by publishing it, may defame the reputation of a person as defined in the [Defamation Act 1996](http://www.opsi.gov.uk/Acts/acts1996/plain/ukpga_19960031_en_1)
+- Any material concerning the possession, the making or the supply, use or distribution of prohibited drugs, as defined under the [Misuse of Drugs Act 2000](http://www.opsi.gov.uk/si/si2001/20013998.htm_)
 
+## Policies
 
-Privacy Policy
+[AI Policy](ai)
 
-Terms and Conditions
+## Documents
 
-Photo Licensing Agreement
+[Model Release](model_release.pdf) (v1.1 – May 2011)
 
-Photo Licensing Comparison
-
-Copyright Agreement
-
-Document Reference
-
-Model Release (v1.1 – May 2011)
-
-Property Release (v1.1 – May 2011)
+[Property Release](property_release.pdf) (v1.1 – May 2011)
