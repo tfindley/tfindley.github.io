@@ -16,6 +16,8 @@ tags:
   - macos
 showTableOfContents: true
 draft: false
+params:
+  devops_cat: ansible
 ---
 
 ## Forward

@@ -1,5 +1,5 @@
 ---
-permalink: /about/tech/
+permalink: /tech
 title: "My Tech area"
 excerpt: ""
 toc: false
