@@ -12,14 +12,16 @@ showPagination: false
 
 ## Machines
 
-**Espresso:** Sage Bambino
-
-**Filter:** Moccamaster KBG Select - Copper
+- **Espresso:** Sage Bambino
+- **Filter:** Moccamaster KBG Select - Copper
+- **OTG:** AeroPress Original
 
 ## Grinders
 
-**Batch:** Sage Grinder Pro (Connical bur)
+- **Batch:** Sage Grinder Pro (Connical bur)
+- **Dose:** MiiCoffee DF54 (Flat Burr)
+- **Hand:** TimeMore C3 Pro Esp
 
-**Dose:** MiiCoffee DF54 (Flat Burr)
+## Other
 
-**Kettle:** Fellow Stagg EKG Pro
+- **Kettle:** Fellow Stagg EKG Pro

@@ -1,6 +1,6 @@
 ---
 permalink: /coffee
-title: "Coffee"
+title: "Coffee Resources"
 excerpt: ""
 toc: false
 classes: wide
@@ -11,3 +11,5 @@ showPagination: false
 See our [Coffee Station](/coffee/station)
 
 See the [Coffee Index](/coffee/index)
+
+See the [Coffee Resources](/coffee/resc)

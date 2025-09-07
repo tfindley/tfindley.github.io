@@ -58,7 +58,4 @@ classes: wide
 
 ### Minecraft (Bedrock)
 
-### Romm
-
-
-
+### Minecraft (Java)
