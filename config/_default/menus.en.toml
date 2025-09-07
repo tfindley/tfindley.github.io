@@ -142,16 +142,21 @@ weight = 9999
 none = "none"
 
 [[footer]]
+ name = "Legal"
+ url = "/legal"
+ weight = 1
+
+[[footer]]
 name = "Posts:Tags"
 pageRef = "tags"
 identifier = "oNgL7hIciZ"
-weight = 2
+weight = 3
 
 [[footer]]
 name = "Posts:Categories"
 pageRef = "categories"
 identifier = "zF45JBwuUT"
-weight = 1
+weight = 2
 
 [[footer]]
  name = "View my GitHub"

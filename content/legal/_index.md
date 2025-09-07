@@ -1,8 +1,13 @@
 ---
-title: Tristan Findley
-cardView: false
+title: Legal, Privacy, Statements and Terms & Conditions
+showPagination: true
+cardView: true
 cardViewScreenWidth: false
 constrainItemsWidth: false
+showWordCount: false
+showBreadcrumbs: false
+showSummary: true
+groupByYear: true
 ---
 
 This site, and all content contained within is Copyright © 2025 Tristan Findley, All Right Reserved.

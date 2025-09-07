@@ -43,15 +43,7 @@ I can’t be serious all of the time, and I want to be able to be  a little ligh
 
 ## Was that you on BBC’s Fake Britain?
 
-Yes it was. I’ve since published my full account of my incident.
-
-## Why do you have an FAQ page?
-
-Why not? ^.^
-
-## What is the answer to Life, The Universe, and Everything?
-
-[42](https://www.google.co.uk/search?q=what+is+the+answer+to+life+the+universe+and+everything&oq=What+is+the+answer&aqs=chrome.1.69i57j0l5.3226j0j7&sourceid=chrome&ie=UTF-8)
+Yes it was. I’ve since published my [full account of my incident](/posts/2016-09-02-my_fake_canon_7d/).
 
 ## But I have more questions!
 

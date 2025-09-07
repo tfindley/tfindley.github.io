@@ -1,4 +1,5 @@
-permalink: /coffee/resources
+---
+permalink: /coffee/resc
 title: "Coffee Resources"
 description: Useful resources for Coffee
 excerpt: ""
