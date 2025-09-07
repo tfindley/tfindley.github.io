@@ -9,6 +9,8 @@ layout: simple
 showPagination: false
 ---
 
+**This page is WIP**
+
 ## Build process:
 
 ### New Server
@@ -38,3 +40,21 @@ Packer
 Terraform
 
 Semaphore
+
+
+## Controller VM
+
+Operating System: Rocky 9 minimal or Ubuntu minimal or Debian minimal - what about alpine?
+
+Install:
+- Podman - Container hosting
+- Hashicorp Vault - Secret storage
+- Hashicorp Packer - VM Image building
+- Hashicorp Terraform - VM Deployment
+- Ansible - VM Configuration
+
+Containers:
+- Portainer
+- Netbox + Database
+- Gitea + Database
+- Semaphore + Database

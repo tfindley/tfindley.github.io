@@ -32,3 +32,11 @@ node_modules
 .idea
 .Ulysses-Group.plist
 .Ulysses-Settings.plist
+
+# ---> VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
