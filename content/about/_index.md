@@ -34,7 +34,28 @@ Adding my skills as a [Creative Professional](creative) in the Photography and V
 
 ---
 
-In my [Education](education) background, I graduated with a Bachelor of Science (BSc) degree in Computer Network Management and Design from Univesity of Portsmouth.
+In my [Education](education) background, I graduated with a Bachelor of Science (BSc) degree in Computer Network Management and Design from Univesity of Portsmouth. I also hold a Disticiton in People Leadership from the Chartered Management Institute.
+
+---
+
+## View my...
+
+- [Professional Experience](experience/professional)
+- [Technologies Experience](experience/technology)
+- [Creative Experience](experience/creative)
+- [Education Background](education)
+
+---
+
+## Transferrable skills
+
+- Documentation
+- Presentation
+- Course content creation / structuring
+- User Training (one-to-one)
+- Group Training (one-to-many) / teaching
+- Word Processing / Spreadsheeting
+- Administration (License Management, Fiscal)
 
 ---
 
@@ -52,14 +73,11 @@ In my [Education](education) background, I graduated with a Bachelor of Science 
 
 ## Other
 
-- [Coffee](coffee)
-- [tech](tech)
+- [Coffee](/coffee)
+- [Tech](/tech)
 
 ---
 
-## Links
+## Other
 
-- [Professional Experience](experience)
-- [Creative](creative)
-- [Education](education)
 - [FAQ](faq)
