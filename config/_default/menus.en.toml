@@ -50,9 +50,21 @@ weight = 20
 
 [[main]]
 name = "Professional Experience"
-pageRef = "about/experience"
+pageRef = "about/experience/professional"
 parent = "cAVLZkfSlh"
 weight = 21
+
+[[main]]
+name = "Technology Experience"
+pageRef = "about/experience/technology"
+parent = "cAVLZkfSlh"
+weight = 22
+
+[[main]]
+name = "Creative Experience"
+pageRef = "about/experience/creative"
+parent = "cAVLZkfSlh"
+weight = 23
 
 [[main]]
 name = "DevOps"

@@ -72,6 +72,10 @@ If you are deciding whether or not to make a homelab, just remember; you are tec
 
 ### Lenovo Thinkstation M73
 
+- Intel Core i5
+- 8GB RAM
+- 500GB SATA SSD
+
 ### Asustor Flashstor FS6712X
 
 [Link to product page](https://www.asustor.com/en-gb/product?p_id=80)
