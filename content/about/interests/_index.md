@@ -1,5 +1,5 @@
 ---
-permalink: /about/intersts/
+permalink: /about/interests/
 title: "My Interests and Hobbies"
 excerpt: ""
 toc: false

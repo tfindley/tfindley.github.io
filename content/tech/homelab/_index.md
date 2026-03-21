@@ -1,5 +1,5 @@
 ---
-permalink: /about/tech/homelab/
+permalink: /tech/homelab/
 title: "HomeLab"
 excerpt: ""
 toc: false

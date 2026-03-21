@@ -1,7 +1,4 @@
 [[main]]
-none = "none"
-
-[[main]]
 name = "Posts"
 pageRef = "posts"
 identifier = "lZAy3sY8et"
@@ -128,7 +125,6 @@ parent = "0I1hfmImIJ"
 pageRef = "photo/brand"
 weight = 62
 
-
 [[main]]
 pre = "github"
 url = "https://github.com/tfindley"
@@ -136,33 +132,16 @@ identifier = "qkopxrtF8s"
 weight = 9999
 
 [[main]]
- pre = "ko-fi"
- url = "https://ko-fi.com/tfindley"
- identifier = "fqexx42fg"
- name = ""
- weight = 8888
-
-# [[subnavigation]]
-#  name = ""
-#  pre = "github"
-#  url = "https://github.com/tfindley"
-#  weight = 20
-
-
+pre = "ko-fi"
+url = "https://ko-fi.com/tfindley"
+identifier = "fqexx42fg"
+name = ""
+weight = 8888
 
 [[footer]]
-none = "none"
-
-[[footer]]
- name = "Legal"
- url = "/legal"
- weight = 1
-
-[[footer]]
-name = "Posts:Tags"
-pageRef = "tags"
-identifier = "oNgL7hIciZ"
-weight = 3
+name = "Legal"
+url = "/legal"
+weight = 1
 
 [[footer]]
 name = "Posts:Categories"
@@ -171,13 +150,19 @@ identifier = "zF45JBwuUT"
 weight = 2
 
 [[footer]]
- name = "View my GitHub"
- pre = "github"
- url = "https://github.com/tfindley"
- weight = 90
+name = "Posts:Tags"
+pageRef = "tags"
+identifier = "oNgL7hIciZ"
+weight = 3
 
 [[footer]]
- name = "Support me on Ko-Fi"
- pre = "ko-fi"
- url = "https://ko-fi.com/tfindley"
- weight = 80
+name = "Support me on Ko-Fi"
+pre = "ko-fi"
+url = "https://ko-fi.com/tfindley"
+weight = 80
+
+[[footer]]
+name = "View my GitHub"
+pre = "github"
+url = "https://github.com/tfindley"
+weight = 90
