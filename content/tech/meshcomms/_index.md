@@ -1,22 +1,28 @@
 ---
-permalink: /tech/meshtastic/
-title: "Meshtastic"
+permalink: /tech/meshcomms
+title: "Mesh Communications"
 excerpt: ""
 toc: false
 classes: wide
 ---
 
-A starter page for my meshtastic hobby.
+A starter page for my meshcore hobby.
 
-## What is Meshtastic?
+## What are mesh communications?
 
-An open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices
+Mesh communications revolve around an open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices, typically over the LORA band. There are multiple implementations of this, with the two most popular being Meshtastic and Meshcore.
 
-## Meshtastic and me
+## Meshtastic
 
 I discovered Meshtastic in 2023 thanks to a colleague at SiXworks. I had the opportunity to play around with a couple of devices from Lilygo, and thought they were cool but didnt think too much of it.
 
 One late evening in 2024 I was browsing the internet and came across the meshtastic subreddit. I immediately thought it looked cool and remembered trying it a year prior. So... why not... it's fairly cheap to get into, so its worth trying.
+
+I went through a period of buying some cheap inexpensive nodes, and also assembled a solar node for semi-permenant outdoor use.
+
+## Meshcore
+
+After about a year and a half with Meshtastic, I noticed that I was starting to loose interest in Meshtastic. I'd heard about a competing network called Meshcore which reportedly fixed a number of shortfalls present in the Meshtastic system. Device support was a little more limited, but I installed it onto all but one of my nodes to test.
 
 ## My Nodes
 
