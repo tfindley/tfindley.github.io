@@ -1,5 +1,5 @@
 ---
-permalink: /about/tech/selfhosted/
+permalink: /tech/selfhosted/
 title: "Self-hosted"
 excerpt: ""
 toc: false

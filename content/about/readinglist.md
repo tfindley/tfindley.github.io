@@ -10,6 +10,7 @@ classes: wide
 
 - 7 Habits of Highly Effective People
 - The Phoenix Projet
+- The Unicorn Project
 
 ## Fiction
 
