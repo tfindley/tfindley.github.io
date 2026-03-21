@@ -4,7 +4,7 @@ layout: simple
 showPagination: false
 ---
 
-In conjunction with my IT career I have taken it upon myself to developed a set of creative skills. While originally centered around Photography, my areas of experience have quickly diverged into Video Production, Desktop Publishing and Audio Engineering.
+In conjunction with my IT career I have taken it upon myself to developed a set of creative skills. While originally centred around Photography, my areas of experience have quickly diverged into Video Production, Desktop Publishing and Audio Engineering.
 
 I originally began working as a Behind The Scenes (BTS) photographer in the North London film industry using skills I developed from photographing Wildlife. Working as a BTS photographer allowed me to branch out into the film industry, gathering valuable experience as a Runner, Boom Operator, Camera Operator, Assistant Director and Second Unit Director.
 

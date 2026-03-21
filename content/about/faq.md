@@ -23,7 +23,7 @@ My original CV was far more ‘run of the mill’, and actually served me well. 
 
 An IT guy of course! No wait… a Photographer.  …actually I work on film sets. …but I ride motorcycles… and spend most of my evenings doing Martial Arts.
 
-Heh… yeah I do a lot. Seriously though. My Day Job is IT Systems Administrator at Royal Holloway University. But when night falls; I’m the Motorcycling photographer who…. *ahem*…
+Heh… yeah I do a lot. Seriously though. My day job is in DevOps and Platform Engineering. But when night falls; I’m the motorcycling photographer who…. *ahem*…
 
 I make the occasional bit of money on the side as a photographer, an IT Contractor, and as a videographer. These may seem like wildly different fields, but these powers combine, they summon Earth’s greatest champion; [CAPTAIN PLANET!](https://www.youtube.com/watch?v=GyOMYC6mlsY)… *ahem*  No! They come together in a synergy of creativity and technology which allows me to turn my hand to tasks such as social media and website design, where I’m able to design the digital assets necessary to take the project from design to completion.
 
@@ -37,7 +37,7 @@ Some of what I do (such as photography) originally started off as a hobby, but I
 
 There is more to me than a job, just as there is more to you than your job. Things that I do are an important part of my life, and just like any parts, they make up a whole. Things I do outside of work affect who I am as a person, from how colleagues and coworkers interact with me, to new skills that I pick up and learn. A lot of my interests and ventures outside of work have allowed me to develop new skills which have in turn fed back into my job, allowing me to be a more skilled and capable person with better job prospects.
 
-## Why is some of this site written in a slightly ‘less professional’ manor? (this page, for example)
+## Why is some of this site written in a slightly ‘less professional’ manner? (this page, for example)
 
 I can’t be serious all of the time, and I want to be able to be  a little lighter hearted on this than on my CV and cover letter. That and I wanted to throw in the occasional references from my childhood or from other media and literature that I’m a fan of.
 

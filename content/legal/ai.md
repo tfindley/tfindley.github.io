@@ -9,13 +9,19 @@ title: AI Use
 
 ## My Ethical statement
 
-AI (such as ChatGPT, CoPilot) is occasionally used on creation of my website content and code.
+AI (such as Claude, ChatGPT, CoPilot) is occasionally used on creation of my website content and code.
 
 I will ensure that the content contains a footer stating if it was used or not. Whever AI is used, I will do my best to explain how it was used and for what purposes. As AI is becoming far more mainstream, I feel it is important to be transparrent about how and where it is used.
 
 ### Website Content
 
+#### Specific Use
+
 When AI is utilised for written website content, it is always in a collaborative sense, for creating talking points, suggesting changes and correcting gramour, syntax and tone. I do not and will not use AI to genereate complete sections of content. Anything produced is always of my own opinion, with my own voice, and represents my views.
+
+#### General use
+
+AI is used occasoinally to perform content review across the whole site. in these instances, content is never significantly altered beyond what I originally produce.
 
 ### Code
 

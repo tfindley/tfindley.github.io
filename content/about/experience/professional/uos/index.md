@@ -74,7 +74,7 @@ The Faculty of Engineering and Physical Sciences is comprised of a number of Dep
 
 ### Infrastructure
 
-#### Virtualization vs Physical
+#### Virtualisation vs Physical
 
 A large amount of the UoS Server platform was built on VMware ESXi (with vSphere), or a legacy platform of Linux KVM hosts. During my time in FEPS I would frequently create new infrastructure in VMware. This would require careful consideration of Virtual Host capacity, as well as storage tiers and policies to ensure the correct backup and replication policy was applied to the correct infrastructure.
 

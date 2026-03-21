@@ -12,72 +12,39 @@ layout: simple
 # featureimage: img/tfindley_banner.png
 ---
 
-I’m Tristan.
+I'm Tristan -- a technical team lead and platform engineer with 19+ years of experience across the public and private sectors.
 
-I'm an Automation / DevOps / Site Reliability Engineer and qualified Team Leader with a background in IT Systems Administrator. My [Professional Experience](experience) totals 19+ years in Public and Private sectors covering Defence, Cloud Infrastructure, Telecommunications, Research and Further Education.
+> Taking a holistic view of IT
 
-My primary IAC (Infrastructure as Code) and Automation languages are Ansible and Terraform with a prior background in Chef. Combining these with CI/CD (Continuous Integration, Continuous Deployment), CMDB (Configuration Management DataBase) integration and Runbook Automation to provide an end-to-end automation platform.
+I build and lead DevOps teams that deliver reliable, automated infrastructure. My career spans defence, cloud infrastructure, telecommunications, biotechnology, and higher education -- and throughout all of it, my focus has been on enabling teams to deliver with confidence through automation, strong processes, and clear technical direction.
 
-Combining my eight years of automation engineering with my ten years of systems administration experience allows me to bring an experienced approach to IAC, integrating it with a modern DevOps methodology of Code / Release / Develop.
+In 2023 I completed the [People Leadership Programme](training/plp) with Multiverse, earning a **Distinction in People Leadership** from the Chartered Management Institute. I've been a practising manager since 2022, most recently leading a team of four DevOps engineers at SiXworks, delivering automation-first platform services across multiple classified environments in the UK defence sector.
 
----
-
-In 2023 I completed a the People Leadership Programme with Multiverse, gaining a Distinction in People Leadership with the Chartered Management Institute. I have been a practicing manager since 2022 in the field of Automation and Service Reliability Engineering for two promenant UK companies in the Defence and Government sectors.
-
-Since 2024 I have moved from the Farnborough, Hampshire, UK to Roeselsare, Belgium, and am now working in the European Biotechnology world at the Vlaams Institute of Biotechnology (Vlaams Instituut voor Biotechnologie).
+In 2024 I relocated to Belgium, where I joined the [Vlaams Instituut voor Biotechnologie (VIB)](https://vib.be) as an Automation Engineer and Change Manager. While the move was a personal decision, the role has given me the opportunity to apply my leadership experience in a new context -- chairing the Change Advisory Board, coordinating Major Incidents, coaching team members, and driving the adoption of NIS2 and ISO27001 standards across critical research infrastructure.
 
 ---
 
-I have also undertaken IT Contracts for End Users and Small businesses, focusing on managing and supporting bespoke IT solutions, Systems Administration and Support, and Web Hosting and Development. This allowed me to develop new IT skills and experience which I brought to my position.
+## What I bring
 
-Adding my skills as a [Creative Professional](creative) in the Photography and Video worlds lets me bridge the gap between the Technical and Creative, providing a full end-to-end solution which delivers not only on the platform but also on Digital Asset creation. During my work as a photorapher I worked in the Film Industry, collecting credits across various small productions (See [Filmography](filmography)), and even directing and filming an interview with Jeff Widener for Royal Holloway University.
+My technical foundation is in Linux systems administration, infrastructure automation (Ansible, Terraform), and platform engineering. I combine this with hands-on experience in ITIL process design -- having authored and implemented Change Management and Major Incident Management processes from scratch -- and a genuine commitment to developing the people around me.
 
----
-
-In my [Education](education) background, I graduated with a Bachelor of Science (BSc) degree in Computer Network Management and Design from Univesity of Portsmouth. I also hold a Disticiton in People Leadership from the Chartered Management Institute.
+I believe the best infrastructure teams are built on trust, clear ownership, and a culture where automation is the default, not the exception.
 
 ---
 
-## View my...
+## Beyond the day job
+
+Outside of work, I'm a [photographer and filmmaker](experience/creative) with credits on several independent productions ([IMDB](http://www.imdb.com/name/nm4271719/)). I run a [homelab](/tech) that doubles as a testing ground for the tools I use professionally, and I write about what I learn in my [blog](/posts).
+
+I'm also into [motorcycling](interests/motorcycling), [martial arts](interests/martial_arts), [skiing](interests/skiing), [travel](/travel), [photography](/photo), and [coffee](/coffee).
+
+---
+
+## Explore
 
 - [Professional Experience](experience/professional)
-- [Technologies Experience](experience/technology)
+- [Technology Stack](experience/technology)
 - [Creative Experience](experience/creative)
-- [Education Background](education)
-
----
-
-## Transferrable skills
-
-- Documentation
-- Presentation
-- Course content creation / structuring
-- User Training (one-to-one)
-- Group Training (one-to-many) / teaching
-- Word Processing / Spreadsheeting
-- Administration (License Management, Fiscal)
-
----
-
-## Interests
-
-- [Skiing](interests/skiing)
-- [Gaming](interests/gaming)
-- [Martial Arts](interests/martial_arts)
-- Outdoors / Hiking
-- [Travel](/travel)
-- [Photography](/photo)
-- [Motorcycling](interests/motorcycling)
-
----
-
-## Other
-
-- [Coffee](/coffee)
-- [Tech](/tech)
-
----
-
-## Other
-
+- [Training & Qualifications](training)
+- [Reading List](readinglist)
 - [FAQ](faq)

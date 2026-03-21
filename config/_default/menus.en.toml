@@ -64,6 +64,12 @@ parent = "cAVLZkfSlh"
 weight = 23
 
 [[main]]
+name = "Training & Qualifications"
+pageRef = "about/training"
+parent = "cAVLZkfSlh"
+weight = 24
+
+[[main]]
 name = "DevOps"
 pageRef = "devops"
 weight = 30
