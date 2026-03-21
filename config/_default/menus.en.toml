@@ -99,8 +99,8 @@ identifier = "kEf23221wwdf8gS8bs"
 weight = 43
 
 [[main]]
-name = "Meshtastic"
-pageRef = "tech/meshtastic"
+name = "Mesh Communications"
+pageRef = "tech/meshcomms"
 parent = "kEf23f8gS8fs"
 identifier = "kEf23f8112314gS8mt"
 weight = 44

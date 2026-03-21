@@ -20,4 +20,3 @@ Taking ones love of coffee with them on travels is becoming easier over time. Wi
 
 - **Method:** [OutIn Nano](https://outin.com/pages/outin-nano)
 - **Grinder:** [TimeMore C3 Esp Pro](https://www.timemore.com/collections/coffee-grinder-manual/products/timemore-manual-coffee-grinder-chestnut-c3-esp-pro)
-

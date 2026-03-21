@@ -91,7 +91,7 @@ When I got my first ever PC, I had a distinct fascination in understanding how i
 | **Case**          | Phanteks Enthoo Evolv ATX Mid Tower Case - Gun Metal                              |
 | **Power Supply**  | Corsair RM1000X 80+ Gold 1000w Modular Power Supply                               |
 
-### Previous rig
+### Previous rig - i5
 
 | Type              | Item                                                                              |
 |-------------------|-----------------------------------------------------------------------------------|
@@ -103,7 +103,7 @@ When I got my first ever PC, I had a distinct fascination in understanding how i
 | **Case**          | CoolerMaster Stacker 832 Case - Black                                             |
 | **Power Supply**  | Enermax Infiniti EIN650AWT Modular Power Supply                                   |
 
-### Previous rig
+### Previous rig - Quad Core
 
 | Type              | Item                                                                              |
 |-------------------|-----------------------------------------------------------------------------------|
