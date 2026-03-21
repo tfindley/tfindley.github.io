@@ -1,32 +1,43 @@
 ---
-title: AI Use
+title: AI Policy
 # cardView: true
 # cardViewScreenWidth: false
 # constrainItemsWidth: false
 ---
 
-# AI Use
+## My Ethical Statement
 
-## My Ethical statement
+AI tools (such as Claude, ChatGPT and Copilot) are occasionally used in the creation of content and code on this site.
 
-AI (such as Claude, ChatGPT, CoPilot) is occasionally used on creation of my website content and code.
+As AI becomes increasingly mainstream, I believe it is important to be transparent about how and where it is used. Where AI has been used on a piece of content, I include a footer stating this, along with an explanation of how it was used and for what purpose.
 
-I will ensure that the content contains a footer stating if it was used or not. Whever AI is used, I will do my best to explain how it was used and for what purposes. As AI is becoming far more mainstream, I feel it is important to be transparrent about how and where it is used.
+### Principles
+
+- **My voice, my views.** All content on this site represents my own opinions, experiences and perspective. AI is used as a collaborative tool, never as a replacement for my own thinking.
+- **Transparency.** I will always disclose when AI has been used and explain how.
+- **Human oversight.** All AI-assisted output is reviewed, validated and edited by me before publishing.
+- **No AI-generated imagery.** Photographs and visual content on this site are my own work unless otherwise credited. I do not use AI-generated images.
+
+---
 
 ### Website Content
 
 #### Specific Use
 
-When AI is utilised for written website content, it is always in a collaborative sense, for creating talking points, suggesting changes and correcting gramour, syntax and tone. I do not and will not use AI to genereate complete sections of content. Anything produced is always of my own opinion, with my own voice, and represents my views.
+When AI is used for website content, it is always in a collaborative sense -- creating talking points, suggesting structural improvements, and correcting grammar, syntax and tone. I do not use AI to generate complete sections of content wholesale. The ideas, experiences and opinions are always mine; AI helps me express them more clearly.
 
-#### General use
+#### General Use
 
-AI is used occasoinally to perform content review across the whole site. in these instances, content is never significantly altered beyond what I originally produce.
+AI is used occasionally to perform content review across the whole site. In these instances, content is never significantly altered beyond what I originally wrote.
+
+---
 
 ### Code
 
-When AI is utilised for my code, I work with it in a collaborative sense to create samples of code that are not specific to the task at hand. I then adapt output from this to the task at hand. Whenever code is produced by AI, it is validated, checked, and understood prior to using in anything I produce.
+When AI is used for code on this site, in my projects, or my contributions, I work with it collaboratively to produce solutions that I then adapt, validate and test. I do not publish or deploy code that I have not reviewed and understood. AI-assisted code is treated with the same rigour as any code I write myself -- it must be correct, secure and maintainable.
+
+---
 
 ## AI Statement
 
-AI was not used in the creation of the content on this page.
+AI (Claude) was used to collaboratively draft and refine the language on this page. The principles, policies and positions expressed are entirely my own.
