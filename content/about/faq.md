@@ -25,14 +25,6 @@ My day job is in DevOps, Platform Engineering and Team Leadership. But I also ha
 
 Some of what I do (such as photography) started as a hobby that I turned into a small side business. Others, like my [homelab](/tech), are a testing ground for the tools and technologies I use professionally. I find that the best way to truly learn something is to build it yourself.
 
-## Why include interests on a professional site?
-
-There is more to me than a job, just as there is more to you than yours. The things I do outside of work shape who I am as a colleague and a leader. Many of my interests have helped me develop skills that feed directly back into my professional life -- whether that's the discipline from [martial arts](/about/interests/martial_arts), the problem-solving from running a [homelab](/tech), or the creativity from [photography](/photo).
-
-## Why is some of this site written in a lighter tone?
-
-I can't be serious all the time. I want parts of this site to feel a bit more personable than my CV or cover letter. That said, I've tried to keep the professional content professional and the lighter content... lighter.
-
 ## Was that you on BBC's Fake Britain?
 
 Yes it was. I've since published my [full account of the incident](/posts/2016-09-02-my_fake_canon_7d/).
