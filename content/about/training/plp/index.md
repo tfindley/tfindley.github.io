@@ -156,5 +156,3 @@ The programme concludes with an End-Point Assessment (EPA) administered independ
 - **Presentation** (50%) — a holistic leadership presentation on a topic set by the assessor, with a live Q&A
 
 ---
-
-*Detailed content for this page is coming soon -- including course modules, key learnings, and how I apply them in practice.*
