@@ -19,7 +19,7 @@ A summary of my professional qualifications, certifications and education.
 
 | Qualification | Awarding Body | Grade | Date | Credential |
 | ------------- | ------------- | ----- | ---- | ---------- |
-| FitSM Foundation | APMG International | Pass | Mar 2026 | [Credly](https://www.credly.com/badges/e6b57595-a207-4a16-bb06-95b27e2bd113/public_url) |
+| [FitSM](https://www.fitsm.eu/) Foundation | APMG International | Pass | Mar 2026 | [Credly](https://www.credly.com/badges/e6b57595-a207-4a16-bb06-95b27e2bd113/public_url) |
 | [People Leadership Programme (Level 3)](/about/training/plp/) | Chartered Management Institute (CMI) | Distinction | Oct 2023 | |
 | Emergency First Aid at Work | First Response First Aid Ltd | Pass | Aug 2023 (expires Aug 2026) | ID: 195565 |
 | Mental Health First Aid | MHFA England | Pass | Jan 2022 | [Certificate](https://mhfastorage.blob.core.windows.net/mhfastoragecontainer/8e7dd093-2080-ec11-8d21-0022489e0a2b/First_Aid_Training_One_Day_Certificate_of_Attendance.pdf) |
