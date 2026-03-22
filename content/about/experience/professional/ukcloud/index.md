@@ -52,11 +52,13 @@ When UKCloud entered administration, I agreed to continue my studies with the CM
 ## Technology
 
 - **Automation:** Ansible, Terraform, CI/CD pipelines
-- **Containerisation:** Docker, OpenShift
+- **Containerisation:** Docker, Docker Swarm
 - **Virtualisation:** VMware (ESX, vSphere, vCloud Director)
 - **Infrastructure:** Linux (RHEL), Windows Server, HAProxy, KeepAliveD
-- **Monitoring:** Zabbix, Nagios
-- **Ticketing & ITSM:** Ivanti, GLPI
+- **Monitoring:** Opsview (Nagios)
+- **Security:** ISO27001
+- **Ticketing & ITSM:** Ivanti ITSM, Atlassian Jira
+- **Documentation:** Atlassian Confluence
 - **Practices:** Agile/Scrum, ITIL change management, TDD, Infrastructure as Code
 
 ## Notable Projects

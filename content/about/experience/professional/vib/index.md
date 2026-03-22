@@ -69,4 +69,4 @@ Since starting with Data Core in 2024, I have designed and implemented the follo
 - **Monitoring:** Uptime Kuma
 - **Source Control:** Gitea
 - **Scripting:** Bash, Python
-- **Practices:** ITIL, NIS2, ISO27001, Infrastructure as Code, Agile
+- **Practices:** ITIL, NIS2, Infrastructure as Code, Agile
