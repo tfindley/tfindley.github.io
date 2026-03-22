@@ -12,25 +12,25 @@ showReadingTime: false
 
 01/02/2023 - 31/12/2024
 
-I was brought in to build and lead the Platform Services team from the ground up -- assembling a team of four DevOps engineers to deliver automated deployment and configuration solutions across physically air-gapped customer environments operating at multiple levels of classification.
+I joined SiXworks in 2023 after leaving UKCloud to build and lead the Platform Services team from the ground up -- assembling a team of four DevOps engineers to deliver automated deployment and configuration solutions across physically air-gapped customer environments operating at multiple levels of classification.
 
 ---
 
 ## The Mission
 
-Our team operated as a Site Reliability Engineering function with a DevOps mindset, providing automation solutions and expertise to both our customer environments and the wider business. The goal I set from day one was to establish an **automation-first, fully auditable** approach to deployments -- replacing the prevailing culture of undocumented manual work with repeatable, version-controlled infrastructure.
+Our team operated as a Site Reliability Engineering function with a DevOps mindset, providing automation solutions and expertise to both our customer environments and the wider business. The goal I set from day one was to establish an **automation-first, fully auditable** approach to deployments -- replacing the prevailing culture of manual work with repeatable, version-controlled infrastructure.
 
 ## What We Built
 
-We designed and delivered automation solutions for deploying software installations and configurations into **physically air-gapped environments** -- separate networks with no internet access or intercommunication, often under different classifications or projects. This presented a unique challenge: staff needed to contribute meaningfully to projects they were not read into.
+We designed and delivered automation solutions for deploying software installations and configurations into **physically air-gapped environments** -- separate networks with no internet access or intercommunication, often under different classifications or projects. This presented a unique challenge: staff needed to contribute meaningfully to projects they might not be read into.
 
 Our solution used **Ansible** as the primary delivery mechanism, wrapped in **Docker images** for version-controlled deployments. This ensured all code could be easily audited and inspected at any classification level prior to execution. We supplied configuration examples to each environment, enabling easy implementation of our automation without any environment-specific details ever being exfiltrated.
 
-The team would build these automations, package them as deployable artefacts, and either deliver them directly into environments or hand them off to other engineers to consume and deploy.
+The team would build these automations, package them as deployable artefacts along with all required tooling for a consistent deployment environment, and ship them to the target environments for hands-on deployment or hand them off to other engineers to consume and deploy.
 
 ### Automated OS Image Pipeline
 
-A key part of our roadmap was taking control of the entire automation supply chain, starting with the base VM image. One of my engineers expressed an interest in security hardening, so I directed him to look at our image supply chain and apply hardening at the base level rather than further down the pipeline. He spent time learning **Terraform and Packer**, then worked through our security standards alongside industry best practice to produce a hardened OS image that could be built automatically and consumed by anyone in the business. This image became the standard for both target environments and our local development infrastructure, ensuring consistency from dev through to customer deployment.
+A key part of our roadmap was taking control of the entire automation supply chain, starting with the base VM image. One of my engineers expressed an interest in security hardening, so I directed him to look at our image supply chain and apply hardening at the base level rather than further down the pipeline. He spent time learning **Terraform and Packer**, then worked through our security standards alongside industry best practice to produce a hardened OS image that could be built automatically and consumed by anyone in the business. This image ensured consistency from dev through to customer deployment.
 
 ## Outcomes
 
@@ -41,7 +41,7 @@ A key part of our roadmap was taking control of the entire automation supply cha
 
 ## How I Led the Team
 
-**One-to-ones** -- I held regular one-to-one meetings with each team member in an informal setting away from the main work area, creating a safe space for open conversation. These were their time -- focused on their wellbeing, blockers, and frustrations. For me, it was a way of checking on the mental health of my team and identifying where I could act as a sounding board or provide the tools and resources they needed.
+**One-to-ones** -- I held regular one-to-one meetings with each team member in an informal setting away from the main work area, creating a safe space for open conversation. One-to-ones were their time -- focused on their wellbeing, blockers, and celebrating their wins. For me, it was a way of checking on the mental health of my team and identifying where I could act as a sounding board or provide the tools and resources they needed. It is also a mechanism from which to gauge their engagement with assigned projects with outside teams (as well as my team), and with the company overall. This overt people-first culture is something I have a great respect for.
 
 **Daily standups** -- These kept me and the team aligned on project progress, and were especially important when team members were working in pairs or individually on parts of a larger task. Later, we merged our standup with an adjacent team to foster cross-team communication and closer working relationships. I worked closely with that team's lead to deliver on shared goals.
 
@@ -49,7 +49,7 @@ A key part of our roadmap was taking control of the entire automation supply cha
 
 ## Training
 
-During my time at SiXworks I completed the [People Leadership Programme](/about/training/plp/) with the Chartered Management Institute, earning a **Distinction** in People Leadership (Level 3). I had started the programme in April 2022 while at UKCloud and concluded it in October 2023. This formal qualification underpinned my approach to team leadership, reinforcing the people-focused practices described above.
+During my time at SiXworks I completed the [People Leadership Programme](/about/training/plp/) with the Chartered Management Institute, earning a **Distinction** in People Leadership (Level 3). I had started the programme in April 2022 while at UKCloud and concluded it in October 2023. This formal qualification underpinned my approach to team leadership, reinforcing the people-focused practices described above. During this time I was supported by colleagues and managers at SiXworks, who contributed greatly to my growth.
 
 ## The Roadmap
 
@@ -59,26 +59,27 @@ We started small with an MVP and added functionality iteratively, following Agil
 
 ## Notable Projects
 
-- Deployment of supported applications into four separate offline environments across multiple levels of classification, using automation and containerisation
-- Continuous security analysis, hardening and patching of deployed services through automated pipelines
-- Automated deployment, configuration and HA/DR of:
-  - Internal tooling -- Vault, Git, documentation, service desk and automation orchestration for platform and project teams
-  - Infrastructure base services -- IDP, database, NTP, repository, federated services, logging and monitoring
-- Linux OS hardening and security review for automated image creation (Terraform, Packer)
+- Automated deployment of supported applications across multiple separate offline environments, spanning multiple classification levels, using automation and containerisation
+- Drove continuous improvement, security analysis, hardening and patching of deployed services through automation
+- Delivered automated deployment, configuration and HA/DR of:
+  - Essential tooling -- Vault, Git, documentation platforms, service desk systems and automation orchestration for platform and project teams
+  - Core infrastructure services -- IDP, databases, NTP, repositories, federated services, logging and monitoring
+- Conducted Linux OS hardening and developed automated secure OS image creation pipelines (Terraform, Packer)
 
 ## Technology
 
 - **Automation:** Ansible, Terraform, Packer
 - **Containerisation:** Docker
-- **Infrastructure:** VMware, Linux (RHEL)
-- **Security:** OS hardening, image supply chain, classification-aware deployment
+- **Infrastructure:** VMware, Linux (Debian-based)
+- **Security:** OS hardening, image supply chain, classification-aware deployment, ISO27001
 - **Practices:** Agile delivery, CI/CD, Infrastructure as Code, version-controlled deployments
 
 ## My Responsibilities
 
-- Build and lead a new team of four DevOps engineers with a diverse mix of skills
-- Provide technical leadership, oversight, and direction aligned to business and customer needs
-- Drive the adoption of automation technologies to deliver repeatable and reliable services
-- Manage and execute projects using Agile delivery methods
-- Engage with the business and board to shape service direction and champion new ways of working
+- Build and lead a new team of four DevOps engineers with a wide mix of skills aligned to the needs of the business and our customers
+- Provide technical leadership, oversight, guidance and direction for the team
+- Architect platform and infrastructure solutions across multiple air-gapped environments, designing for reliability, scalability and auditability
+- Drive the adoption and use of automation technologies such as Ansible, Terraform and other tools to provide repeatable and reliable services
+- Manage and execute projects using Agile delivery methods and practices
+- Engage with the business to shape the direction of existing services, and to identify, plan and deliver new services and ways of working to enhance our service/product offerings and internal practices
 - Collaborate with adjacent team leads to deliver on shared goals
