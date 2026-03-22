@@ -6,18 +6,18 @@ constrainItemsWidth: false
 
 ---
 
-{{< typeit 
+{{< typeit
   tag=h3
   startDelay=100
   speed=200
   breakLines=true
   lifeLike=true
   waitUntilVisible=true
-  initialString="Taking a holistic view of IT"
+  initialString="Building and leading platform engineering teams"
 >}}
-"Site Reliability Engineer"
 "DevOps Team Lead"
-"DevOps Manager"
+"Platform Engineer"
+"Site Reliability Engineer"
 {{< /typeit >}}
 
 Need to contact me? Use one of the links above, or book a meeting with me [here](https://cal.com/tfindley).

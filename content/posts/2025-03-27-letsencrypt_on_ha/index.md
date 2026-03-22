@@ -519,6 +519,6 @@ With this setup, your HA servers can securely and reliably acquire and renew Let
 Further thoughts:
 
 - Monitor cert expiration with something like `check_ssl_cert` or [Uptime Kuma](https://github.com/louislam/uptime-kuma)
-- How would you implement this with containerized services or Kubernetes - Possibly [Traefik](https://traefik.io/traefik/)
+- How would you implement this with containerised services or Kubernetes - Possibly [Traefik](https://traefik.io/traefik/)
 
 Secure all the things! 🔐

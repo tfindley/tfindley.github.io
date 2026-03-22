@@ -60,6 +60,6 @@ In 2015 I began consulting with two local businesses to update their web presenc
 
 ## WordPress for Me
 
-My own history of web hosting has been a varied and colorful one. Starting out with my very first website on Geocities (yes, I'm THAT old!), then moving to free hosting with NTL World, and then on to my own home-hosted web server running on Linux. While my sites were originally developed in pure HTML, I eventually moved all my content over to a WordPress platform, which has been running (in various iterations) since 2006.
+My own history of web hosting has been a varied and colourful one. Starting out with my very first website on Geocities (yes, I'm THAT old!), then moving to free hosting with NTL World, and then on to my own home-hosted web server running on Linux. While my sites were originally developed in pure HTML, I eventually moved all my content over to a WordPress platform, which has been running (in various iterations) since 2006.
 
 Fast forward to 2016 when my single site has grown into a collection of 4 primary sites, I decided that running 4 stand-alone versions of WordPress was too inefficient and decided to migrate them into a single instance based on my design at Royal Holloway. By May 2016, the core platform was online, tested and stable, and all site content had all been migrated over to the new platform (minus the themes pending some colossal redesigns). This platform along with any other hosting is all done through SiteGround.

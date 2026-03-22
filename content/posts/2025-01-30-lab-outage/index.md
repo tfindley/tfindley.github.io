@@ -58,7 +58,7 @@ A quick timedatectl later confirmed that Server 1 and Server 2 thought they were
 
 ### The cause
 
-A bit of background. SBC's like the Raspberry Pi series (before series 5) do not have internal clocks (nor onboard batteries). This means that when they first boot they connect to the internet to retrieve the time and set their RTC (Real Time Clock). Something had happend to cause Server 1 and Server 2 to fail seting their RTC.
+A bit of background. SBC's like the Raspberry Pi series (before series 5) do not have internal clocks (nor onboard batteries). This means that when they first boot they connect to the internet to retrieve the time and set their RTC (Real Time Clock). Something had happened to cause Server 1 and Server 2 to fail setting their RTC.
 
 The culprit? A boot failure on Server 3, which prevented its NTP service from coming up. Since I had (foolishly) configured Servers 1 and 2 to use only Server 3 for NTP, they had no alternative internal or external time sources. Worse, their DNS configs pointed to themselves as upstream, so they couldn’t even resolve an external NTP server if they wanted to.
 
@@ -138,6 +138,6 @@ There’s no great way to fix this. If DNS on Server 1 and Server 2 goes offline
 
 ## Legal
 
-In accordance with [My AI Policy](/legal/ai), AI was used to proof-read the article for spelling, grammer and scentence structure prior to publishing.
+In accordance with [My AI Policy](/legal/ai), AI was used to proof-read the article for spelling, grammar and sentence structure prior to publishing.
 
-The events detailed within this document are real and occoured in January of 2025. While some detail and technical fact-finding has been glossed over, the key points and facts are accurate.
+The events detailed within this document are real and occurred in January of 2025. While some detail and technical fact-finding has been glossed over, the key points and facts are accurate.

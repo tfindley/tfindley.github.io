@@ -4,21 +4,23 @@ title: "Larch Computer Services"
 excerpt: ""
 toc: false
 date: 2005-06-01
-description: "Platform Services Team Lead"
+description: "IT Support Technician & Solutions Architect"
 showWordcount: false
 showReadingTime: false
 ---
+
+**IT Support Technician & Solutions Architect**
+
 June 2005 – September 2005
 
-Larch Computer Services provide IT Support Services to business clients in Hampshire, Berkshire, Surrey, and the Thames Valle, in the form of Computer Service Support contracts.
+Larch Computer Services provided IT support services to business clients in Hampshire, Berkshire, Surrey and the Thames Valley, through computer service support contracts.
 
-During Tristan’s time at Larch Computer Services, he functioned as both a solution architect and technician for the companies contractors.
+During my time at Larch I functioned as both a solutions architect and technician for the company's contractors.
 
-On a daily basis, Tristan would act as a second line technical support agent answering technical queries for companies with existing support contracts. Tristan also frequently worked on the site of contractors, providing them with on-the-ground technical support, systems administration and solution deployment.
+On a daily basis, I acted as a second line technical support agent answering technical queries for companies with existing support contracts. I also frequently worked on-site with contractors, providing them with on-the-ground technical support, systems administration and solution deployment.
 
-In summery, Tristan:
+In summary, I:
 
-Provide technical ICT support both in-house, and on-site to Small / Medium Enterprises (SME’s)
-Sale of equipment and service contracts to existing / potential clients
-Coordinate contracts between Larch and service providers to provide new technologies & services to
-the employees, and clients.
+- Provided technical ICT support both in-house and on-site to Small / Medium Enterprises (SMEs)
+- Sold equipment and service contracts to existing and potential clients
+- Coordinated contracts between Larch and service providers to deliver new technologies and services to employees and clients

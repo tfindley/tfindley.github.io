@@ -4,191 +4,153 @@ layout: simple
 showPagination: false
 ---
 
-##  DevOps
+A summary of the technologies I have worked with professionally. Items are grouped by proficiency:
 
-- Ansible
-- Hashicorp Terraform
-- Hashicorp Packer
-- Chef
-- CI/CD
+- **Expert** -- deep hands-on experience, used extensively across multiple roles
+- **Proficient** -- solid working knowledge, used in production environments
+- **Familiar** -- exposure through projects, learning, or limited production use
 
-##  Services
+---
 
-- Hashicorp Vault
-- TFTP + PXE + KickStart / MaaS
-- HAProxy + KeepAliveD (HA)
-- nginx
-- Apache
-- IPTables / FirewallD / UFW
-- DJBDNS / TinyDNS / BIND
-- PostFix / DoveCot / Sendmail
-- WireGuard
-- NetBird
+## Automation & DevOps
 
-##  Containerisation
+| Expert | Proficient | Familiar |
+| ------ | ---------- | -------- |
+| Ansible | Hashicorp Packer | Chef |
+| Hashicorp Terraform | CI/CD pipelines | |
+| Hashicorp Vault | | |
 
-- Docker
-- Docker Swarm
-- Podman
-- Kubernetes (learning)
-- Podman Quadlets (learning)
-- Portainer
-- Traefik
+## Containerisation & Virtualisation
 
-##  Virtualization
+| Expert | Proficient | Familiar |
+| ------ | ---------- | -------- |
+| Docker | Podman | Kubernetes |
+| VMware (ESX, vSphere, vCloud Director) | Docker Swarm | Podman Quadlets |
+| | Traefik | |
+| | Portainer | |
+| | Proxmox | |
 
-- VMWare
-  - ESX
-  - vSphere
-  - vCloud Director
-- Proxmox
+## Operating Systems
 
-##  Git/Ops
+| Expert | Proficient | Familiar |
+| ------ | ---------- | -------- |
+| RHEL / Rocky Linux (7-10) | Fedora | Apple macOS |
+| Ubuntu / Debian | Windows Server (2003-2022, Full and Core) | |
 
-- GitHub (cloud)
-- GitLab
-  - Community Edition (self hosted)
-  - Enterprise Edition (cloud and Self Hosted)
-- Atlassian BitBucket (Self hosted)
-- Gitea (Self Hosted)
-- Forgejo (Self Hosted)
+## Scripting & Programming
 
-##  Project Management Systems
+| Expert | Proficient | Familiar |
+| ------ | ---------- | -------- |
+| Bash | PowerShell | Expect |
+| | Python | |
 
-- Atlassian Jira (Administration & Use)
-- Asana (Use)
-- Microsoft Planner / ToDo
+## Git & Source Control
 
-##  Ticketing platforms
+| Expert | Proficient | Familiar |
+| ------ | ---------- | -------- |
+| GitHub | Atlassian BitBucket | |
+| GitLab (CE & EE, cloud and self-hosted) | Gitea / Forgejo | |
 
-- Ivanti ITSM (Deployment, Administration & Use)
-- osTicket (Deployment, Administration & Use)
-- GLPI (Deployment, Administration & Use)
-- Zammad (Deployment, Administration & Use)
+## Networking & Security
 
-##  Observability
+| Proficient | Familiar |
+| ---------- | -------- |
+| IPTables / FirewallD / UFW | Mikrotik |
+| WireGuard / NetBird | GliNet |
+| HAProxy + KeepAliveD (HA) | Zyxel |
+| Ubiquiti UniFi | |
+| HP ProCurve / Aruba | |
 
-- Zabbix
-- Uptime Kuma
-- Nagios
-- OpsView
+## Web & Application Services
 
-##  Database
+| Expert | Proficient | Familiar |
+| ------ | ---------- | -------- |
+| nginx | Apache | |
+| TFTP + PXE + KickStart / MaaS | PostFix / Dovecot / Sendmail | |
+| | DJBDNS / TinyDNS / BIND | |
 
-- Microsoft SQL (HA, DR)
-- Postgresql
-- MySQL / MariaDB
-- Galera
-- MongoDB
-- ElasticSearch / OpenSearch
+## Observability & Security Monitoring
 
-##  Security
+| Proficient | Familiar |
+| ---------- | -------- |
+| Zabbix | Nagios |
+| Uptime Kuma | OpsView |
+| Wazuh | NetAlertX |
+| Graylog | |
 
-- Wazuh
-- Graylog
-- NetAlertX
+## Databases
 
-##  IPAM
+| Proficient | Familiar |
+| ---------- | -------- |
+| PostgreSQL | MongoDB |
+| MySQL / MariaDB | ElasticSearch / OpenSearch |
+| Galera | |
+| Microsoft SQL (HA, DR) | |
 
-- NetBox
-- Device42
-- PHP iPAM
-- InfoBlocks
+## IPAM & CMDB
 
-##  Cloud
+| Proficient | Familiar |
+| ---------- | -------- |
+| NetBox | Device42 |
+| | Infoblox |
+| | PHP IPAM |
 
-- On-Premise Private Cloud (Single/Multi tenancy) (As a service)
-- Oracle Cloud Infrastructure (OCI)
-  - compute
-  - s3
-- Amazon Web Services (AWS)
-- Google Cloud Platform (GCP) (planned for learning)
-- Hetzner
-  - vps
-- SiteGround
-  - vps/dedcicated
+## Ticketing & Project Management
 
-##  Terminal and Scripting
+| Proficient | Familiar |
+| ---------- | -------- |
+| GLPI | Asana |
+| Zammad | Microsoft Planner / ToDo |
+| Ivanti ITSM | |
+| osTicket | |
+| Atlassian Jira | |
 
-- Bash
-- Python
-- Powershell
-- Batch
-- WinScript
-- Expect
+## Authentication & Identity
 
-##  Operating System Experience
+| Proficient | Familiar |
+| ---------- | -------- |
+| FreeIPA | Kanidm |
+| Active Directory / AD Federated Services | |
+| Keycloak | |
 
-- Linux
-  - RHEL
-    - RedHat Enterprise Linux (7-9)
-    - Rocky Linux (8-10)
-    - Fedora
-  - Deb
-    - Ubuntu
-    - Debian
-- Windows
-  - Server (2003-2022) (Full and Core)
-  - Desktop (3.1-11)
-- Apple macOS
+## Cloud Platforms
 
-##  Microsoft Server infrastructure
+| Proficient | Familiar |
+| ---------- | -------- |
+| On-premise private cloud (single/multi tenancy) | AWS (CDN, S3) |
+| Oracle Cloud Infrastructure (compute, S3) | GCP |
+| Hetzner (VPS) | |
 
-- Active Directory (AD)
-- AD Federated Services
-- WSUS
-- SCCM
+## Storage Platforms
 
-##  Storage Platforms
+| Proficient | Familiar |
+| ---------- | -------- |
+| Quantum StorNext / QXS | NetApp |
+| Dell PowerScale (Isilon) | BobCat |
+| Dell EMC Celerra | |
+| Dell FluidFS | |
+| Synology / AsuStor / QNAP | |
 
-- Dell PowerScale (Isilon)
-- Dell EMC Celerra
-- Dell FluidFS
-- Quantum StorNext
-- Quantum QXS
-- Synology
-- AsuStor
-- QNAP
-- NetApp
-- BobCat
+## Microsoft Server Infrastructure
 
-##  Authentication Platforms
+| Proficient | Familiar |
+| ---------- | -------- |
+| Active Directory | SCCM |
+| WSUS | |
 
-- Keycloak
-- FreeIPA
-- Kanidm
+## Content Management & Static Site Generation
 
-##  Network platforms
+| Proficient | Familiar |
+| ---------- | -------- |
+| WordPress (standalone, multisite, as a service) | Drupal |
+| Hugo | Jekyll |
+| Moodle | |
 
-- Ubiquiti UniFi
-- HP ProCurve / Aruba
-- Mikrotik
-- GliNet
-- Xyxel
+## End User & Creative
 
-##  Content Management Systems / Static Site Generation
-
-- WordPress
-  - Stand alone
-  - Multisite
-  - 'As a service'
-- Moodle
-- Druple
-- Hugo
-- Jekyll
-
-##  End User Device / Office Support
-
-- Windows/Apple/Linux Desktop Support
-- Office Suite
-- VOIP
-- Display Screen / Signage
-- Printers / Print servers
-- Desktop Publishing
-- Adobe Suite
-- Video Editing
-- Photo Editing
-- Digital Asset creation / Management
-- File storage / NAS functions
-- RBAC configuration
-
+- Windows / Apple / Linux desktop support
+- Office suite, VOIP, display/signage
+- Printers / print servers
+- Adobe Suite, desktop publishing
+- Video editing, photo editing
+- Digital asset creation and management

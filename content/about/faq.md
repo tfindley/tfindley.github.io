@@ -7,48 +7,42 @@ classes: wide
 ---
 Welcome to the (not so) Frequently Asked Questions.
 
-## What’s the deal with this website?
+## What's the deal with this website?
 
-Good question! I have a lot of different skills, and a way to showcase all of these in one place was through the use of a website that ties into my CV.
+I have a broad range of skills and experience, and I wanted a single place to showcase all of it. This site acts as a living CV, portfolio and general information hub -- a companion to my [LinkedIn](https://linkedin.com/in/tfindley) profile and paper CV.
 
-The idea originated through the use of [about.me](https://about.me/tfindley) and [LinkedIn](https://linkedin.com/in/tfindley). I wanted a single site that would combine the professionalism of LinkedIn, but the modern front-end of About.me .
+It started as an experiment with [about.me](https://about.me/tfindley), but I wanted something I had full control over. The site is now built with [Hugo](/posts/2025-01-01-migration-from-wordpress/) and hosted on GitHub Pages.
 
-This site acts as a Resumé, CV, Portfolio and general information site about me.
+## Why does your CV look the way it does?
 
-## Why does the CV / Resumé you sent me look the way it does?
+My original CV was fairly standard, and it served me well -- it got me interviews and it got me jobs. But I wanted to present the information in a more distinctive way. I've designed it to stand out by being different yet functional, and it doubles as a showcase of skills I picked up from teaching myself Adobe InDesign.
 
-My original CV was far more ‘run of the mill’, and actually served me well. It got me interviews, it got me jobs (well, my current job), and it was generally okay, but I wanted to present the information in a more unique fashion. My current CV is somewhat different to others you might have seen. I’ve designed it to stand out from the rest by being different, yet functional. It also serves as a little showcase of skills I’ve learned from teaching myself Adobe InDesign.
+## So what exactly do you do?
 
-## Are you an IT guy, a photographer, a graphic designer, or what?
+My day job is in DevOps, Platform Engineering and Team Leadership. But I also have a background in [photography and filmmaking](/about/experience/creative), and I've done IT contracting for small businesses over the years. These may seem like wildly different fields, but they come together in a synergy of creativity and technology -- the ability to take a project from technical design through to digital asset creation and delivery.
 
-An IT guy of course! No wait… a Photographer.  …actually I work on film sets. …but I ride motorcycles… and spend most of my evenings doing Martial Arts.
+## What about everything else?
 
-Heh… yeah I do a lot. Seriously though. My Day Job is IT Systems Administrator at Royal Holloway University. But when night falls; I’m the Motorcycling photographer who…. *ahem*…
+Some of what I do (such as photography) started as a hobby that I turned into a small side business. Others, like my [homelab](/tech), are a testing ground for the tools and technologies I use professionally. I find that the best way to truly learn something is to build it yourself.
 
-I make the occasional bit of money on the side as a photographer, an IT Contractor, and as a videographer. These may seem like wildly different fields, but these powers combine, they summon Earth’s greatest champion; [CAPTAIN PLANET!](https://www.youtube.com/watch?v=GyOMYC6mlsY)… *ahem*  No! They come together in a synergy of creativity and technology which allows me to turn my hand to tasks such as social media and website design, where I’m able to design the digital assets necessary to take the project from design to completion.
+## Why include interests on a professional site?
 
-So what am I really? [I’m an IT Rock Star!](https://www.youtube.com/watch?v=rSPb0MuVZnM)
+There is more to me than a job, just as there is more to you than yours. The things I do outside of work shape who I am as a colleague and a leader. Many of my interests have helped me develop skills that feed directly back into my professional life -- whether that's the discipline from [martial arts](/about/interests/martial_arts), the problem-solving from running a [homelab](/tech), or the creativity from [photography](/photo).
 
-## So what is with everything else you do?
+## Why is some of this site written in a lighter tone?
 
-Some of what I do (such as photography) originally started off as a hobby, but I decided to turn it into a small home business to make a little bit of money with which to buy new photography equipment, and something to focus my desire for learning.
+I can't be serious all the time. I want parts of this site to feel a bit more personable than my CV or cover letter. That said, I've tried to keep the professional content professional and the lighter content... lighter.
 
-## Why do you include your Interests on a ‘professional’ site that you use for applying for jobs?
+## Was that you on BBC's Fake Britain?
 
-There is more to me than a job, just as there is more to you than your job. Things that I do are an important part of my life, and just like any parts, they make up a whole. Things I do outside of work affect who I am as a person, from how colleagues and coworkers interact with me, to new skills that I pick up and learn. A lot of my interests and ventures outside of work have allowed me to develop new skills which have in turn fed back into my job, allowing me to be a more skilled and capable person with better job prospects.
+Yes it was. I've since published my [full account of the incident](/posts/2016-09-02-my_fake_canon_7d/).
 
-## Why is some of this site written in a slightly ‘less professional’ manor? (this page, for example)
+## More questions?
 
-I can’t be serious all of the time, and I want to be able to be  a little lighter hearted on this than on my CV and cover letter. That and I wanted to throw in the occasional references from my childhood or from other media and literature that I’m a fan of.
+I'm always happy to chat. Get in touch via any of the links on the site, or [book a meeting](https://cal.com/tfindley).
 
-## Was that you on BBC’s Fake Britain?
-
-Yes it was. I’ve since published my [full account of my incident](/posts/2016-09-02-my_fake_canon_7d/).
-
-## But I have more questions!
-
-Great! I love questions! Please contact me and we’ll go for a coffee where I will be happy to answer any more questions you have.
+---
 
 ## Quotes to live by
 
-> If you’re the smartest person in the room, then you’re in the wrong room.
+> If you're the smartest person in the room, then you're in the wrong room.

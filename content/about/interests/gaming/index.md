@@ -23,5 +23,3 @@ I largely buy my games via [Kinguin](https://www.kinguin.net/r/TFindley) (use th
 
 ### Streaming
 I do occasionally stream games. Check me out out [YouTube](https://www.youtube.com/channel/UCTzlh2rZXFmI0D95hoc14Gw) / [YouTube Gaming](https://gaming.youtube.com/channel/UCTzlh2rZXFmI0D95hoc14Gw) to see if I'm streaming live, or for past streams.
-
-I do also have a Twitch account (details coming soon), but I rarely use this.

@@ -10,9 +10,9 @@ showSummary: true
 groupByYear: true
 ---
 
-This site, and all content contained within is Copyright © 2025 Tristan Findley, All Right Reserved.
+This site, and all content contained within is Copyright © 2025 Tristan Findley, All Rights Reserved.
 
-tfindley.co.uk (henceforth known as ‘the site’), is hosted in the United Kingdom. Tristan Findley (henceforth known as ‘the author’) , and all visitors to the site (including anonymous readers and comment posters) (henceforth known as ‘the user’), and are subject to the laws of the United Kingdom, and the polices detailed in this document.
+tfindley.co.uk (henceforth known as ‘the site’), is hosted on GitHub Pages. Tristan Findley (henceforth known as ‘the author’), and all visitors to the site (including anonymous readers and comment posters) (henceforth known as ‘the user’), are subject to the laws of the United Kingdom and the policies detailed in this document.
 
 Information may be referenced or linked to, but requires FULL accreditation. Please do not modify and/or redistribute any content from this site without prior permission from ‘the author’.
 

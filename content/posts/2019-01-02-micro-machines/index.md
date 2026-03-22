@@ -8,7 +8,7 @@ tags:
 showTableOfContents: true
 ---
 
-Over Christmas and New Year I've taken the opportunity to sort out or clear out some of my old childhood toys in the attic. One of my favorites as a kid was Micro Machines. These tiny replicas of vehicles (both from real life,  science fiction TV/Movie, and from the made-up world of the people behind Micro Machines) provided me hours and hours of fun in imaginary worlds and scenarios.
+Over Christmas and New Year I've taken the opportunity to sort out or clear out some of my old childhood toys in the attic. One of my favourites as a kid was Micro Machines. These tiny replicas of vehicles (both from real life,  science fiction TV/Movie, and from the made-up world of the people behind Micro Machines) provided me hours and hours of fun in imaginary worlds and scenarios.
 
 From what I've been able to gather from research, Micro Machines were going up until recently, or may indeed even still be going today Certainly Star Wars Episode I / II / III all have Micro Machine models of them. There is still a reasonable number available on eBay too, with some unopened sets selling for many times their original amount.
 
@@ -32,7 +32,7 @@ As I was photographing these, I figured out that the best way to un-bend any cro
 
 ![alt text](20181230_2208546529931245564956288-e1546390702759.jpg)
 
-Probably my favorite of all my sets. My (incomplete) collection spans everything from The Original Series (not my favorite), through The Next Generation (24th Century was the best!), Deep Space Nine, and up to Voyager, with the movies included in there somewhere too. While some of these have suffered damage over the years - mostly paint -
+Probably my favourite of all my sets. My (incomplete) collection spans everything from The Original Series (not my favourite), through The Next Generation (24th Century was the best!), Deep Space Nine, and up to Voyager, with the movies included in there somewhere too. While some of these have suffered damage over the years - mostly paint -
 {{< gallery >}}
   <img src="startrek/20190101_103226.jpg" class="grid-w33" />
   <img src="startrek/20190101_103311.jpg" class="grid-w33" />

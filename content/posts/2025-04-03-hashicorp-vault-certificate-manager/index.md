@@ -16,14 +16,14 @@ showTableOfContents: false
 draft: false
 ---
 
-Services are everywhere; APIs, load balancers, control planes, monitoring dashboards — each needing their own TLS certificate. Back in 2012 a group of engineers from Mozilla set out to revolutionise the world of Secure Web Services with a little thing called 'LetsEncrypt' - a solution to bring TLS Certificates to the masses, for free. This little application reinvented the way we look at certificate issuance and managment, and has since become the defacto standard for web encryption.
+Services are everywhere; APIs, load balancers, control planes, monitoring dashboards — each needing their own TLS certificate. Back in 2012 a group of engineers from Mozilla set out to revolutionise the world of Secure Web Services with a little thing called 'LetsEncrypt' - a solution to bring TLS Certificates to the masses, for free. This little application reinvented the way we look at certificate issuance and management, and has since become the defacto standard for web encryption.
 
 In order to utilise the free LetsEncrypt certificates, all you needed was:
 
 - A publicly registered DNS address
-- A publicly facing service or service with port 80/tcp addressible
+- A publicly facing service or service with port 80/tcp addressable
 
-Those Platform Engineers and Systems Administrators managing private infrastrucuture managed to figure out ways to utilise LetsEncrypt to issue certificates for our internal services. In some instances this could completely eliminate the need for internal certificate authorities and snakeoil certificates, effectively reducing or even eliminating certificatre sprawl. However accomplishing this meant that certain specific critera had to be met:
+Those Platform Engineers and Systems Administrators managing private infrastructure managed to figure out ways to utilise LetsEncrypt to issue certificates for our internal services. In some instances this could completely eliminate the need for internal certificate authorities and snakeoil certificates, effectively reducing or even eliminating certificate sprawl. However accomplishing this meant that certain specific criteria had to be met:
 
 - A publicly registered DNS Address
 - DNS Registrar with: LetsEncrypt DNS-01 -or- API Capability and some [insert favourite language here] knowledge
@@ -31,11 +31,11 @@ Those Platform Engineers and Systems Administrators managing private infrastrucu
 
 For those using this method to provide externally-valid certs for internal services, there were a number of additional gotchas;
 
-1. Certificates only valid for 3 months and needed constant renewal - this was a big issue for those who wanted to use these certificats for anything other than web frontend.
-2. Certbot certificate default permissions and locations (`/etc/letsencrypt/live/sub.domain.tld/`) - This was a massive problem for services that did not have access to this directory. Due to the way LetsEncrypt's default directory permissions and the (cleaver) use of Symbolic Links, access to this directory was limited to applications with more privilages than normal, such as web-servers / reverse proxies that were required to run with additional privilages.
+1. Certificates only valid for 3 months and needed constant renewal - this was a big issue for those who wanted to use these certificates for anything other than web frontend.
+2. Certbot certificate default permissions and locations (`/etc/letsencrypt/live/sub.domain.tld/`) - This was a massive problem for services that did not have access to this directory. Due to the way LetsEncrypt's default directory permissions and the (clever) use of Symbolic Links, access to this directory was limited to applications with more privileges than normal, such as web-servers / reverse proxies that were required to run with additional privileges.
 3. Services requiring reload or restart upon certificate replacement
 
-Points two and three could be resolved through the use of Certbot Pre, Deploy and Post hooks - simply put these were executable files that could be triggered before, during and after a certificate request/renewal to perform actions such as restarting services or copying certificates. Indeed [Jeff Geerling's Ansible Role; Certbot](https://github.com/geerlingguy/ansible-role-certbot) makes extensive use of this to restart services on demand. [My own fork of this role: certbot](https://github.com/tfindley/ansible-role-certbot) extended this to allow for the copying of the certificates to diffirent locations.
+Points two and three could be resolved through the use of Certbot Pre, Deploy and Post hooks - simply put these were executable files that could be triggered before, during and after a certificate request/renewal to perform actions such as restarting services or copying certificates. Indeed [Jeff Geerling's Ansible Role; Certbot](https://github.com/geerlingguy/ansible-role-certbot) makes extensive use of this to restart services on demand. [My own fork of this role: certbot](https://github.com/tfindley/ansible-role-certbot) extended this to allow for the copying of the certificates to different locations.
 
 This, was the start of my journey into reinventing certbot for use with Hashicorp Vault. After trying to add support to Jeff's role for internal certificate authorities, the role became far too difficult to implement, so I abandoned my alterations, and instead began work on the Vault Certificate Manager script in Python.
 
@@ -46,13 +46,13 @@ This, was the start of my journey into reinventing certbot for use with Hashicor
 - Certificates can and will Expire
 - Certificates need a longer life than 3 months (this is an ACME restriction)
 - Services need certs in the right place, with the right permissions
-- Services needs to be restarted or reloaded to read the certificats
+- Services needs to be restarted or reloaded to read the certificates
 - Sometimes HTTP or DNS verification can't work for certificate request validation
 - Certificate request authorisation is required
 - IP SANs or Non-conforming DNS SANS (localhost, *.dev, *.local) may be required
 - Certificate reuse needs to be scalable.
 
-At it's core, [VCM](https://github.com/tfindley/vault_certificate_manager) is a lightweight Python3 script that uses it's own Python virtual environment. It uses:
+At its core, [VCM](https://github.com/tfindley/vault_certificate_manager) is a lightweight Python3 script that uses its own Python virtual environment. It uses:
 
 - `requests` to talk to Vault’s API
 - `pyyaml` for config parsing
@@ -139,4 +139,4 @@ We’ve used [VCM](https://github.com/tfindley/vault_certificate_manager) to aut
 
 ## Related Articles
 
-- [LetsEncrypt with High Availabilty](/posts/2025-03-27-letsencrypt_on_ha/)
+- [LetsEncrypt with High Availability](/posts/2025-03-27-letsencrypt_on_ha/)

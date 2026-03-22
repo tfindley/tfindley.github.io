@@ -206,7 +206,7 @@ This bag accompanied me through 2000KM of Canadian Rockies during my 2015 tour. 
 ### Kata HB-205 GDC Hiker Backpack
 
 <img align="right" width="150" height="150" src="kata-hb-205-gdc1-150x150.png">
-A large backpack with 6-point harness system for easy comfort while carrying. This bag comfortably fits the Canon 1D Mark IV with a 70-200mm f/2.8L IS II USM attached, a 24-70mm f/2.8L USM, both camera hoods, weather covers, 2x Pocket Wizard FlexTT5's and 2x Canon Speedlite 430 EX II's, with room for one or two extra bits inside, an iPad in the front, and a waterbottle and Tripod or Monopod on the sides. This bag carries everything and more needed for a long day's shoot, and is perfect for any shoot that requires traveling by foot over longer distances.
+A large backpack with 6-point harness system for easy comfort while carrying. This bag comfortably fits the Canon 1D Mark IV with a 70-200mm f/2.8L IS II USM attached, a 24-70mm f/2.8L USM, both camera hoods, weather covers, 2x Pocket Wizard FlexTT5's and 2x Canon Speedlite 430 EX II's, with room for one or two extra bits inside, an iPad in the front, and a waterbottle and Tripod or Monopod on the sides. This bag carries everything and more needed for a long day's shoot, and is perfect for any shoot that requires travelling by foot over longer distances.
 
 ### Kata DL-B-210 Bumblebee D-Light Backpack
 
@@ -215,7 +215,7 @@ My Kata DL-B-210 is my every-day backpack that  gives me something to carry a r
 
 While I am certain the DL-B-210 could be adjusted to carry a Pro body with Grip with minimal sacrifice to the lens area, I choose to remain with a Canon 650D for my every-day carry-around body, almost always with a Sigma 50mm f/1.4 attached and the 18-55mm kit lens as backup.
 
-As with all backpacks, the most important feature is how comfortable it is to carry around. The answer for this bag is 'Very comfortable'. While it does not have the same advanced harness system that the HB-205 has, the shoulder straps paired with the waist strap and chest strap provide a comfortable and well-padded (if not brilliantly ventilated) experience. The most important feature of this bag though is its weight. When empty, the bag is shockingly light-weight. This is extremely important when carrying it for extended periods of time, or when traveling abroad on charter airlines when every gram of weight is at a premium (less you get charged over-weight baggage fees).
+As with all backpacks, the most important feature is how comfortable it is to carry around. The answer for this bag is 'Very comfortable'. While it does not have the same advanced harness system that the HB-205 has, the shoulder straps paired with the waist strap and chest strap provide a comfortable and well-padded (if not brilliantly ventilated) experience. The most important feature of this bag though is its weight. When empty, the bag is shockingly light-weight. This is extremely important when carrying it for extended periods of time, or when travelling abroad on charter airlines when every gram of weight is at a premium (less you get charged over-weight baggage fees).
 
 You can purchase the Kata Bumblebee 210 here from Amazon UK.
 
