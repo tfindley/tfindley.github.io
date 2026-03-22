@@ -7,7 +7,7 @@ tags:
     - sony
     - canon
     - photography
-
+description: "Why I switched from Canon to Sony — leaving a decade of Canon gear behind for the Sony A7rII mirrorless system."
 ---
 
 So it's the night before my new Sony α7rII is due to arrive. From all indications, I could be one of the very first people in the world to get my hands on a retail version. It's exciting. It feels a little like the night before Christmas Morning. I'm also a touch nervous as I've dived in with both feet. I've sold all of my Canon Gear (all bar two lenses) so right now I'm a Pro Photographer with no camera... kind of embarrassing, but it does make me laugh a little. I find myself contemplating how I go to this point?

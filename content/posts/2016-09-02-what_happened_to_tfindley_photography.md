@@ -5,6 +5,7 @@ categories:
     - Photography
 tags:
     - photography
+description: "Why TFindley Photography went offline and the plan to rebuild the site as a separate, focused photography presence."
 ---
 
 Those of you who have kept up to date with me over the past few years know that I sunk a fair amount of time and effort into my online presence. So why was it that 3 months ago <a href="https://tfindley.co.uk">tfindley.co.uk</a> changed to a default WordPress holding page?

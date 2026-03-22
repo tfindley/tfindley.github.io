@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+description: "About Tristan Findley — Technical Team Lead and Platform Engineer with 19+ years of experience in DevOps, infrastructure automation, and team leadership."
 # date = '2024-12-06T10:31:00+01:00'
 # layout: 'basic'
 showHero:  true

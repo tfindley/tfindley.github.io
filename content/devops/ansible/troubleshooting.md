@@ -1,4 +1,11 @@
-# Ansible Troubleshooting
+---
+title: Ansible Troubleshooting
+description: "Troubleshooting Ansible with the Netbox dynamic inventory plugin — fixing authentication errors and missing dependencies."
+tags:
+  - ansible
+  - netbox
+  - technical
+---
 
 ## Ansible with Netbox Dynamic inventory plugin
 

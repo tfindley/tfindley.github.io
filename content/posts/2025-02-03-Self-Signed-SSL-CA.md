@@ -16,6 +16,7 @@ tags:
   - ssl
   - ca
   - bash
+description: "How to build a self-signed Certificate Authority for development and testing environments using Bash and OpenSSL."
 showTableOfContents: true
 draft: false
 ---

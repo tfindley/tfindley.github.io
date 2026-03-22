@@ -4,6 +4,7 @@ title: "Frequently Asked Questions"
 excerpt: ""
 toc: false
 classes: wide
+description: "Frequently asked questions — what this site is, what I do, the story behind my CV design, and yes, that was me on BBC's Fake Britain."
 ---
 Welcome to the (not so) Frequently Asked Questions.
 

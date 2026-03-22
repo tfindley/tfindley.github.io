@@ -10,6 +10,7 @@ tags:
 showTableOfContents: false
 draft: false
 title: Happy New Year, Happy New Site.
+description: "Migrating from WordPress to Hugo — why I moved my personal site to a static site generator after over a decade on WordPress."
 ---
 
 A Happy New Year for 2025 to everyone, and time for a long overdue update about this site. 

@@ -14,6 +14,7 @@ tags:
   - devops
   - linux
   - macos
+description: "Step-by-step guide to setting up an Ansible development environment with Python virtual environments on Linux and macOS."
 showTableOfContents: true
 draft: false
 params:

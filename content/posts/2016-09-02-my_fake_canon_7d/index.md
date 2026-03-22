@@ -7,6 +7,7 @@ tags:
   - "journal"
   - "photography"
   - "tv"
+description: "My experience buying a counterfeit Canon 7D and appearing on BBC's Fake Britain — the full story behind the incident."
 showTableOfContents: true
 ---
 ![Fake Britain questionnaire on Facebook](screen-shot-2016-09-02-at-13.10.28.png)

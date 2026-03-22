@@ -5,4 +5,5 @@ excerpt: ""
 toc: false
 showWordcount: false
 date: 2001-11-01
+description: "Early career experience at Farnborough Sixth Form College."
 ---

@@ -1,5 +1,6 @@
 ---
 title: 'Photography'
+description: "TFindley Photography — wildlife, film-set, event, and portrait photography since 2010."
 layout: simple
 showPagination: false
 ---

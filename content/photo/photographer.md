@@ -1,5 +1,8 @@
 ---
 title: The Photographer
+description: "About Tristan Findley as a photographer — from wildlife and film-set work to founding TFindley Photography in 2010."
+tags:
+  - photography
 ---
 My name is Tristan Findley. I was born November 1984 in Farnborough, Hampshire, and have been employed at Royal Holloway University of London since 2006 as an I.T. Systems Administrator of the world renowned <a title="Information Security Group - Royal Holloway University" href="http://www.rhul.ac.uk/isg/home.aspx" target="_blank" rel="noopener">Information Security Group</a>, <a title="Department of Mathematics - Royal Holloway University" href="http://www.rhul.ac.uk/mathematics/home.aspx" target="_blank" rel="noopener">Department of Mathematics</a> and <a title="Department of Computer Science - Royal Holloway University" href="http://www.rhul.ac.uk/computerscience/home.aspx" target="_blank" rel="noopener">Department of Computer Science</a>.
 

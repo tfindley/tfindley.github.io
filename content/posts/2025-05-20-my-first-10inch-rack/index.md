@@ -9,6 +9,7 @@ tags:
   - "10-inch"
   - "ssl"
   - "ha"
+description: "Building my first 10-inch network rack for a compact homelab setup."
 showTableOfContents: true
 draft: false
 ---

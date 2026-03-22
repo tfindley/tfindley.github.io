@@ -9,6 +9,7 @@ tags:
   - "reviews"
   - "solved"
   - "tech-problem"
+description: "BIOS settings guide for running Corsair Dominator DDR3 RAM on an Asus Maximus III Formula motherboard with a Core i5."
 ---
 
 With my recent experience of building two Core i5 systems on Asus Maximus III Extreme  Motherboards still fresh in my mind, I thought I would impart some of the knowledge to the general community to help people with similar or identical setups.

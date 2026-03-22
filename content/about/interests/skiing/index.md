@@ -4,6 +4,11 @@ title: "Skiing"
 excerpt: ""
 toc: false
 classes: wide
+description: "Skiing since 1994 across Andorra, Austria, Italy, France, Canada, and the USA — trip history, gear list, and GoPro videos."
+tags:
+  - skiing
+  - interests
+  - travel
 ---
 
 I **LOVE** to ski! Whether its in the French Alps or the far-away land of Canada, give me a mountain with snow, two planks to strap to my feet, and I’m the happiest person in the world! My first time on snow was in 1994 when I skied in Arinsal, Andorra.  Since then, I’ve tried to escape to the mountains every year to get a fix of that fresh mountain air and that crisp snow.

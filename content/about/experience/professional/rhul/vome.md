@@ -1,5 +1,10 @@
 ---
 title: VOME Project - Royal Holloway University
+description: "Systems administration for the VOME research project — a privacy and consent study across Royal Holloway, Salford, and Cranfield universities."
+tags:
+  - sysadmin
+  - wordpress
+  - experience
 ---
 ## About VOME
 

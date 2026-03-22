@@ -1,6 +1,7 @@
 ---
 permalink: /coffee/otg
 title: "On-the-go Coffee"
+description: "Portable coffee brewing gear — AeroPress, OutIn Nano espresso maker, and manual grinders for travel."
 excerpt: ""
 toc: false
 classes: wide

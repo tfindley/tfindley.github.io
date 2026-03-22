@@ -1,6 +1,7 @@
 ---
 permalink: /coffee/index
 title: "Coffee Index"
+description: "Tasting notes and ratings for coffees from roasters including Moon Roast, Penningtons, Rave, Taylors, Union, and more."
 excerpt: ""
 toc: false
 classes: wide

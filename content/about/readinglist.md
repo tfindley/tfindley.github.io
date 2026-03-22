@@ -4,6 +4,7 @@ title: "Reading List"
 excerpt: ""
 toc: false
 classes: wide
+description: "Books I recommend — management titles like The Phoenix Project and fiction series including Chronicles of St. Mary's."
 ---
 
 ## Management Books

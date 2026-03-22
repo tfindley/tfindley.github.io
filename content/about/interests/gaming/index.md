@@ -1,4 +1,8 @@
 ---
+description: "PC gaming, Steam profile, Discord contact, and streaming — from Battlefield and Kerbal Space Program to building custom rigs."
+tags:
+  - gaming
+  - interests
 ---
 I know this isn't exactly 'professional', but we all have to unwind once in a while. Gaming has been a part of my life for many years - Less so ever since taking up Martial Arts and Motorcycling, but I do occasionally chill with a few rounds of Battlefield 4 or an hour or two in the Kerbal Space Program sandbox. Gaming has also been the background for a lot of my computer knowledge, especially when it comes to building computers and keeping up on the latest developments in CPU and GPU architecture. These skills still serve me today, whether it be for specifying a high-end system for use in research or building a custom gaming rig for a friend.
 

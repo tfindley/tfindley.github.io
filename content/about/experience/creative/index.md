@@ -4,6 +4,11 @@ title: "The Creative World"
 excerpt: ""
 toc: false
 classes: wide
+description: "Creative career spanning photography, film production, audio engineering, and desktop publishing — from BTS photographer to Assistant Director."
+tags:
+  - photography
+  - film
+  - experience
 ---
 
 In tandem with my technical career, I’ve nurtured a set of creative skills. While my initial focus was Photography, my experience has expanded into Video Production, Desktop Publishing, and Audio Engineering.

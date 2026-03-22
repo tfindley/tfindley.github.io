@@ -2,6 +2,11 @@
 title: Photography Gear
 showPagination: false
 layout: simple
+description: "Full photography kit list — Sony and Canon camera bodies, Carl Zeiss and Canon L-series lenses, lighting systems, and camera bags."
+tags:
+  - photography
+  - sony
+  - canon
 ---
 
 ## Cameras (Current)
