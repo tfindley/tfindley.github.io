@@ -1,6 +1,7 @@
 ---
 permalink: /tech/meshcomms
 title: "Mesh Communications"
+description: "Off-grid mesh networking with Meshtastic and Meshcore — decentralised LoRa communications on affordable, low-power devices."
 excerpt: ""
 toc: false
 classes: wide

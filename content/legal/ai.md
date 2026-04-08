@@ -1,8 +1,12 @@
 ---
 title: AI Policy
+description: "How AI tools are used on this site — principles of transparency, human oversight, and no AI-generated imagery."
 # cardView: true
 # cardViewScreenWidth: false
 # constrainItemsWidth: false
+tags:
+  - ai
+  - ethics
 ---
 
 ## My Ethical Statement

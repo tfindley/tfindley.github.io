@@ -1,5 +1,6 @@
 ---
 title: Legal, Privacy, Statements and Terms & Conditions
+description: "Legal notices, copyright, terms and conditions, AI policy, and downloadable model/property release forms."
 showPagination: true
 cardView: true
 cardViewScreenWidth: false

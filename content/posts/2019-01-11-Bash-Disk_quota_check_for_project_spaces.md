@@ -10,6 +10,7 @@ tags:
   - quantum
   - stornext
   - storage
+description: "Writing a Bash script to query disk quotas on Quantum StorNext storage systems for end users."
 ---
 
 Since my return to work after the Christmas break, I had a challenge to write a script to provide our users a way of querying the disk quota available to them on their network storage.

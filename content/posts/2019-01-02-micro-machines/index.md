@@ -5,6 +5,7 @@ categories:
   - journal
 tags: 
   - "journal"
+description: "Cataloguing my childhood Micro Machines collection — Star Trek, Star Wars, Babylon 5, and military sets."
 showTableOfContents: true
 ---
 

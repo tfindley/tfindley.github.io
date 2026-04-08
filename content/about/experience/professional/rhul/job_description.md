@@ -1,5 +1,9 @@
 ---
 title: Royal Holloway University - Job Description
+description: "IT Systems Administrator role at Royal Holloway — hardware, software, web, security, labs, and project delivery responsibilities."
+tags:
+  - sysadmin
+  - experience
 ---
 
 ## Summary of Responsibilities

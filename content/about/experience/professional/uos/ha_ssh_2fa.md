@@ -1,5 +1,10 @@
 ---
-
+description: "High-availability infrastructure at UoS — HAProxy/KeepAliveD load balancing and SSH with Google two-factor authentication."
+tags:
+  - haproxy
+  - high-availability
+  - security
+  - experience
 ---
 HAProxy / KeepAliveD - High Availability 
 

@@ -1,4 +1,9 @@
 ---
+description: "Quantum StorNext, Lattus object storage, and Dell FluidFS — managing petabyte-scale research storage at the University of Surrey."
+tags:
+  - storage
+  - quantum
+  - experience
 ---
 In December 2017 I began working with the existing Senior Storage Administrator in FEPS to support the faculties extensive Storage systems.
 

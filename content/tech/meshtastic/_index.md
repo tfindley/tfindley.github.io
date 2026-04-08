@@ -1,6 +1,7 @@
 ---
 permalink: /tech/meshtastic/
 title: "Meshtastic"
+description: "My Meshtastic nodes and setup — LoRa mesh networking devices from Lilygo, Heltec, SEEED Studio, and RAK."
 excerpt: ""
 toc: false
 classes: wide

@@ -1,5 +1,10 @@
 ---
 title: Stateful AntiVirus Solution
+description: "Designing a stateless, multi-vendor antivirus scanning solution using Docker for secure import/export between classified environments."
+tags:
+  - docker
+  - security
+  - experience
 ---
 Design of a 'stateful' Antivirus solution for use with Import/Export (Imp/Ex) between Low-side and High-side secure environments prior to transmission via DIODES.
 

@@ -1,6 +1,11 @@
 ---
 title: Canada
 date: 2015-09-25
+description: "Photo gallery from a road trip through the Canadian Rockies — Calgary to Vancouver via Banff, Jasper, Clearwater, and Whistler."
+tags:
+  - travel
+  - photography
+  - canada
 ---
 
 {{< gallery >}}

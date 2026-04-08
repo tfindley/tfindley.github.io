@@ -1,5 +1,6 @@
 ---
 title: 'Technology Stack Experience'
+description: "Summary of technologies used professionally, grouped by proficiency — from Ansible and Terraform to Linux, containers, and cloud platforms."
 layout: simple
 showPagination: false
 ---

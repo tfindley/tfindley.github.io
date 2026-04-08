@@ -17,7 +17,7 @@ DevOps is more than a toolkit — it’s a mindset. It’s the commitment to bui
 
 - **Automation first:** Manual work is waste. Automation should be reusable, sustainable, and documented so it can be understood and improved by anyone. My Ansible roles, Terraform modules, and CI/CD pipelines are designed for repeatability, resilience, and auditability.
 
-- **Cattle, not pets:** Infrastructure should be disposable, redeployable, and recoverable. We don’t need to cling to broken systems — we replace them. The real value lies in data, code, and endpoints.
+- **Disposable, by design:** Infrastructure should be disposable, redeployable, and recoverable. We don’t need to cling to broken systems — we replace them. The real value lies in data, code, and service delivery. "Cattle, not pets".
 
 - **Observability as governance:** Monitoring isn’t an afterthought. Systems must be self-healing where possible, and failures should be visible, measurable, and traceable. Observability is a shared responsibility, not just a tool.
 

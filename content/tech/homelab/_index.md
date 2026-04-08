@@ -1,6 +1,7 @@
 ---
 permalink: /tech/homelab/
 title: "HomeLab"
+description: "My homelab setup — hardware specs, server builds, and the self-learning journey that feeds my professional career."
 excerpt: ""
 toc: false
 classes: wide

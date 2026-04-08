@@ -6,6 +6,7 @@ categories:
 tags: 
   - dns
   - ntp
+description: "A perfect storm in my homelab — how a DNS and NTP dependency loop caused a cascade failure across my home infrastructure."
 showTableOfContents: true
 ---
 So it’s rare that I have an outage in my home infrastructure that turns into a perfect storm, but this was an interesting edge-case I had never thought of — and one worth talking about.

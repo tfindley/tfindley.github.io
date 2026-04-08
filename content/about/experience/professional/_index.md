@@ -1,5 +1,6 @@
 ---
 title: "Professional Experience"
+description: "Professional career history spanning defence, cloud infrastructure, telecommunications, biotechnology, and higher education."
 cardView: true
 cardViewScreenWidth: false
 constrainItemsWidth: false

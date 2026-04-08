@@ -7,6 +7,7 @@ categories:
 tags: 
   - photography
   - review
+description: "Comparing tripod quick-release plates from 3 Legged Thing and Peak Design — compatibility and design differences."
 ---
 So this is a bit of a niche post, but I figured it was worthy of a little bit of attention. Those of you who are UK and US based photographers have probably come across the company '3 Legged Thing', makers of some truly lovely tripods. Recently, 3 Legged Thing have teamed up with Peak Design, another company that I have great respect for. This partnership appears to go beyond the simple of selling Peak Design products on the UK 3 Legged Thing website.
 

@@ -4,6 +4,10 @@ title: "Martial Arts"
 excerpt: ""
 toc: false
 classes: wide
+description: "Training in Ken Kai Ryu sword and Bushido Karate at the Bushido Academy — Black Belt and First Dan holder, teaching assistant since 2017."
+tags:
+  - martial-arts
+  - interests
 ---
 
 # Martial Arts

@@ -1,5 +1,6 @@
 ---
 title: The Brand
+description: "TFindley Photography brand guidelines — logo usage, colour palette, and animated logo intros created in Adobe After Effects."
 ---
 Want to use our logo for something? Great! We'd love you to! But we do ask you to be respectful.
 

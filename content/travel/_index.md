@@ -1,5 +1,6 @@
 ---
 title: "Travel"
+description: "Travel log and photo galleries — trips across Canada, Alaska, New Zealand, Europe, and the UK."
 cardView: true
 cardViewScreenWidth: false
 constrainItemsWidth: false

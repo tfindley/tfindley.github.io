@@ -1,6 +1,7 @@
 ---
 permalink: /coffee/station
 title: "Our Coffee Station"
+description: "Home coffee station featuring a Sage Bambino espresso machine, Moccamaster filter, Fellow Stagg kettle, and more."
 excerpt: ""
 toc: false
 classes: wide

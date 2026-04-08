@@ -1,6 +1,7 @@
 ---
 permalink: /tech/battlestation/
 title: "Battlestation"
+description: "My desk setup and gaming PC builds — current and previous rigs, peripherals, and hardware specs."
 excerpt: ""
 toc: false
 classes: wide

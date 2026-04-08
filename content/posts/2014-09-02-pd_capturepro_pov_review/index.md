@@ -7,6 +7,7 @@ categories:
 tags: 
   - photography
   - review
+description: "Hands-on review of the Peak Design Capture Pro camera clip and POV Kit for action and outdoor photography."
 ---
 <img align="left" width="150" height="150" src="transparent-logo-pd-alt.png">
 Peak Design are a USA-Base company who started out in 2010 with the Capture Clip, their first camera clip that was designed to solve camera carrying problems of creator Peter Dering. The original design pioneered on [Kickstarter](https://www.kickstarter.com) [Capture Camera Clip System](https://www.kickstarter.com/projects/peak-design/capture-camera-clip-system) **$364,698**. A brief history of the company can be found on [About Us | Peak Design](https://peakdesignltd.com/about/) their website, or on [Capture Camera Clip System: How to Lose 20 Pounds in 3 Seconds](http://news.smugmug.com/2012/01/05/capture-camera-clip-system-how-to-lose-20-pounds-in-3-seconds/) - The SmugMug Blog.

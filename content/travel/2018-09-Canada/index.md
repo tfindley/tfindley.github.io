@@ -1,7 +1,11 @@
 ---
 title: Canada
 date: 2018-09-14
-
+description: "Road trip from Calgary to Vancouver — Banff, Jasper, Sun Peaks, Harrison Hot Springs, Squamish, and Victoria."
+tags:
+  - travel
+  - photography
+  - canada
 ---
 
 Flying from London Heathrow to Calgary, Alberta.

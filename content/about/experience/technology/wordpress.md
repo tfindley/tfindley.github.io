@@ -1,5 +1,10 @@
 ---
 title: WordPress
+description: "WordPress experience — from personal sites to a multi-site platform serving 100 users across Royal Holloway University departments."
+tags:
+  - wordpress
+  - web
+  - experience
 ---
 
 I first encountered WordPress back in version 2010 while learning different Content Management Systems for deployment on my home-built web server. Comparing it to other platforms such as Drupal, Mambo and Joomla, WordPress came across as the most complete solution, although at the time I did not grasp the scalability or capability of the platform. Once I had a good enough grasp of the platform, I set about building a new website that encompassed an online resumé, photo gallery and blog.

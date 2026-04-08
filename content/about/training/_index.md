@@ -1,5 +1,6 @@
 ---
 title: "Training & Qualifications"
+description: "Professional qualifications, certifications, and education — including CMI People Leadership, ITIL, Red Hat Linux, and a BSc in Computer Network Management."
 cardView: true
 cardViewScreenWidth: false
 constrainItemsWidth: false

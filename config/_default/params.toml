@@ -1,3 +1,4 @@
+description = "Personal site of Tristan Findley — Technical Team Lead & Platform Engineer. Writing about DevOps, infrastructure automation, homelab, and photography."
 colorScheme = "terminal"
 defaultAppearance = "light"
 autoSwitchAppearance = true

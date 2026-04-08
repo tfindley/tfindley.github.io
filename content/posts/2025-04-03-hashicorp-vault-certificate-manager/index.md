@@ -12,6 +12,7 @@ tags:
   - "hashicorp"
   - "vault"
   - "python"
+description: "Building a Python-based certificate manager that automates TLS certificate issuance and renewal using Hashicorp Vault and Let's Encrypt."
 showTableOfContents: false
 draft: false
 ---

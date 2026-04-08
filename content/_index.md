@@ -1,5 +1,6 @@
 ---
 title: Tristan Findley
+description: "Personal site of Tristan Findley — Technical Team Lead & Platform Engineer writing about DevOps, infrastructure, homelab, photography, and more."
 cardView: true
 cardViewScreenWidth: false
 constrainItemsWidth: false

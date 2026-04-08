@@ -1,6 +1,7 @@
 ---
 permalink: /coffee
 title: "Coffee Resources"
+description: "Coffee station setup, on-the-go brewing gear, coffee index with tasting notes, and useful resources."
 excerpt: ""
 toc: false
 classes: wide

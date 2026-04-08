@@ -1,6 +1,12 @@
 ---
 title: Alaska, USA
 date: 2018-07-13
+description: "Road trip through Alaska — Anchorage to Fairbanks via Denali National Park, with camping, cabins, and yurts."
+tags:
+  - travel
+  - photography
+  - usa
+  - alaska
 ---
 
 Flying from London Heathrow to Frankfurt, and then on to Anchorage, Alaska, USA.

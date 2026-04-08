@@ -9,6 +9,7 @@ tags:
   - "certbot"
   - "ssl"
   - "ha"
+description: "How to obtain and manage Let’s Encrypt certificates across a high-availability setup with Keepalived and a floating VIP."
 showTableOfContents: true
 draft: false
 ---

@@ -1,6 +1,7 @@
 ---
 permalink: /tech
 title: "My Tech area"
+description: "Homelab, battlestation, self-hosted services, and mesh communications — the tech I run and tinker with outside of work."
 excerpt: ""
 toc: false
 classes: wide

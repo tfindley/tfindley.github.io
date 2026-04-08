@@ -5,6 +5,7 @@ categories:
     - Photography
 tags: 
   - photography
+description: "Testing PocketWizard MiniTT1 and FlexTT5 radio trigger compatibility with Sony, Olympus, and other non-Canon/Nikon cameras."
 ---
 
 Many years ago, my first Canon 430EX II Speedlite drastically changed the way I looked at Photography. At the time I was getting started, and inexperienced with the advanced techniques such as off-camera lighting. Adding a decent Speedlite with a rotatable head opened up whole new worlds to me. Then came my Canon 7D with an IR Transmitter built into the on-camera flash. This meant triggering (With ETTL) of off-camera Speedlites. Again, new worlds were opened to me - now the possibility of professionally lighting a scene with one or two off-camera Speedlites was a whole new realm of exploration and learning.
