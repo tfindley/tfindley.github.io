@@ -4,12 +4,13 @@ date: 2024-12-12
 author: Tristan Findley
 categories:
   - Technical
-  - Ansible
 tags:
   - technical
   - dns
-  - DoT
-  - DoH
+  - dot
+  - doh
+  - ansible
+description: "How to generate DNS Stamps so you can configure DoT and DoH upstream resolvers in UniFi (and anywhere else that wants the sdns:// format)."
 showTableOfContents: true
 draft: false
 ---

@@ -1,15 +1,14 @@
 ---
 title: "Guide: Corsair CMD8GX3M4A1600C8 on Asus Maximus III Formula"
 date: "2009-10-07"
-categories: 
-  - "guides"
-tags: 
-  - "guides"
-  - "hardware"
-  - "reviews"
-  - "solved"
-  - "tech-problem"
+tags:
+  - vintage
+  - hardware
 description: "BIOS settings guide for running Corsair Dominator DDR3 RAM on an Asus Maximus III Formula motherboard with a Core i5."
+build:
+  list: never
+  render: always
+  publishResources: true
 ---
 
 With my recent experience of building two Core i5 systems on Asus Maximus III Extreme  Motherboards still fresh in my mind, I thought I would impart some of the knowledge to the general community to help people with similar or identical setups.

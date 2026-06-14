@@ -1,0 +1,26 @@
+{{/* Schema.org Person markup on the homepage and About section.
+     Posts already emit Article schema via the theme; this adds identity
+     signal that Google's Knowledge Panel / recruiter tools rely on. */}}
+{{ if or .IsHome (eq .Section "about") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Tristan Findley",
+  "jobTitle": "Technical Team Lead & Platform Engineer",
+  "description": "Building and leading DevOps teams that deliver reliable, automated infrastructure.",
+  "url": "https://tfindley.co.uk/",
+  "image": "https://tfindley.co.uk/img/tristan-findley.png",
+  "sameAs": [
+    "https://linkedin.com/in/tfindley",
+    "https://github.com/tfindley",
+    "https://gitlab.com/tfindley",
+    "https://keybase.io/tfindley",
+    "https://stackoverflow.com/users/28666042",
+    "https://instagram.com/tristanfindley",
+    "https://www.youtube.com/channel/UCTzlh2rZXFmI0D95hoc14Gw",
+    "http://www.imdb.com/name/nm4271719/"
+  ]
+}
+</script>
+{{ end }}

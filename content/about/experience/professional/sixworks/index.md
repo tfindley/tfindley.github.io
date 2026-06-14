@@ -8,78 +8,205 @@ showWordcount: false
 showReadingTime: false
 ---
 
-**Platform Services Team Lead**
-
-01/02/2023 - 31/12/2024
-
-I joined SiXworks in 2023 after leaving UKCloud to build and lead the Platform Services team from the ground up -- assembling a team of four DevOps engineers to deliver automated deployment and configuration solutions across physically air-gapped customer environments operating at multiple levels of classification.
+**Duration:** February 2023 – January 2024 (~11 months)
+**Location:** Farnborough, Hampshire (Cody Technology Park) — Hybrid
+**Role:** Platform Services Team Lead
 
 ---
 
-## The Mission
+## The Company
 
-Our team operated as a Site Reliability Engineering function with a DevOps mindset, providing automation solutions and expertise to both our customer environments and the wider business. The goal I set from day one was to establish an **automation-first, fully auditable** approach to deployments -- replacing the prevailing culture of manual work with repeatable, version-controlled infrastructure.
+SiXworks is a defence and national security digital innovation specialist — a trusted partner to the UK Ministry of Defence, focused on accelerating the adoption of secure, experimental technology to improve the operational agility of Defence and National Security.
 
-## What We Built
+Their model is distinctive: move fast, experiment, prove the concept, then sustain it. Where others stop at proof-of-concept, SiXworks crosses the "Valley of Death" into live service delivery. They describe their approach as "constructively disruptive" — high assurance, Zero Trust, Data-Centric architectures, deployed in environments most technology companies will never encounter.
 
-We designed and delivered automation solutions for deploying software installations and configurations into **physically air-gapped environments** -- separate networks with no internet access or intercommunication, often under different classifications or projects. This presented a unique challenge: staff needed to contribute meaningfully to projects they might not be read into.
+I joined in February 2023 when the company had around 70 people and was at the start of a deliberate growth phase. By July 2024 — six months after I left — SiXworks had grown to around 170 people and was acquired by IBM Consulting, specifically for the defence digital transformation capabilities the team had built. I'm proud that the work my team delivered was part of that foundation.
 
-Our solution used **Ansible** as the primary delivery mechanism, wrapped in **Docker images** for version-controlled deployments. This ensured all code could be easily audited and inspected at any classification level prior to execution. We supplied configuration examples to each environment, enabling easy implementation of our automation without any environment-specific details ever being exfiltrated.
+---
 
-The team would build these automations, package them as deployable artefacts along with all required tooling for a consistent deployment environment, and ship them to the target environments for hands-on deployment or hand them off to other engineers to consume and deploy.
+## My Brief
 
-### Automated OS Image Pipeline
+I was brought in to build the Platform Services team from the ground up — there was no team to inherit, so I started one from nothing.
 
-A key part of our roadmap was taking control of the entire automation supply chain, starting with the base VM image. One of my engineers expressed an interest in security hardening, so I directed him to look at our image supply chain and apply hardening at the base level rather than further down the pipeline. He spent time learning **Terraform and Packer**, then worked through our security standards alongside industry best practice to produce a hardened OS image that could be built automatically and consumed by anyone in the business. This image ensured consistency from dev through to customer deployment.
+That meant hiring four engineers, working out how we'd operate, settling on a technical philosophy, building the delivery pipeline, and setting the cultural tone — all while delivering against live MOD requirements from the first week.
 
-## Outcomes
+I reported to Francesca Wise, who had also been my manager at UKCloud — a relationship of mutual trust that gave us a strong foundation from the start.
 
-- **Deployments that "just worked"** -- feedback from other teams and leads consistently reported that our deployments into environments were practically zero-touch after initial rollout. Long after I left, my counterpart team lead reported that while other teams were still troubleshooting their deployments, ours remained stable and functional with no intervention required.
-- **Automation-first adopted at board level** -- I successfully made the case to the board of directors for an automation-first way of working, pushing back against pressure to "just get it done" manually. This set the standard for how the business approached deployments going forward.
-- **Cross-environment consistency** -- any feedback received from one customer environment was implemented and benefited all environments, creating a virtuous cycle of continuous improvement.
-- **Foundation for the business** -- our approach laid the groundwork for automation practices across the company, establishing patterns and tooling that other teams could adopt.
+---
+
+## The Technical Mission
+
+### The Environment
+
+We delivered automation solutions for Project NEXUS — the RAF's Air Information Platform — and other MOD programmes. Project NEXUS is the RAF's Combat Cloud: a sophisticated digital infrastructure designed to deliver decision superiority by connecting sensors and effectors across domains and classifications.
+
+The deployment context was unlike standard cloud or enterprise work. Multiple physically air-gapped environments, each at different classification levels, with no internet connectivity and no intercommunication between them. Every piece of tooling, every configuration, every software artefact had to be physically transported to the target environment.
+
+There was an additional constraint: staff were not always read into all customer projects. This meant our automation had to work without any environment-specific knowledge embedded in the tooling. Classification-agnostic by design.
+
+### Our Approach: Automation-First, Fully Auditable
+
+From the start, I set the team's direction: **automation-first, fully auditable deployment.** No manual steps, no snowflake configurations — nothing that couldn't be inspected, replicated, and verified at any classification level before it ran.
+
+In practice, this meant:
+- Our configuration management tool as the primary delivery mechanism
+- All automation wrapped in container images — portable, version-controlled, self-contained
+- Any code auditable and inspectable at any security level before execution
+- Configuration examples supplied to each environment — enabling deployment without exfiltrating environment-specific details
+- All artefacts packaged with the full tooling needed for a consistent deployment environment
+
+At the heart of this was a self-contained deployment container I designed — internally nicknamed the **briefcase** — built to carry our automations into the air-gapped environments. It bundled the automation, its dependencies, and the tooling needed to run it into a single, portable, auditable package: open it in the target environment and everything needed to deploy was inside. One of my engineers then added a neat layer of orchestration on top, so the automations inside ran in a clean, ordered sequence. This was orchestration aimed squarely at the engineers doing the deploying — technical and deliberate, built for the unusual constraint of shipping software into networks you can't reach over a wire.
+
+I called this approach **[flock of sheep, not pets](/devops/flock-not-pets)** — a philosophy where no VM or configuration instance is special. If something fails, you replace it with an identical one. You care about what the service produces, not about any individual instance. This is the same immutable infrastructure philosophy found in containerisation, applied at the VM level.
+
+We started with an MVP and added functionality iteratively, following Agile principles. By the time I left, the team had delivered the full automated deployment pipeline and the standardised OS image build.
+
+### Hardened OS Image Pipeline
+
+A key part of our roadmap was taking control of the entire automation supply chain at the source: the base VM image.
+
+One of my engineers expressed an interest in security hardening. Rather than directing him to harden individual services downstream, I pointed him at the image supply chain and gave him ownership of the problem at the base level. He spent time learning the infrastructure-as-code and image build tooling independently, worked through our security standards alongside industry best practice, and produced a hardened OS image that could be built automatically and consumed by anyone in the business.
+
+This image ensured consistent, security-verified baseline from development through to customer deployment — hardening baked into the supply chain, not retrofitted per-service.
+
+It also became a case study in how I like to develop people: identify an interest, point it at a real problem, give them ownership, and let them surprise you.
+
+### Platform Tooling & Core Services
+
+Beyond application deployment, the team automated the deployment, configuration, and high-availability setup of all platform tooling and core infrastructure services across every environment:
+
+**Platform tooling:**
+- Secrets management
+- Version control
+- Documentation
+- Service desk and ticketing
+- Automation orchestration
+
+**Core infrastructure:**
+- Identity services
+- Database services
+- Time services
+- Repository services
+- Federated services
+- Logging and monitoring
+
+All of it version-controlled, repeatable, and auditable.
+
+---
 
 ## How I Led the Team
 
-**One-to-ones** -- I held regular one-to-one meetings with each team member in an informal setting away from the main work area, creating a safe space for open conversation. One-to-ones were their time -- focused on their wellbeing, blockers, and celebrating their wins. For me, it was a way of checking on the mental health of my team and identifying where I could act as a sounding board or provide the tools and resources they needed. It is also a mechanism from which to gauge their engagement with assigned projects with outside teams (as well as my team), and with the company overall. This overt people-first culture is something I have a great respect for.
+### One-to-Ones
 
-**Daily standups** -- These kept me and the team aligned on project progress, and were especially important when team members were working in pairs or individually on parts of a larger task. Later, we merged our standup with an adjacent team to foster cross-team communication and closer working relationships. I worked closely with that team's lead to deliver on shared goals.
+I held regular 1-2-1s with each team member in an informal setting away from the main work area — not at a desk, not in a meeting room. Their time, not mine. The agenda was theirs: wellbeing, blockers, wins, frustrations.
 
-**Personal Development Plans** -- I created PDPs for each team member, aligning their personal interests and career aspirations with business needs. This generated a passionate team that brought innovative ideas to the table and actively investigated new technologies and ways of working. Through PDPs and one-to-ones, I could identify knowledge gaps in both my team and the wider business, then find the right resources -- whether that was dedicated learning time during the week, training courses, or software trials.
+For me, it was a way to check the mental health of the team, understand where I could act as a sounding board, and identify what tools or resources would help. It was also how I gauged engagement — with their current work, with adjacent teams, with the company overall.
+
+### Personal Development Plans
+
+I created PDPs for each team member, but not by assigning them tasks from a business wishlist. I started with their interests and career aspirations, then found the overlap with what the business needed. The difference is significant: people bring genuine energy and curiosity to work they care about.
+
+This approach generated a team that brought ideas to the table and actively investigated new technologies and approaches — not because they were asked to, but because they wanted to. The OS image pipeline is the clearest example: one engineer's interest in security became a company-wide capability because we created space for it.
+
+I used PDPs and 1-2-1s together to identify knowledge gaps — both within the team and in the wider business — and then found the right resources to address them: dedicated learning time, training courses, software trials.
+
+### Daily Standups
+
+Standups kept me and the team aligned on progress, particularly when engineers were working in pairs or individually on parts of a larger task. Later, I merged our standup with an adjacent team's to foster closer working relationships and shared visibility across team boundaries.
+
+---
+
+## Automation-First at Board Level
+
+Early in my tenure, there was organisational pressure to take shortcuts — to "just get it done" manually and move faster. I understood the instinct. Manual deployment is faster in the short term.
+
+I pushed back. I made the case to the board of directors that in our environment — air-gapped, multi-classification, physically isolated — there was no viable long-term alternative to automation-first. Manual deployment in this context meant inconsistency, unauditability, and brittleness. The cost of getting it wrong in classified environments is disproportionate.
+
+The board agreed. Automation-first became the company standard for deployments.
+
+It's one of the moments I'm proudest of from this role — less for the technical argument itself than for what it took to win it: turning a technical principle into a business case, and holding the line on it under pressure.
+
+---
+
+## The Outcomes
+
+**Deployments that just worked.** Feedback from other teams and leads consistently described our deployments as zero-touch after initial rollout. No hand-holding required.
+
+**Work that outlasted the role.** Long after I left, my counterpart team lead reported that while other teams were still troubleshooting their deployments, ours remained stable and functional with no intervention required. I find that more meaningful than any uptime metric.
+
+**Cross-environment improvement cycle.** Any issue resolved in one environment was implemented across all four, creating a continuous improvement loop that benefited the full programme.
+
+**Automation-first as company standard.** A technical principle I argued for became company policy.
+
+**Foundation for IBM.** SiXworks was acquired by IBM Consulting six months after I left. The capabilities IBM acquired — defence digital transformation, automated secure deployment, classified environment expertise — were built by teams like mine.
+
+---
+
+## The Roadmap I Left Behind
+
+By the time I left, the team had delivered the core: full automated deployment pipeline and hardened OS image. The planned next phase was active monitoring combined with runbook automation:
+
+- Automatically detect service failures
+- Attempt automated restarts
+- Escalate to reboots or VM replacement if needed
+- Full logging throughout
+- Automated incident channel and war-room establishment on failure
+
+The vision was a system that could detect, respond, escalate, and report on failures without human intervention — right through to spinning up a replacement instance and notifying the right people. We hadn't begun implementation, but the architecture was clear.
+
+---
 
 ## Training
 
-During my time at SiXworks I completed the [People Leadership Programme](/about/training/plp/) with the Chartered Management Institute, earning a **Distinction** in People Leadership (Level 3). I had started the programme in April 2022 while at UKCloud and concluded it in October 2023. This formal qualification underpinned my approach to team leadership, reinforcing the people-focused practices described above. During this time I was supported by colleagues and managers at SiXworks, who contributed greatly to my growth.
+During this role I completed the **CMI People Leadership Programme** with a **Distinction** (Level 3). I had started the programme in April 2022 while at UKCloud, and concluded it in October 2023 at SiXworks. The formal qualification reinforced and gave language to the people-focused leadership practices I'd developed through experience. I'm grateful to colleagues and managers at SiXworks who supported me through it.
 
-## The Roadmap
-
-My approach was to treat the entire environment as a **flock of sheep, not pets**. No configuration instance would be special -- if a VM failed, we could replace it with an identical one that performed the same function. We cared about what the sheep produced (the data in, stored, and out), not about any individual sheep. This is the same philosophy found in containerisation, applied to virtual machines.
-
-We started small with an MVP and added functionality iteratively, following Agile principles. By the time I left, the team had delivered the full automated deployment pipeline and the standardised OS image build. The next phase on the roadmap was active monitoring combined with runbook automation -- automatically detecting service failures, attempting restarts, escalating to reboots or replacement if needed, with full logging and automated war-room establishment. We hadn't begun implementation, but the vision was set.
-
-## Notable Projects
-
-- Automated deployment of supported applications across multiple separate offline environments, spanning multiple classification levels, using automation and containerisation
-- Drove continuous improvement, security analysis, hardening and patching of deployed services through automation
-- Delivered automated deployment, configuration and HA/DR of:
-  - Essential tooling -- Vault, Git, documentation platforms, service desk systems and automation orchestration for platform and project teams
-  - Core infrastructure services -- IDP, databases, NTP, repositories, federated services, logging and monitoring
-- Conducted Linux OS hardening and developed automated secure OS image creation pipelines (Terraform, Packer)
+---
 
 ## Technology
 
-- **Automation:** Ansible, Terraform, Packer
-- **Containerisation:** Docker
-- **Infrastructure:** VMware, Linux (Debian-based)
-- **Security:** OS hardening, image supply chain, classification-aware deployment, ISO27001
-- **Practices:** Agile delivery, CI/CD, Infrastructure as Code, version-controlled deployments
+> All tools referenced by function. Company remains active.
 
-## My Responsibilities
+### Automation & Infrastructure as Code
+- Configuration management and deployment tool — primary delivery mechanism
+- Infrastructure-as-code platform — environment and VM provisioning
+- Automated image build pipeline — OS image creation and security hardening
+- Container runtime — deployment packaging; portable, auditable, version-controlled
 
-- Build and lead a new team of four DevOps engineers with a wide mix of skills aligned to the needs of the business and our customers
-- Provide technical leadership, oversight, guidance and direction for the team
-- Architect platform and infrastructure solutions across multiple air-gapped environments, designing for reliability, scalability and auditability
-- Drive the adoption and use of automation technologies such as Ansible, Terraform and other tools to provide repeatable and reliable services
-- Manage and execute projects using Agile delivery methods and practices
-- Engage with the business to shape the direction of existing services, and to identify, plan and deliver new services and ways of working to enhance our service/product offerings and internal practices
-- Collaborate with adjacent team leads to deliver on shared goals
+### Infrastructure & Platforms
+- Virtualisation platform — primary platform across all environments
+- Linux (Debian-based) — primary operating system
+- CMDB — configuration and asset management
+
+### Supporting Services (Deployed & Maintained)
+- Secrets management platform
+- Version control platform
+- Documentation platform
+- Service desk and ticketing platform
+- Automation orchestration platform
+- Monitoring platform
+- Core services: identity, databases, NTP, repositories, federated services, logging
+
+### Security & Practices
+- OS hardening — supply chain level (base image)
+- Classification-aware, auditable deployment
+- Immutable infrastructure — [flock of sheep, not pets](/devops/flock-not-pets)
+- DevSecOps
+- Infrastructure as Code
+- Agile delivery (MVP-first, iterative)
+- Zero Trust architecture
+
+---
+
+## The Departure
+
+In January 2024 I moved to Belgium to join my partner, which brought a chapter I'm genuinely proud of to a close. The team and the standards I'd built carried on after I left — and I went knowing the work was in good hands.
+
+---
+
+## Why SiXworks Matters
+
+This role was where everything came together. Technical depth from UKCloud, leadership foundations from the CMI programme, and an opportunity to build something from nothing in one of the most demanding technical environments I've worked in.
+
+Building the Platform Services team — watching engineers develop, defending the right approach at board level, delivering infrastructure for the RAF's Air Information Platform — was the most complete expression of the technical leader I'd been working to become.
+
+The IBM acquisition said something about what the team built. But the deployments still running long after I left say more to me about how we built it — and that's the part I keep coming back to.

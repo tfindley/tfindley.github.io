@@ -40,6 +40,13 @@ identifier = "rev3255s2"
 weight = 14
 
 [[main]]
+name = "Hobby"
+parent = "lZAy3sY8et"
+pageRef = "categories/hobby"
+identifier = "hob42q9k15"
+weight = 15
+
+[[main]]
 name = "About"
 pageRef = "about"
 identifier = "cAVLZkfSlh"

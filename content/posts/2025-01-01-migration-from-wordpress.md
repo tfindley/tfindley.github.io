@@ -2,10 +2,10 @@
 author: Tristan Findley
 date:   "2025-01-01"
 categories:
-  - Site Updates
+  - Journal
 tags:
-  - content
   - wordpress
+  - hugo
   - update
 showTableOfContents: false
 draft: false

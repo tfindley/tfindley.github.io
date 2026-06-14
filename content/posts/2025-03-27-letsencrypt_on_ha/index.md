@@ -3,12 +3,15 @@ title: "Let's Encrypt with High Availability"
 author: Tristan Findley
 date: "2025-03-27"
 categories:
-    - Technical
-tags: 
-  - "letsencrypt"
-  - "certbot"
-  - "ssl"
-  - "ha"
+  - Technical
+series:
+  - hashicorp-vault
+series_order: 3
+tags:
+  - letsencrypt
+  - certbot
+  - ssl
+  - ha
 description: "How to obtain and manage Let’s Encrypt certificates across a high-availability setup with Keepalived and a floating VIP."
 showTableOfContents: true
 draft: false

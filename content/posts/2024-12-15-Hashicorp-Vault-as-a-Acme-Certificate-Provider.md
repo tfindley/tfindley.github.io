@@ -4,7 +4,9 @@ date: 2024-12-15
 author: Tristan Findley
 categories:
   - Technical
-  - Hashicorp Vault
+series:
+  - hashicorp-vault
+series_order: 2
 tags:
   - technical
   - hashicorp
@@ -21,6 +23,7 @@ tags:
   - tls
   - ssl
   - letsencrypt
+description: "Configuring Hashicorp Vault as an ACME certificate provider for issuing TLS certificates inside a homelab or enterprise PKI."
 showTableOfContents: true
 draft: false
 ---

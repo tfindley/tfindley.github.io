@@ -4,7 +4,9 @@ date: 2025-01-02
 author: Tristan Findley
 categories:
   - Technical
-  - Ansible
+series:
+  - ansible-foundations
+series_order: 1
 tags:
   - technical
   - ansible

@@ -3,7 +3,10 @@ title: "Building a Certificate Manager for Hashicorp Vault"
 author: Tristan Findley
 date: "2025-04-03"
 categories:
-    - Technical
+  - Technical
+series:
+  - hashicorp-vault
+series_order: 4
 tags: 
   - "letsencrypt"
   - "certbot"

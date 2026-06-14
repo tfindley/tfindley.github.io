@@ -1,0 +1,58 @@
+name: Quality checks
+
+on:
+  pull_request:
+    branches:
+      - main
+      - 'release/**'
+  push:
+    branches:
+      - 'release/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  markdownlint:
+    name: Markdown lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+          fetch-depth: 1
+      - name: Run markdownlint-cli2
+        uses: DavidAnson/markdownlint-cli2-action@v17
+        with:
+          globs: |
+            content/**/*.md
+            !content/projects/**
+            !themes/**
+
+  linkcheck:
+    name: Link check (lychee)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+          fetch-depth: 1
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+      - name: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --cache
+            --max-cache-age 7d
+            --exclude '^mailto:'
+            --exclude 'linkedin\.com'
+            --max-concurrency 6
+            content/
+          fail: true

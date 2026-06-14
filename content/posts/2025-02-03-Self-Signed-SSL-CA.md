@@ -4,6 +4,9 @@ date: 2025-02-03
 author: Tristan Findley
 categories:
   - Technical
+series:
+  - hashicorp-vault
+series_order: 1
 tags:
   - technical
   - ansible

@@ -1,0 +1,11 @@
+{
+  // Generous config — catches drift without bikeshedding.
+  // Tweak rules by adding "MD0xx": false to disable.
+  "default": true,
+  "MD013": false,    // line length — posts have long sentences and tables
+  "MD024": false,    // duplicate headings — common across deeply-nested posts
+  "MD025": false,    // multiple top-level headings — some legacy posts use H1 inside body
+  "MD033": false,    // inline HTML — Hugo shortcodes and intentional <img align=> use it
+  "MD041": false,    // first line must be H1 — front matter handles this
+  "MD034": false     // bare URLs — many posts intentionally show full URLs
+}

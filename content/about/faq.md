@@ -16,7 +16,7 @@ It started as an experiment with [about.me](https://about.me/tfindley), but I wa
 
 ## Why does your CV look the way it does?
 
-My original CV was fairly standard, and it served me well -- it got me interviews and it got me jobs. But I wanted to present the information in a more distinctive way. I've designed it to stand out by being different yet functional, and it doubles as a showcase of skills I picked up from teaching myself Adobe InDesign.
+My original CV was fairly standard, and it served me well -- it got me interviews and it got me jobs. But I wanted to present the information in a more distinctive way. I've designed it to stand out by being different yet functional, in the belief that how someone presents themselves on paper is a small but real signal about how they approach their work.
 
 ## So what exactly do you do?
 

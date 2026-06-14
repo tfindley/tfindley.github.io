@@ -2,13 +2,18 @@
 title: "BBC's Fake Britain - my fake Canon 7D"
 date: "2016-09-02"
 categories:
-    - Photography
-tags: 
-  - "journal"
-  - "photography"
-  - "tv"
+  - Photography
+tags:
+  - vintage
+  - journal
+  - photography
+  - tv
 description: "My experience buying a counterfeit Canon 7D and appearing on BBC's Fake Britain — the full story behind the incident."
 showTableOfContents: true
+build:
+  list: never
+  render: always
+  publishResources: true
 ---
 ![Fake Britain questionnaire on Facebook](screen-shot-2016-09-02-at-13.10.28.png)
 Back in February I saw a Facebook article from Amateur Photographer Magazine in conjunction with BBC's Fake Britain appealing for photographers who had inadvertently purchased fake camera gear to come forward and share their stories. Having been burnt once while buying a Canon 7D, I thought i would share my story with the hope that it might appear as a footnote in some article, and quickly forgot about it. A couple of weeks later i was contacted by Chris Cheesman of Amateur Photographer Magazine asking for a telephone interview about my story. After a nice chat and subsequently sending over some associated documents, Chris published '[Risks of buying fake cameras exposed by AP/BBC poll](http://www.amateurphotographer.co.uk/latest/photo-news/risks-of-buying-fake-cameras-exposed-by-apbbc-poll-72300#U2K0KFbSGQ4me7HM.99)'. It was kind of a big deal for me, not because it was about me, but because my story could serve as a warning to others looking to save a bit of money by going for the cheapest online deal.

@@ -1,10 +1,10 @@
 ---
 title: "Micro Machines"
 date: "2019-01-02"
-categories:  
+categories:
+  - Journal
+tags:
   - journal
-tags: 
-  - "journal"
 description: "Cataloguing my childhood Micro Machines collection — Star Trek, Star Wars, Babylon 5, and military sets."
 showTableOfContents: true
 ---
