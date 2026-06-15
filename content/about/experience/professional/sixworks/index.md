@@ -49,6 +49,7 @@ There was an additional constraint: staff were not always read into all customer
 From the start, I set the team's direction: **automation-first, fully auditable deployment.** No manual steps, no snowflake configurations — nothing that couldn't be inspected, replicated, and verified at any classification level before it ran.
 
 In practice, this meant:
+
 - Our configuration management tool as the primary delivery mechanism
 - All automation wrapped in container images — portable, version-controlled, self-contained
 - Any code auditable and inspectable at any security level before execution
@@ -57,7 +58,7 @@ In practice, this meant:
 
 At the heart of this was a self-contained deployment container I designed — internally nicknamed the **briefcase** — built to carry our automations into the air-gapped environments. It bundled the automation, its dependencies, and the tooling needed to run it into a single, portable, auditable package: open it in the target environment and everything needed to deploy was inside. One of my engineers then added a neat layer of orchestration on top, so the automations inside ran in a clean, ordered sequence. This was orchestration aimed squarely at the engineers doing the deploying — technical and deliberate, built for the unusual constraint of shipping software into networks you can't reach over a wire.
 
-I called this approach **[flock of sheep, not pets](/devops/flock-not-pets)** — a philosophy where no VM or configuration instance is special. If something fails, you replace it with an identical one. You care about what the service produces, not about any individual instance. This is the same immutable infrastructure philosophy found in containerisation, applied at the VM level.
+I called this approach **[flock of sheep, not pets](/devops/principles/flock-not-pets)** — a philosophy where no VM or configuration instance is special. If something fails, you replace it with an identical one. You care about what the service produces, not about any individual instance. This is the same immutable infrastructure philosophy found in containerisation, applied at the VM level.
 
 We started with an MVP and added functionality iteratively, following Agile principles. By the time I left, the team had delivered the full automated deployment pipeline and the standardised OS image build.
 
@@ -76,6 +77,7 @@ It also became a case study in how I like to develop people: identify an interes
 Beyond application deployment, the team automated the deployment, configuration, and high-availability setup of all platform tooling and core infrastructure services across every environment:
 
 **Platform tooling:**
+
 - Secrets management
 - Version control
 - Documentation
@@ -83,6 +85,7 @@ Beyond application deployment, the team automated the deployment, configuration,
 - Automation orchestration
 
 **Core infrastructure:**
+
 - Identity services
 - Database services
 - Time services
@@ -167,17 +170,20 @@ During this role I completed the **CMI People Leadership Programme** with a **Di
 > All tools referenced by function. Company remains active.
 
 ### Automation & Infrastructure as Code
+
 - Configuration management and deployment tool — primary delivery mechanism
 - Infrastructure-as-code platform — environment and VM provisioning
 - Automated image build pipeline — OS image creation and security hardening
 - Container runtime — deployment packaging; portable, auditable, version-controlled
 
 ### Infrastructure & Platforms
+
 - Virtualisation platform — primary platform across all environments
 - Linux (Debian-based) — primary operating system
 - CMDB — configuration and asset management
 
 ### Supporting Services (Deployed & Maintained)
+
 - Secrets management platform
 - Version control platform
 - Documentation platform
@@ -187,9 +193,10 @@ During this role I completed the **CMI People Leadership Programme** with a **Di
 - Core services: identity, databases, NTP, repositories, federated services, logging
 
 ### Security & Practices
+
 - OS hardening — supply chain level (base image)
 - Classification-aware, auditable deployment
-- Immutable infrastructure — [flock of sheep, not pets](/devops/flock-not-pets)
+- Immutable infrastructure — [flock of sheep, not pets](/devops/principles/flock-not-pets)
 - DevSecOps
 - Infrastructure as Code
 - Agile delivery (MVP-first, iterative)

@@ -55,6 +55,7 @@ Any issues detected during the submission of code automatically throw errors, wh
 Once these stages have been passed (successfully), the Deployment stage is entered, but only if this is run against the Master or Test branches.
 
 ## Areas of responsibility
+
 The Faculty of Engineering and Physical Sciences is comprised of a number of Departments and Research Centers.
 
 | Departments | Research Centers |
@@ -69,7 +70,6 @@ The Faculty of Engineering and Physical Sciences is comprised of a number of Dep
 | Electrical and Electronic Engineering |  |
 | Centre for Environment and Sustainability |  |
 
-
 ## Job Specifics
 
 ### Infrastructure
@@ -78,7 +78,7 @@ The Faculty of Engineering and Physical Sciences is comprised of a number of Dep
 
 A large amount of the UoS Server platform was built on VMware ESXi (with vSphere), or a legacy platform of Linux KVM hosts. During my time in FEPS I would frequently create new infrastructure in VMware. This would require careful consideration of Virtual Host capacity, as well as storage tiers and policies to ensure the correct backup and replication policy was applied to the correct infrastructure.
 
-A large number of servers required for FEPS were for research-specific projects. I would discuss requirements with the academics or researchers to capture 
+A large number of servers required for FEPS were for research-specific projects. I would discuss requirements with the academics or researchers to capture
 
 ### Platforms
 

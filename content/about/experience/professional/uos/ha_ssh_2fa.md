@@ -6,7 +6,7 @@ tags:
   - security
   - experience
 ---
-HAProxy / KeepAliveD - High Availability 
+HAProxy / KeepAliveD - High Availability
 
 In mid 2017 I designed a new High Availability platform through the use of HAProxy and KeepAliveD. This platform allows us to deliver a single service with multiple end-points while presenting a single common service to our customers. KeepAliveD then underpinned the reliability of HAProxy by allowing multiple HAProxy gateways to exist in a redundant (active/passive) configuration. Servers were then placed on different virtual infrastructures to further improve reliability and the dependence on any single piece of infrastructure which could lead to outages.
 
@@ -14,7 +14,7 @@ For this project I was required to look at the departments upcoming requirements
 
 The HAProxy and KeepAliveD configurations were built within Chef and then bootstrapped using PXE/Kickstart. This approach (along with the use of templates within Chef) allows us to dynamically build/destroy HAProxy gateways at will.
 
-HA SSH with Two-Factor Authentication service 
+HA SSH with Two-Factor Authentication service
 
 Delivery an SSH service for access to FEPS systems while enforcing new security requirements that all external users must authenticate against services using two-factor methods.
 

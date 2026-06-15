@@ -17,10 +17,12 @@ cascade:
 A summary of my professional qualifications, certifications and education.
 
 ## Professional Status & Memberships
+
 - **CMgr — Chartered Manager**, Chartered Management Institute
 - **BSc (Hons)** — University of Portsmouth
 
 ## Certifications (held / passed)
+
 | Certification | Authority | Date |
 |---------------|-----------|------|
 | **FitSM Foundation** | APMG International | Mar 2026 |
@@ -32,8 +34,10 @@ A summary of my professional qualifications, certifications and education.
 
 *(Plus the **FitSM Process Owner – Change Management** role at VIB — applied accountability, not just the certificate.)*
 
-## Professional Training 
+## Professional Training
+>
 > Honest framing: attended/completed the training; did not sit/pass the certification exam.
+
 - **CompTIA Network+** (N10-007)
 - **CompTIA Security+** (SY0-501)
 - Red Hat Linux 7 Systems Administrator (RH199)
@@ -46,6 +50,7 @@ A summary of my professional qualifications, certifications and education.
 - Belgium Social Integration Programme *(relocation)*
 
 ## Education
+
 - **[CMI People Leadership](/about/training/plp)** — **Distinction** (Level 3) — Chartered Management Institute, 2022–2023
 - **[BSc (Hons) Electronic Computer Engineering](/about/training/bsc)** — Computer Network Management & Design pathway — **University of Portsmouth**, 2003–2006
 - A-Level Computing + GNVQ Business (Double Award) — The Sixth Form College Farnborough, 2001–2003

@@ -16,4 +16,3 @@ showPagination: false
 [Selfhosted Services](selfhosted) - What I run
 
 [Meshtastic](meshtastic)
-

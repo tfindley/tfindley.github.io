@@ -28,10 +28,10 @@ cascade:
 | 03/02/18 | 10/02/18 | Bad Hofgastein | Austria | |
 | 17/05/18 | 24/05/18 | Salou | Spain | |
 | 04/02/17 | 11/02/17 | Bad Hofgastein | Austria | |
-| 01/12/16 | 26/12/16 | New Zealand | (via Singapore) 
-| 25/12/16 | 26/12/16 | Singapore | |
-| 04/12/16 | 25/12/16 | New Zealand | |
-| 01/12/16 | 04/12/16 | Singapore | |
+| 01/12/16 | 26/12/16 | New Zealand | | (via Singapore) |
+| 25/12/16 | 26/12/16 | Singapore | | |
+| 04/12/16 | 25/12/16 | New Zealand | | |
+| 01/12/16 | 04/12/16 | Singapore | | |
 | 25/09/15 | 09/10/15 | Calgory Int. > Banff > Jasper > Clearwater > Whistler > Victoria > Vancouver > Vancouver Int. | Canada | |
 | 21/02/15 | 28/02/15 | Bad Hofgastein | Austria | |
 | 08/02/14 | 15/02/14 | Bad Hofgastein | Austria | |
@@ -48,8 +48,8 @@ cascade:
 | 2004 | | St. Anton | Austria | |
 | 21/02/03 | 28/02/03 | Whistler Blackcombe, Vancouver, British Columbia | Canada | (Travel via Dallas Fortworth) |
 | Summer 2002 | | Knoxville, TN | USA | (1 week) |
-| 24/02/01 | 02/03/01 | Bardonecchia | Italy |
-| 26/02/00 | 04/03/00 | Bardonecchia | Italy |
+| 24/02/01 | 02/03/01 | Bardonecchia | Italy | |
+| 26/02/00 | 04/03/00 | Bardonecchia | Italy | |
 | 1996 | | Soldeu | Andorra | |
 | 1995 | |Soldeu | Andorra | |
 | 1994 | |Arinsal | Andorra | |

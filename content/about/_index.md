@@ -44,7 +44,7 @@ I'm also into [motorcycling](interests/motorcycling), [martial arts](interests/m
 ## Explore
 
 - [Professional Experience](experience/professional)
-- [Technology Stack](experience/technology)
+- [Technology Stack](skills/technology)
 - [Creative Experience](experience/creative)
 - [Training & Qualifications](training)
 - [Reading List](readinglist)

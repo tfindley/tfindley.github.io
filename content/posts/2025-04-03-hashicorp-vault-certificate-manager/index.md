@@ -53,7 +53,7 @@ This, was the start of my journey into reinventing certbot for use with Hashicor
 - Services needs to be restarted or reloaded to read the certificates
 - Sometimes HTTP or DNS verification can't work for certificate request validation
 - Certificate request authorisation is required
-- IP SANs or Non-conforming DNS SANS (localhost, *.dev, *.local) may be required
+- IP SANs or Non-conforming DNS SANS (localhost, *.dev,*.local) may be required
 - Certificate reuse needs to be scalable.
 
 At its core, [VCM](https://github.com/tfindley/vault_certificate_manager) is a lightweight Python3 script that uses its own Python virtual environment. It uses:
@@ -139,7 +139,6 @@ We’ve used [VCM](https://github.com/tfindley/vault_certificate_manager) to aut
 | Service Management            | Handled by VCM           | CertBot Hooks*             | CertBot Hooks*            |
 
 \* = Automatable only at time of request/renew without additional work to backport reuse locations into script
-
 
 ## Related Articles
 

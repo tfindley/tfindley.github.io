@@ -9,6 +9,7 @@ I know this isn't exactly 'professional', but we all have to unwind once in a wh
 So I'm a PC Gamer. I've tried the occasional console - XBox 360, PS3, etc, but I always end up back at PC's (the hangout for the true Hardcore gamer - Mouse and keyboard FTW!).
 
 ### Steam Gaming Profile
+
 ![Steam Replay 2024](steam_replay_2024.png)
 
 Steamprofile badge by Steamprofile.com
@@ -16,6 +17,7 @@ Steamprofile badge by Steamprofile.com
 Find me on [Steam](http://store.steampowered.com/) under [ZeshinFox](https://steamcommunity.com/id/zeshinfox/) - Come and play!
 
 ### Contact me via Discord
+
 2c21aeda16de354ba5334551a883b481Discord is a new chat platform, which can best be described as Skype plus TeamSpeak plus IRC plus Steam Chat. I choose this over Skype due to previous security concerns with Skype with DDOS attacks.
 
 Discord is super light-weight and an absolutely brilliant platform for gamers to use. It does have an overlay option similar to Steam, but I've never yet got this to work.
@@ -23,7 +25,9 @@ Discord is super light-weight and an absolutely brilliant platform for gamers to
 Find me on [Discord](https://discordapp.com/) under: **TFindley#6974**
 
 ### Buying Games
+
 I largely buy my games via [Kinguin](https://www.kinguin.net/r/TFindley) (use this link to support me on Kinguin), Humble Bundle, Steam, UPlay or Origin.
 
 ### Streaming
+
 I do occasionally stream games. Check me out out [YouTube](https://www.youtube.com/channel/UCTzlh2rZXFmI0D95hoc14Gw) / [YouTube Gaming](https://gaming.youtube.com/channel/UCTzlh2rZXFmI0D95hoc14Gw) to see if I'm streaming live, or for past streams.

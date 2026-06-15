@@ -23,8 +23,6 @@ Before I begin, I must stress that; while this worked for me, it may not work fo
 
 ### Backstory
 
-![](images/8076-Memory-and-Fan-300x181.jpg "Corsair CMD8GX3M4A1600C8 Memory and Fan")
-
 In my two recent system builds, I used Asus Maximus III Formula motherboards. Those of you who have used Asus motherboards before will know that Asus have a 'Qualified Vendor List' for RAM, in which they list all the RAM that is check and supported by each motherboard. For both systems, I initially purchased two sets of Corsair 4GB (2x2GB) Dominator PC3-12800 9-9-9-24 (TW3X4G1600C9D) RAM. One of these sets turned out to be faulty, and was returned to the supplier. As they did not have any more of that product in stock at the time, I opted to purchase a lower latency set of 8GB (4x2GB) for just over double the price, for Lakhota (my system). The RAM was not listed on the Asus Qualified Vendors List at the time, which I was fully aware of, however upon looking at the QVL I figured out that it should work without any hitch. Unfortunately, this was not so...
 
 ### Installation & Brief Review
@@ -79,7 +77,7 @@ If any of the settings here do or do not work from you, or if you have any sugge
 
 [Asus Support Forum discussion](http://vip.asus.com/forum/view.aspx?id=20090930014842109&board_id=1&model=Maximus+III+Formula&page=1&SLanguage=en-us)\- The support discussion I started regarding this problem on the Asus Support Forum
 
-**For Reference**
+### For Reference
 
 [BitTech - Overclocking with Intel Core i5](http://www.bit-tech.net/hardware/cpus/2009/09/21/overclocking-intel-s-core-i5-750/1) - Useful information on the motherboard settings for the P55-based i5 boards
 

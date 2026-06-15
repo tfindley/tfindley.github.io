@@ -11,7 +11,6 @@ showPagination: false
 
 Taking ones love of coffee with them on travels is becoming easier over time. With ultra portable grinders, various portable brewing methods, and a variety of roasters around the world, it has never been easier to brew hot java on the go!
 
-
 ## Aeropress
 
 - **Method:** [AeroPress Original](https://aeropress.com/products/aeropress-coffee-maker)

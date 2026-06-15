@@ -141,20 +141,24 @@ Writing a major incident management process is one thing. Coordinating under it 
 ## Technology
 
 ### Automation & Infrastructure as Code
+
 - **Ansible** — configuration management and deployment (roles & collections)
 - **Terraform** — VM and infrastructure provisioning
 - **Semaphore UI** — automation delivery platform (self-service for other Data Core teams)
 - **Bash, Python** — scripting and automation
 
 ### Containerisation
+
 - **Docker, Docker Swarm** — container runtime and orchestration (production-capable)
 - **Traefik** — reverse proxy and ingress layer for all containerised services
 - **KES** — Key Encryption Service for MinIO
 
 ### Virtualisation
+
 - **VMware** — virtual infrastructure platform
 
 ### Infrastructure & Compute
+
 - **Linux (RHEL)** — primary operating system
 - **Slurm** — HPC workload manager powering the Secure Compute and Open Compute clusters
 - **HashiCorp Vault** — internal PKI/CA, secrets management, encryption
@@ -164,23 +168,28 @@ Writing a major incident management process is one thing. Coordinating under it 
 - **NetBox** — CMDB and infrastructure source of truth
 
 ### SIEM & Security
+
 - **Wazuh** — open-source SIEM and endpoint detection
 - **OpenSearch / Elasticsearch** — log storage and search
 - **Graylog** — log management and analysis
 - **MongoDB** — SIEM data layer
 
 ### Monitoring
+
 - **Prometheus** — metrics collection
 - **Grafana** — metrics visualisation and dashboarding
 - **Uptime Kuma** — service endpoint monitoring and alerting
 
 ### Source Control
+
 - **Gitea** — self-hosted Git platform
 
 ### Databases
+
 - **MongoDB, PostgreSQL**
 
 ### Compliance & Governance
+
 - **NIS2** (EU Directive 2022/2555) — essential entity
 - **ISO27001** — information security management (the methodology applied to NIS2)
 - **ITIL** — service management foundation

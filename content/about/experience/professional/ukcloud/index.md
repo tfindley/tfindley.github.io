@@ -21,6 +21,7 @@ I spent three formative years at UKCloud, the UK's premier sovereign cloud provi
 UKCloud was built around a clear strategic mandate: deliver cloud services to organisations requiring data sovereignty, regulatory compliance, and security assurance. All infrastructure was hosted in UK datacentres under UK legal jurisdiction—deliberately designed for government and regulated sectors that cannot tolerate data crossing political or legal boundaries.
 
 The company operated across specialised divisions:
+
 - **G-Cloud:** Public sector cloud services, on the government procurement framework since 2012
 - **UKCloud Health:** For healthcare organisations with compliance and data sensitivity requirements
 - **UKCloudX:** "First public cloud for high classification systems in the UK"—serving defence and national security, operating completely air-gapped infrastructure
@@ -41,6 +42,7 @@ UKCloud operated four distinct environment tiers, each with different connectivi
 | **UKCloudX** | Completely air-gapped, separate data centre | Defence and national security; high-classification systems |
 
 UKCloudX deserves particular mention. Operating with a completely separate data centre and strict control over all information flow:
+
 - All materials and data entering the environment via a **sheep-dip process** (security scanning and sanitisation of all incoming content)
 - Anything leaving required a **multi-person authorisation and exfiltration process** (extremely restricted)
 - This is sovereign cloud at its most rigorous — a security posture few engineers ever work inside
@@ -63,6 +65,7 @@ Neither was an afterthought; they were the starting point. Every automation deci
 ### Core Responsibilities
 
 **Infrastructure Automation & Delivery:**
+
 - Designed and implemented Ansible-based automation for deploying services across government and defence infrastructure
 - Delivered automation jobs via Rundeck (automation delivery platform), consuming data from Device42 CMDB—much of our automation was grounded in, or informed by, Device42's asset and configuration data
 - Built CI/CD pipelines enabling continuous, reliable delivery across Dev, Assured, Elevated, and UKCloudX environments
@@ -70,31 +73,37 @@ Neither was an afterthought; they were the starting point. Every automation deci
 - Integrated Test-Driven Development framework (Molecule) into existing Ansible workflows—elevated code quality and team confidence in infrastructure changes
 
 **Highly-Available Systems:**
+
 - Architected and maintained highly-available service configurations using cluster deployments, HAProxy, and KeepAliveD
 - Designed for zero-downtime operations: every component redundant, every failure anticipated
 - Supported virtualisation (VMware: ESX, vSphere, vCloud Director) and containerisation (Docker, Docker Swarm) platforms
 
 **Multi-Environment Deployment:**
+
 - Deployed solutions across the full UKCloud environment spectrum—from semi-connected Assured to completely air-gapped UKCloudX
 - Different deployment strategies per environment: standard connectivity vs. air-gapped where all tooling and data must be physically controlled
 - Used a single automation framework (Ansible) as the consistent foundation across all environments despite their fundamentally different constraints
 
 **Monitoring & Observability:**
+
 - Implemented monitoring using OpsView (Nagios-based) and Science Logic
 - Designed alerting systems balancing rapid incident response with compliance requirements
 - Built and maintained monitoring dashboards providing visibility across complex, multi-tier infrastructure
 
 **Incident Ownership:**
+
 - Took full ownership of service incidents from first alert through to resolution—regardless of complexity or hour
 - In-hours and out-of-hours support for mission-critical systems, with proactive and reactive response
 - Culture of accountability: no hand-off mid-incident; you own it through to conclusion
 
 **Change Management & Compliance:**
+
 - Enacted all changes using ITIL-compliant change management procedures
 - Operated within a heavily certified organisation: **ISO9001** (Quality Management), **ISO20000** (IT Service Management), **ISO27001** (Information Security), and **ISO27018:2014** (Personal Data Protection in Cloud)—the last of which UKCloud was the first company to achieve statement of verification for from LRQA
 - Formal information security management across documented procedures, access controls, risk management, and full audit trails for all infrastructure changes
 
 **Cross-Team Collaboration:**
+
 - Acted as a key bridge between ASR and Software Engineering teams
 - Actively built stronger inter-team relationships, enabling ASR to be more responsive to Software Engineering's needs and requirements
 - Set clear expectations from Software Engineering based on ASR team workload and priorities—improved transparency and reduced friction between teams
@@ -110,6 +119,7 @@ Note: everything from Phase 1 continued. The roles below were taken on *in addit
 In 2022, I took on formal responsibility for the pastoral wellbeing of four full-time undergraduate staff members. This role was deliberately separated from technical management—creating space for team members to discuss challenges, frustrations, and career aspirations independent of technical performance pressures.
 
 **What pastoral management meant in practice:**
+
 - Regular 1-2-1 meetings to understand each team member's needs, career goals, and personal circumstances
 - Collaboratively built Personal Development Plans aligned with individual aspirations and business needs
 - Coached team members through challenges—for example, helping someone stuck on a technical problem develop strategies and personal boundaries for when to seek help, rather than staying stuck in frustration
@@ -126,6 +136,7 @@ Putting people first during uncertainty is one of the things I'm proudest of fro
 ### Agile Leadership & Project Delivery
 
 **DevOps Management Dashboard (Scrum Master):**
+
 - Led a team of 4 engineers to deliver a unified monitoring and tooling dashboard
 - Aggregated APIs from multiple tools (OpsView, ticketing, infrastructure management) into a single view
 - Implemented SSO authentication—users authenticate once, seamless access to all backend tooling
@@ -136,6 +147,7 @@ This was my first experience leading a technical project from a purely leadershi
 The key insight it crystallised: **technical leadership ≠ technical contribution.** The value I added was through orchestration, communication, and alignment. This distinction became foundational for how I approached leadership going forward.
 
 **Other Project Leadership:**
+
 - Agile Lead on CI/CD Infrastructure project (engineer and lead role)
 - Agile Lead on Core Management Platform Portal
 - Engineer on Runbook Automation framework
@@ -151,11 +163,13 @@ When UKCloud entered administration, I chose to continue the programme independe
 ## Key Projects
 
 ### Patching as a Service
+
 **Period:** Designed year 1 (2020); ran operationally for ~1 year until company closure
 
 **The Challenge:** Deliver reliable, compliant patch management across customer Linux and Windows infrastructure while maintaining uptime and compliance audit trails.
 
 **The Approach:**
+
 - Linux: Ansible-based automation for both deployment and reporting
 - Windows: Ivanti Security Controls, integrated into the service workflow
 - Built to run reliably without manual intervention, with full reporting for compliance and audit purposes
@@ -163,6 +177,7 @@ When UKCloud entered administration, I chose to continue the programme independe
 **The Outcome:** Flawless operational record—zero customer system outages from patching throughout the service's operational life.
 
 ### Portal Deployment Automation
+
 **The Challenge:** Deploy customer-facing portal reliably and repeatedly across Dev, Assured, and Elevated environments.
 
 **The Approach:** Built Ansible-based CI/CD pipeline enabling repeatable, automated deployments with consistent configuration across all environments.
@@ -170,6 +185,7 @@ When UKCloud entered administration, I chose to continue the programme independe
 **The Outcome:** Reduced deployment time and error rate; enabled faster feature delivery while maintaining parity across environments.
 
 ### Platform Migration
+
 **The Challenge:** Migrate supported services from legacy infrastructure to new platform without service disruption.
 
 **The Approach:** Planned and executed migration using infrastructure-as-code practices, with availability as the primary constraint.
@@ -177,6 +193,7 @@ When UKCloud entered administration, I chose to continue the programme independe
 **The Outcome:** Successful transition of critical systems—availability maintained throughout.
 
 ### TDD Framework Integration
+
 **The Challenge:** Improve code quality and reliability in existing Ansible roles.
 
 **The Approach:** Integrated Molecule test-driven development framework into existing codebase, enabling automated testing of infrastructure changes before deployment.
@@ -184,9 +201,11 @@ When UKCloud entered administration, I chose to continue the programme independe
 **The Outcome:** Elevated team confidence in infrastructure changes; reduced regression risk.
 
 ### Mail Relay Infrastructure
+
 Designed and deployed replacement for outbound mail relay infrastructure, ensuring reliable and compliant mail delivery across government services.
 
 ### DevOps Management Dashboard
+
 As Scrum Master, led delivery of unified monitoring dashboard aggregating multiple tools with SSO authentication. First major leadership experience from a non-technical perspective.
 
 ---
@@ -194,6 +213,7 @@ As Scrum Master, led delivery of unified monitoring dashboard aggregating multip
 ## Technology Stack
 
 ### Automation & Infrastructure as Code
+
 - **Ansible** — Primary automation tool for all infrastructure deployment and management
 - **Terraform** — Infrastructure-as-code for cloud resources
 - **Rundeck** — Automation delivery platform; used to orchestrate and deliver automation jobs at scale
@@ -201,24 +221,29 @@ As Scrum Master, led delivery of unified monitoring dashboard aggregating multip
 - **Molecule** — Test-driven development framework for Ansible roles
 
 ### CMDB
+
 - **Device42** — Configuration Management Database; significant portion of automation work built on or around data consumed from this platform
 
 ### Virtualisation & Containerisation
+
 - **VMware** (vSphere, vCloud Director, ESX) — Primary virtualisation platform
 - **Docker & Docker Swarm** — Container runtimes and orchestration
 - **Cluster deployments** — HAProxy, KeepAliveD for high availability and failover
 
 ### Infrastructure & Operating Systems
+
 - **Linux** (RHEL) — Primary operating system
 - **Windows Server** — Secondary platform support
 - **Highly-available architecture** — Cluster design, failover, redundancy
 
 ### Monitoring & Observability
+
 - **OpsView** (Nagios-based) — Primary monitoring and alerting platform
 - **Science Logic** — Infrastructure monitoring
 - **Custom dashboards** — Aggregated tool visibility
 
 ### ITSM, Change Management & Compliance
+
 - **ITIL procedures** — Formal change control and governance for all infrastructure changes
 - **ISO9001** — Quality Management
 - **ISO20000** — IT Service Management
@@ -230,6 +255,7 @@ As Scrum Master, led delivery of unified monitoring dashboard aggregating multip
 - **Ivanti Security Controls** — Windows patch management (Patching as a Service)
 
 ### Methodologies & Practices
+
 - **Agile/Scrum** — Sprint-based delivery cadence (2-weekly)
 - **Test-Driven Development** — Quality-focused infrastructure changes (Molecule)
 - **Infrastructure as Code** — Reproducible, version-controlled infrastructure

@@ -9,6 +9,7 @@ tags:
 Design of a 'stateful' Antivirus solution for use with Import/Export (Imp/Ex) between Low-side and High-side secure environments prior to transmission via DIODES.
 
 The key requirements of this solution that must be incorporated:
+
 - System must be stateless
 - Self-test and integrity-check capability
 - Must use multi-vendor AntiVirus solutions

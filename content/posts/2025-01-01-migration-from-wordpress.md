@@ -13,7 +13,7 @@ title: Happy New Year, Happy New Site.
 description: "Migrating from WordPress to Hugo — why I moved my personal site to a static site generator after over a decade on WordPress."
 ---
 
-A Happy New Year for 2025 to everyone, and time for a long overdue update about this site. 
+A Happy New Year for 2025 to everyone, and time for a long overdue update about this site.
 
 While I really don't want to make this post about Wordpress and the loooong history of my web presence, it is where we have to begin.
 

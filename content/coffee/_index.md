@@ -15,4 +15,4 @@ See the [OTG Coffee](/coffee/otg)
 
 See the [Coffee Index](/coffee/index)
 
-See the [Coffee Resources](/coffee/rescources)
+See the [Coffee Resources](/coffee/resources)

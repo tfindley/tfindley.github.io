@@ -34,9 +34,9 @@ First, let's look at the common steps that ocour when requesting a certificate
 
 DNS-01 Validation works
 
-DNS Validation shifts the solution purely to code, but requires certain capabilities of your DNS provider. 
+DNS Validation shifts the solution purely to code, but requires certain capabilities of your DNS provider.
 
-While DNS validation exists (and is arguably more flexible), it isn’t always available due to provider limitations or internal complexity. 
+While DNS validation exists (and is arguably more flexible), it isn’t always available due to provider limitations or internal complexity.
 
 DNS validation is a powerful option:
 
@@ -106,13 +106,13 @@ When you run Certbot with HTTP validation:
 /.well-known/acme-challenge/<token>
 ```
 
-4. Let’s Encrypt makes an HTTP request to:
+1. Let’s Encrypt makes an HTTP request to:
 
 ```url
 http://your.domain.tld/.well-known/acme-challenge/<challenge_string>
 ```
 
-5. If it finds the right content there, you’re verified.
+1. If it finds the right content there, you’re verified.
 
 So we need to ensure that *whichever server has the VIP* is serving this challenge file correctly.
 
@@ -273,6 +273,7 @@ sudo dnf install centos-release-gluster9 glusterfs glusterfs-libs glusterfs-serv
 ```
 
 Create a new cluster firewall zone on both Servers
+
 ```bash
 sudo firewall-cmd --new-zone=cluster --permanent
 sudo firewall-cmd --zone=cluster --add-source=192.168.223.14/32 --permanent
@@ -355,7 +356,7 @@ sudo semodule -i httpd_gluster.pp
 ```
 
 This gives you a relatively safe read-only solution.
- 
+
 If you require a *more specific* SELinux solution (thanks ChatGPT for this one!):
 
 1. Define a new type for your ACME challenge dir
@@ -370,7 +371,7 @@ Apply the changes
 restorecon -Rv /usr/share/nginx/letsencrypt
 ```
 
-2. Write a refined SELinux policy
+1. Write a refined SELinux policy
 
 ```bash
 cat > httpd_letsencrypt.te <<EOF

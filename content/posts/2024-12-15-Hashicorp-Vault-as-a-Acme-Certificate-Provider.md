@@ -90,7 +90,7 @@ Next, create a role which will allow you to issue the certificates using ACME. F
 
 the key fields to look out for are:
 
-| field            | type   |  example     |  Description
+| field            | type   |  example     |  Description |
 | ---------------- | ------ |------------- | ------------  |
 | name             | string | domain.tld   | The CN or DNS.1 from the intermediate certificate that you're uploading |
 | allowed_domains  | list   | domain.tld   | The TLD that you want to issue certificates under for `example.domain.tld` you should enter `domain.tld` |
@@ -151,7 +151,7 @@ resource "vault_pki_secret_backend_config_urls" "config-urls" {
 }
 ```
 
-Now  we add some missing headers to the endpoint. 
+Now  we add some missing headers to the endpoint.
 
 ```hcl
 resource "vault_generic_endpoint" "pki_int_tune" {
@@ -204,10 +204,10 @@ Using CertBot to request a certificate from vault is relatively straight forward
 
 #### Renewal Hooks
 
-There are some extra flags that can make your CertBot life a bit easier. These are pre, deploy, and post hooks. 
+There are some extra flags that can make your CertBot life a bit easier. These are pre, deploy, and post hooks.
 
 As you are likely building certs for internal services, some of those internal services may not have access to root-owned directories. This can cause a problem when your certs are stored in `/etc/letsencrypt/live/sub.domain.tld/`. So how do we get around this?
-We can run these hooks to perform commands at certain times during the renewal process. 
+We can run these hooks to perform commands at certain times during the renewal process.
 
 | Flag                   | Example Value            | Description |
 | ---------------------- | ------------------------ | ----------- |

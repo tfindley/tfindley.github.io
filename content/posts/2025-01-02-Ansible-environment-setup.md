@@ -27,7 +27,7 @@ params:
 
 For all of the following article I will assume the reader has basic Linux knowledge, and a familularity with the CLI in either the Bash (Linux default) or ZSH (Mac Default) Shell. All of the following will work on both.
 
-For Windows Users, you will need to install Windows Subsystem for Linux (WSL) v2, and configure a appropriate Linux Distro (at time of writing I would recommend Ubuntu 24.04). 
+For Windows Users, you will need to install Windows Subsystem for Linux (WSL) v2, and configure a appropriate Linux Distro (at time of writing I would recommend Ubuntu 24.04).
 
 ## Intruduction
 
@@ -48,7 +48,7 @@ Before continuing, run: `which python3` to locate your stock/system python binar
 
 In order to upgrade Python3 on MacOS, you require [Brew](https://brew.sh/) - install this first, then come back here for more information
 
-Next you need to run `brew install python3.12` 
+Next you need to run `brew install python3.12`
 
 For python3-venv you should be able to run `brew-install python3.12-venv`.
 
@@ -208,6 +208,7 @@ In order to do this we will set up a Python Virtual Environment, the install Ans
 First we'll start off by creating your Python Virtual Environment - this is the area that additional python packages will be installed so as the system Python environment is never modified.
 
 Now we need to create a new Python Virtual environment inside of which we can install Ansible
+
 ```zsh
 python3.12 -m venv $DEVEL/ansible/.venv
 ```

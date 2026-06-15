@@ -19,7 +19,7 @@ While our first photographic love (and our roots) will always be in Wildlife pho
 
 ### Clients
 
-- **After Dark Production** - After Dark Productions are an award-winning movie company based in North London. 
+- **After Dark Production** - After Dark Productions are an award-winning movie company based in North London.
 - **Kinetic Energy Films** - Kinetic Energy Films, a freelance film and video based in Birmingham and Newcastle-under-Lyme, serving businesses and people nationwide.
 - **Film Theatre**
 - **B3 Media**

@@ -9,7 +9,7 @@ showWordcount: false
 showReadingTime: false
 ---
 
-**IT Support Technician & Solutions Architect**
+**Role:** IT Support Technician & Solutions Architect
 
 June 2005 – September 2005
 

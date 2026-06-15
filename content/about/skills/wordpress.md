@@ -45,7 +45,7 @@ After researching the problem, it seemed possible to use a combination of plugin
 
 WordPress MultiSite Layout at Royal Holloway
 
-Today, the platform supports nearly 100 users across 32 sites across the isg.rhul.ac.uk  ma.rhul.ac.uk  cs.rhul.ac.uk  sub-domains, as well as sites at the rhul.ac.uk domain, as well as some off-domain content, such as vome.org.uk.
+The platform supported nearly 100 users across 32 sites across the `isg.rhul.ac.uk`,  `ma.rhul.ac.uk` and  `cs.rhul.ac.uk`  sub-domains, as well as sites at the `rhul.ac.uk` domain, as well as some off-domain content, such as vome.org.uk.
 
 Shortly after the platform was launched, I developed a landing portal for its users. This platform offered a development news feed, resources for site administrators, assistance and document on common problems and issues, and a method of contacting myself or the team supporting the platform.
 

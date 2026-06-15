@@ -40,7 +40,6 @@ I'm a Technical Team Lead and Platform Engineer with 19+ years of experience acr
      image in their bundle — those render as full-bleed graphics in the
      article card, which clashes visually with imageless cards. -->
 
-
 ## Get in touch
 
 The fastest path is to **[book 30 minutes on cal.com](https://cal.com/tfindley)** — best for first conversations, role discussions, or anything time-bounded.
