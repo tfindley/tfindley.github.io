@@ -30,7 +30,7 @@ Organisations are adopting AI tools rapidly, restructuring around them, and depe
 
 ### Structure & Talking Points
 
-**1. The Supply Chain Nobody Is Auditing**
+#### 1. The Supply Chain Nobody Is Auditing
 
 - In any other context, third-party code entering your systems triggers supplier qualification, IP checks, SBOM entries, acceptance criteria
 - LLM output enters codebases, documentation, and workflows daily with none of that
@@ -40,7 +40,7 @@ Organisations are adopting AI tools rapidly, restructuring around them, and depe
   - Where does AI-generated code sit in your SBOM?
 - Note: NIST SP 800-161 and OpenChain/SPDX are the reference frameworks here if you want to anchor it
 
-**2. The Rug-Pull Risk**
+#### 2. The Rug-Pull Risk
 
 - Organisations are making headcount and capability decisions based on AI tools whose pricing, capability, and availability are not contractually guaranteed
 - LLM providers are burning cash; pricing models will change; capabilities shift between versions (sometimes backwards)
@@ -51,7 +51,7 @@ Organisations are adopting AI tools rapidly, restructuring around them, and depe
   - What's your exit strategy from a specific provider?
 - Note: Frame this like any other single-source supplier risk — not "AI will disappear" but "unmodelled dependency is a business risk regardless of the supplier"
 
-**3. Shadow AI — The Outsourced Employee**
+#### 3. Shadow AI — The Outsourced Employee
 
 - The classic case: "Bob", the Verizon developer (~2013) who outsourced his entire job to a Chinese development firm for a fraction of his salary. Caught via VPN anomaly. Excellent code quality. Nobody noticed for months.
 - Now that pattern is accessible to anyone with a ChatGPT account and no VPN required
@@ -62,7 +62,7 @@ Organisations are adopting AI tools rapidly, restructuring around them, and depe
   - What does "doing your job" mean when AI can do the mechanical parts?
 - Note: This isn't purely a security/compliance issue — it's also a skills and trust issue. The Bob case is a useful hook because it predates AI entirely; the behaviour isn't new, the scale and accessibility is
 
-**4. The Atrophy Problem — Strategic Use vs Passive Dependence**
+#### 4. The Atrophy Problem — Strategic Use vs Passive Dependence
 
 - Critical thinking, problem decomposition, debugging instinct — these are use-it-or-lose-it skills
 - If junior engineers never have to reason through a problem without AI assistance, what's the shape of your team in five years?
