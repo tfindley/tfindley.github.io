@@ -7,3 +7,93 @@ This is the HUGO deployment for my Personal Webpage, hosted in Github.io.
 It is built using [HUGO](https://gohugo.io/) and the [Blowfish](https://blowfish.page/) theme.
 
 The site can be accessed at its real URL, [tfindley.co.uk](https://tfindley.co.uk), or at its GitHub IO link at [tfindley.github.io](https://tfindley.github.io).
+
+## Local development
+
+```bash
+# Serve locally with drafts visible
+hugo server -D
+
+# Production-style build (matches CI)
+hugo --gc --minify
+```
+
+Requires Hugo Extended (CI version is pinned in [.github/workflows/hugo.yaml](.github/workflows/hugo.yaml)) and Dart Sass.
+
+### Tooling for the pre-commit hook
+
+The [pre-commit hook](#git-hooks) shells out to two extra tools — install them if you want the hook to run its checks (it skips gracefully if they're missing):
+
+| Tool | Used for | Install |
+|---|---|---|
+| [`lychee`](https://github.com/lycheeverse/lychee) | Link checking (internal + external) | `cargo install lychee`, or a prebuilt binary from the [releases page](https://github.com/lycheeverse/lychee/releases) onto your `PATH` |
+| `markdownlint-cli2` | Markdown lint (same check as CI) | Runs on demand via `npx` — just needs Node.js |
+
+## Git hooks
+
+A version-controlled pre-commit hook lives in [.githooks/pre-commit](.githooks/pre-commit). Activate it once per clone:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+When a commit touches `content/`, `layouts/`, `config/`, or `hugo.toml`, the hook:
+
+- runs **markdownlint** (pinned to the same version as CI) — **blocks** the commit on errors;
+- builds the site and checks **internal links** offline against `public/` — **blocks** on broken links;
+- checks **external links** and **reports** dead/aging ones — does **not** block (external link health is noisy and outside our control).
+
+Bypass it when needed with `git commit --no-verify`. Link checking is intentionally **not** in CI — it needs a Hugo build to resolve internal links, and external checks are too flaky to gate merges on. Markdownlint runs in **both** the hook and CI ([.github/workflows/quality.yaml](.github/workflows/quality.yaml)); CI is the authoritative gate.
+
+## Theme submodule (Blowfish)
+
+The Blowfish theme lives at `themes/blowfish/` as a **git submodule** tracking the upstream `main` branch.
+
+### First-time clone
+
+```bash
+git clone --recurse-submodules git@github.com:tfindley/tfindley.github.io.git
+```
+
+If you already cloned without `--recurse-submodules`:
+
+```bash
+git submodule update --init --recursive
+```
+
+### Update the theme to the latest upstream release
+
+```bash
+# Pull the latest commit from the tracked branch (main)
+git submodule update --remote --merge themes/blowfish
+
+# Confirm the new pointer
+git submodule status
+
+# Commit the pointer change
+git add themes/blowfish
+git commit -m "chore: bump Blowfish theme"
+```
+
+To pin to a specific tag instead of tracking `main`:
+
+```bash
+cd themes/blowfish
+git fetch --tags
+git checkout v2.103.0       # replace with desired tag
+cd ../..
+git add themes/blowfish
+git commit -m "chore: pin Blowfish to v2.103.0"
+```
+
+### After pulling on a fresh machine / new branch
+
+If `git status` shows `themes/blowfish (new commits)` or the site fails to render, the submodule pointer has moved — re-sync it:
+
+```bash
+git submodule update --init --recursive
+```
+
+## Deployment
+
+Pushes to `main` trigger [.github/workflows/hugo.yaml](.github/workflows/hugo.yaml), which builds with Hugo Extended + Dart Sass and publishes to GitHub Pages. Custom domain (`tfindley.co.uk`) is set via the `CNAME` file.

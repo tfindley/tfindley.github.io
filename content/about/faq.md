@@ -16,11 +16,11 @@ It started as an experiment with [about.me](https://about.me/tfindley), but I wa
 
 ## Why does your CV look the way it does?
 
-My original CV was fairly standard, and it served me well -- it got me interviews and it got me jobs. But I wanted to present the information in a more distinctive way. I've designed it to stand out by being different yet functional, and it doubles as a showcase of skills I picked up from teaching myself Adobe InDesign.
+My original CV was fairly standard, and it served me well -- it got me interviews and it got me jobs. But I wanted to present the information in a more distinctive way. I've designed it to stand out by being different yet functional, in the belief that how someone presents themselves on paper is a small but real signal about how they approach their work.
 
 ## So what exactly do you do?
 
-My day job is in DevOps, Platform Engineering and Team Leadership. But I also have a background in [photography and filmmaking](/about/experience/creative), and I've done IT contracting for small businesses over the years. These may seem like wildly different fields, but they come together in a synergy of creativity and technology -- the ability to take a project from technical design through to digital asset creation and delivery.
+My day job is in DevOps, Platform Engineering and Team Leadership. But I also have a background in [photography and filmmaking](/photo/creative), and I've done IT contracting for small businesses over the years. These may seem like wildly different fields, but they come together in a synergy of creativity and technology -- the ability to take a project from technical design through to digital asset creation and delivery.
 
 ## What about everything else?
 

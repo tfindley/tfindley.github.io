@@ -3,6 +3,9 @@ public/
 resources/_gen
 themes/blowfish/exampleSite
 
+# Local development files
+Website-Migration/
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -44,3 +47,14 @@ node_modules
 # Personal
 CLAUDE.md
 TODO.md
+.claude/
+.repowise/
+LIGHTHOUSE.md
+lighthouse-*.html
+lighthouse-*.json
+
+# Drafts (kept local, not published)
+content/projects/
+
+# lychee link-checker cache (pre-commit hook)
+.lycheecache

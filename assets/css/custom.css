@@ -1,0 +1,7 @@
+/* custom.css — auto-loaded by Blowfish.
+ * Drop site-wide CSS overrides here. Currently empty — the homepage
+ * prose-width override uses the stock Tailwind `lg:max-w-none` utility
+ * directly in layouts/partials/home/profile.html, so no rule is needed
+ * here. Add accent colour / heading treatment / signature touch when
+ * ready.
+ */

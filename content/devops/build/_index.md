@@ -43,12 +43,12 @@ Terraform
 
 Semaphore
 
-
 ## Controller VM
 
 Operating System: Rocky 9 minimal or Ubuntu minimal or Debian minimal - what about alpine?
 
 Install:
+
 - Podman - Container hosting
 - Hashicorp Vault - Secret storage
 - Hashicorp Packer - VM Image building
@@ -56,6 +56,7 @@ Install:
 - Ansible - VM Configuration
 
 Containers:
+
 - Portainer
 - Netbox + Database
 - Gitea + Database

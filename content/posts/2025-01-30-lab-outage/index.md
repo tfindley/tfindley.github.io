@@ -1,9 +1,9 @@
 ---
 title: "Lab Outage"
 date: "2025-01-30"
-categories:  
-  - technical
-tags: 
+categories:
+  - Technical
+tags:
   - dns
   - ntp
 description: "A perfect storm in my homelab — how a DNS and NTP dependency loop caused a cascade failure across my home infrastructure."

@@ -39,7 +39,7 @@ After about a year and a half with Meshtastic, I noticed that I was starting to 
 | [SEEED Studio SenseCap T1000-E](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html) |                     |       |
 | [SEEED Studio SenseCap T1000-E](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html) |                     |       |
 | [SEEED Studio SenseCAP Indicator D1L](https://www.seeedstudio.com/SenseCAP-Indicator-D1L-p-5646.html)                 |                     |       |
-| [RAK Solar Node (Nordic nRF52840 based) - See below)](#RAK-Solar-Node)                                                |                     |       |
+| [RAK Solar Node (Nordic nRF52840 based) - See below)](#rak-solar-node)                                                |                     |       |
 
 ### RAK Solar Node
 

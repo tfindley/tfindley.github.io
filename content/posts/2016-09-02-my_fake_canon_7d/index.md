@@ -2,13 +2,18 @@
 title: "BBC's Fake Britain - my fake Canon 7D"
 date: "2016-09-02"
 categories:
-    - Photography
-tags: 
-  - "journal"
-  - "photography"
-  - "tv"
+  - Photography
+tags:
+  - vintage
+  - journal
+  - photography
+  - tv
 description: "My experience buying a counterfeit Canon 7D and appearing on BBC's Fake Britain — the full story behind the incident."
 showTableOfContents: true
+build:
+  list: never
+  render: always
+  publishResources: true
 ---
 ![Fake Britain questionnaire on Facebook](screen-shot-2016-09-02-at-13.10.28.png)
 Back in February I saw a Facebook article from Amateur Photographer Magazine in conjunction with BBC's Fake Britain appealing for photographers who had inadvertently purchased fake camera gear to come forward and share their stories. Having been burnt once while buying a Canon 7D, I thought i would share my story with the hope that it might appear as a footnote in some article, and quickly forgot about it. A couple of weeks later i was contacted by Chris Cheesman of Amateur Photographer Magazine asking for a telephone interview about my story. After a nice chat and subsequently sending over some associated documents, Chris published '[Risks of buying fake cameras exposed by AP/BBC poll](http://www.amateurphotographer.co.uk/latest/photo-news/risks-of-buying-fake-cameras-exposed-by-apbbc-poll-72300#U2K0KFbSGQ4me7HM.99)'. It was kind of a big deal for me, not because it was about me, but because my story could serve as a warning to others looking to save a bit of money by going for the cheapest online deal.
@@ -64,7 +69,7 @@ They do indeed have a UK address, though it is located on the Isle of Wight, mak
 As of August 2016, Simply Electronics are no longer accepting payments, and have the following information on their website:
 
 > We regret to inform you that we are no longer processing orders. If you have any transactional enquiries for an existing order that has not been delivered, please contact your card issuer to file for a chargeback.
-> 
+>
 > Under these unfortunate circumstances, you are very likely be protected by your card issuer to apply a claim against the order for the full value. We apologise for any inconvenience caused.
 
 Reading the latest [Trust Pilot reviews](https://uk.trustpilot.com/review/www.simplyelectronics.net), it looks like Simply Electronics have gone into liquidation. A number of angry patrons have posted their frustrations, and I can only hope that the relevant credit card companies can retrieve some of their lost money.
@@ -108,11 +113,11 @@ I post this not as an attack on Simply Electronics, but as a factual statement o
 
 To whom it may concern
 
-Today I attempted to send my Canon 7D in to Canon's UK Service Centre for repair / service. Canon informed me that the camera is in fact a counterfeit unit. The serial label on the bottom of the camera has been tampered with and replaced with a fake one, with a fake serial number and fake information. Indeed the EXIF data from the photos produced and the serial number on the bottom of the camera do not match up. These serial numbers are reported above. Canon will not support the unit as it is classed as counterfeit, and informed me to seek a full refund from the supplier. To this end, I am emailing you to request that a refund is processed ASAP so that I may source a replacement camera body ASAP. 
+Today I attempted to send my Canon 7D in to Canon's UK Service Centre for repair / service. Canon informed me that the camera is in fact a counterfeit unit. The serial label on the bottom of the camera has been tampered with and replaced with a fake one, with a fake serial number and fake information. Indeed the EXIF data from the photos produced and the serial number on the bottom of the camera do not match up. These serial numbers are reported above. Canon will not support the unit as it is classed as counterfeit, and informed me to seek a full refund from the supplier. To this end, I am emailing you to request that a refund is processed ASAP so that I may source a replacement camera body ASAP.
 
-I am sending a CC to Lauren of Canon UK, who noticed the counterfeit unit, and she will be able to confirm that this unit is indeed not an original Canon unit. She has also kindly offered to send pictures of a fake and genuine Canon label for verification. 
+I am sending a CC to Lauren of Canon UK, who noticed the counterfeit unit, and she will be able to confirm that this unit is indeed not an original Canon unit. She has also kindly offered to send pictures of a fake and genuine Canon label for verification.
 
-Due to the legal nature of this case, I would request that Simply Electronics process a refund to me for the total purchase amount of the above referenced order. Once the refund has been received, I will re-box the camera and return it to Simply Electronics so that they may follow up any legal action they may wish to take with their suppliers. I am not happy to release the camera until a refund has been processed as the camera is the proof that would be required if any further action of a legal nature might be taken in the event of no refund. 
+Due to the legal nature of this case, I would request that Simply Electronics process a refund to me for the total purchase amount of the above referenced order. Once the refund has been received, I will re-box the camera and return it to Simply Electronics so that they may follow up any legal action they may wish to take with their suppliers. I am not happy to release the camera until a refund has been processed as the camera is the proof that would be required if any further action of a legal nature might be taken in the event of no refund.
 
 Lauren will be able to provide photos of counterfeit labels, and I am able to provide photos of the Canon 7D body once it is back with me later today / tomorrow.
 
@@ -126,13 +131,13 @@ I look forward to your speedy reply.
 
 Dear Tristan,
 
-Thank you for your email. We sincerely apologise for the inconveniences. 
+Thank you for your email. We sincerely apologise for the inconveniences.
 
-Do rest assure that we have received your request and we are handling it accordingly according to your email that was sent to us. 
+Do rest assure that we have received your request and we are handling it accordingly according to your email that was sent to us.
 
-I would like to also assure you that we only sell genuine Canon items, however they are sourced globally to offer the best prices to our customers. In addition all products from Simply Electronics come with a 12 month warranty from receipt of the purchase and are covered by Simply Electronics After Care facilities.  We would be able to assist you if you are facing some technical issues with the product.     
+I would like to also assure you that we only sell genuine Canon items, however they are sourced globally to offer the best prices to our customers. In addition all products from Simply Electronics come with a 12 month warranty from receipt of the purchase and are covered by Simply Electronics After Care facilities.  We would be able to assist you if you are facing some technical issues with the product.
 
-If you have any other questions or concerns, please let us know and we will be happy to assist you further, and kindly do send us the photographs once available so we could further look into this matter. 
+If you have any other questions or concerns, please let us know and we will be happy to assist you further, and kindly do send us the photographs once available so we could further look into this matter.
 
 Best Regards,
 
@@ -146,7 +151,7 @@ Donald Customer Service Executive
 
 Donald
 
-I'm afraid that support of the item is not under dispute here. The product (according to Canon) is counterfeit. Canon instructed me to seek a full refund for the unit, as are Trading Standards UK. 
+I'm afraid that support of the item is not under dispute here. The product (according to Canon) is counterfeit. Canon instructed me to seek a full refund for the unit, as are Trading Standards UK.
 
 Canon are currently in discussion with their Legal department to get written confirmation about the fraudulent nature of the product. I myself can prove that the unit I received was indeed tampered with prior to me receiving it.
 
@@ -154,7 +159,7 @@ Attached is a photo of the bottom of the 7D with the fraudulent label exposed, a
 
 After discussion with Trading Standards UK, I was informed that I could demand a refund under the Consumer Credit Act 1974, Section 75. This is what I wish to do. As the product has been deemed counterfeit by Canon, I did not receive what I payed for.
 
-I have CC'd in Lauren of Canon who was the support representative who identified the fraudulent product. 
+I have CC'd in Lauren of Canon who was the support representative who identified the fraudulent product.
 
 Once a refund is received, I will be happy to return the camera (boxed, with all packaging, invoices, and paperwork) to Simply so you may dispute this with your supplier and seek a refund for them under whichever law covers you.
 
@@ -174,9 +179,9 @@ Dear Tristan Findley,
 
 Thank you for your email.
 
-Most of our stock does come from the UK, and some do from other countries; all of which are made for UK market. 
+Most of our stock does come from the UK, and some do from other countries; all of which are made for UK market.
 
-Further to our earlier email, I would like to assure you that all our Canon products are genuine and  come with UK Specification with 3 pin power plug and a English Manual. If you do encounter any manufacturer defect with your purchase within  a year from purchase we will be able to assist you with warranty repairs.   
+Further to our earlier email, I would like to assure you that all our Canon products are genuine and  come with UK Specification with 3 pin power plug and a English Manual. If you do encounter any manufacturer defect with your purchase within  a year from purchase we will be able to assist you with warranty repairs.
 
 We do hope that this helps clarify any doubts. Meanwhile, please do not hesitate to contact us should you require further assistance.
 
@@ -192,7 +197,7 @@ Donald Customer Service Executive
 - **From:** Tristan
 - **To:** Simply Electronics
 
-So, are you saying that Canon (the manufacturers of the camera) are wrong in saying that it is counterfeit? 
+So, are you saying that Canon (the manufacturers of the camera) are wrong in saying that it is counterfeit?
 
 I think they would know the best seeing as they're the manufacturer and they know their own products.
 
@@ -208,13 +213,13 @@ Dear Tristan,
 
 Thank you for your email.
 
-We do understand that this issue was brought up with Canon UK,  but however Canon is an international company based in Japan, and do have manufacturing plants located in Asia. 
+We do understand that this issue was brought up with Canon UK,  but however Canon is an international company based in Japan, and do have manufacturing plants located in Asia.
 
 This could be similar to Apple products from the United States, but the manufacturing plant is in China. The serial numbers for the Apple products especially the I phones have different serial numbers for different countries. As mentioned from our previous email that we do source our items globally with genuine products.
 
 Please also note that the item was bought during April 2010 which is approximately nine months. Under this circumstances I am afraid that we are unable to offer you a replacement referring to our terms and conditions policy.  
 
-Should you have any further queries to this matter, please feel free to contact us. 
+Should you have any further queries to this matter, please feel free to contact us.
 
 Best Regards,
 
@@ -242,7 +247,7 @@ Unless a resolution is reached very shortly, then I will be forced to take matte
 
 Regards
 
-Tristan 
+Tristan
 
 ---
 
@@ -256,11 +261,11 @@ In regards to your concerns we would like to inform you as per previous email th
 
 Simply Electronics is an international company that are fully aware of their products being sold to our customers with a global sales and marketing team.  I would also like to mention that all products from Simply Electronics come with a 12 month warranty from receipt of the purchase and are covered by Simply Electronics After Care facilities.  By placing an order it is assumed that this has been acknowledged by the client and taken into consideration.
 
-Please also note from our previous email sent to you that we are unable to assist you with a replacement or refund due to our terms and conditions since the duration time is around nine months. 
+Please also note from our previous email sent to you that we are unable to assist you with a replacement or refund due to our terms and conditions since the duration time is around nine months.
 
-A quick solution to this problem would be is to have the product sent to us for repairs, so we could put your mind at ease. 
+A quick solution to this problem would be is to have the product sent to us for repairs, so we could put your mind at ease.
 
-Do not hesitate to contact us for further queries. 
+Do not hesitate to contact us for further queries.
 
 Best Regards,
 
@@ -276,13 +281,13 @@ Again, you have failed to answer the two questions that I have asked.
 
 In response to your statement that Simply Electronics does not sell counterfeit goods. I will acknowledge that knowingly, this may be the case, however in this instance, one has slipped the net. I quote a recent email received from Canon, in which I asked whether or not the serial could be from an international unit.
 
-"Tristan, 
+"Tristan,
 
-Thank you for your e-mail. 
+Thank you for your e-mail.
 
 I appreciate your query. Please be advised that the label is confirmed counterfeit by the Intellectual Property division of Canon Europe. Indeed there is no way that this label could be representing a foreign unit, the serial number will always be 10 digits long, although different digits do enable us to identify which continent the unit was intended for sale in. However, as they are all produced in Japan, they all look the same. "
 
-I also have a signed letter from Canon Europe stating that the item is counterfeit and why they deem it as such. 
+I also have a signed letter from Canon Europe stating that the item is counterfeit and why they deem it as such.
 
 I am afraid that I am fast running out of patients with this. If a satisfactory result is not received, then I will pursue other courses of action, one of which may be court action against Simply Electronics. Now that I have signed affidavit from Canon, I will be well within my rights and abilities to do so.
 
@@ -320,7 +325,7 @@ Francis
 
 Please find attached a photograph taken with the Canon 7D (JPEG (Small)), shot without a lens so no lens data can be incorporated into the EXIF data. Also find attached a picture of the fake label (serial number 6883815) and an original label on a 7D provided by Canon for reference (please note that this is only 6 of 10 digits as the last 4 were removed for security reasons by Canon - starting 028010).
 
-The signed letter from Canon can be viewed at : <link redacted>. 
+The signed letter from Canon can be viewed at : <link redacted>.
 
 I can also attach pictures of the original packaging, which do not include the body number on the box, as regularly purchased bodies do. This can be verified by Canon, and by myself with a photograph of other Canon camera packaging.
 
@@ -328,7 +333,7 @@ I hope this information is helpful in your investigation
 
 Regards
 
-Tristan 
+Tristan
 
 ---
 
@@ -384,7 +389,7 @@ Dear Tristan,
 
 Greetings from SimplyElectronics.
 
-With regards to your concern, please be informed that the photo you have provided is being used as the initial evidence for the investigation. Please be noted that the investigation is still on going between SimplyElectronics and our supplier. 
+With regards to your concern, please be informed that the photo you have provided is being used as the initial evidence for the investigation. Please be noted that the investigation is still on going between SimplyElectronics and our supplier.
 
 To recap, as per our email on 18 January, we would like to arrange collection for the product and offer a full refund. In any case, may we kindly confirm if you are willing to accept the offer to resolve this issue between you and SimplyElectronics.
 
@@ -404,15 +409,15 @@ Francis
 
 I am happy to arrange for a collection and refund, however it needs to be completed (inc. refund) before Feb 1st as I am due to depart for the United States for three weeks. This would mean an urgent collection date if it is to make it back to you this week.
 
-Before I go ahead with any of this, I would like to request that the agreement is put in writing on headed paper, signed by either yourself or another manager / senior manager with permission to authorise the collection and refund. This has been advised to me by both Canon and a legal council. 
+Before I go ahead with any of this, I would like to request that the agreement is put in writing on headed paper, signed by either yourself or another manager / senior manager with permission to authorise the collection and refund. This has been advised to me by both Canon and a legal council.
 
-This would need to include the amount to be refunded (the entire invoice from the purchase of the Canon 7D, including the 3year MACK warranty that was supplied with the camera (this will be included in the box when returned - it has been registered with them though, and I am happy to provide the registration confirmation email with the counterfeit serial number to confirm registration). Also required will be details of the pickup / return agreement, and I would highly recommend detailing the pickup address, return address, and the courier used (this is for both our protection, as neither of us can then claim that the item was not shipped or shipped to the wrong address etc). 
+This would need to include the amount to be refunded (the entire invoice from the purchase of the Canon 7D, including the 3year MACK warranty that was supplied with the camera (this will be included in the box when returned - it has been registered with them though, and I am happy to provide the registration confirmation email with the counterfeit serial number to confirm registration). Also required will be details of the pickup / return agreement, and I would highly recommend detailing the pickup address, return address, and the courier used (this is for both our protection, as neither of us can then claim that the item was not shipped or shipped to the wrong address etc).
 
 Upon collection, I would expect a receipt from the courier along with a reference / tracking number so that the pickup can be confirmed by both parties.
 
 I hope these conditions meet with your approval and expectation. please be assured that I am trying to make everything legally water-tight for both parties, so that neither can claim foul play.
 
-I have been recommended to ask for compensation with regard to this case, as I had purchased other accessories for this camera such as the battery grip, lens hood (for the 15-85mm), and lens filters (for the 15-85mm). In addition I have also had to pay out for a new camera body, as my trip to the US on Feb 1st has been specifically for photography purposes, requiring the camera that is due to be returned (hence why it went to Canon for a service). The trip was obviously a significant outlay, as was the camera 8 months ago. Obviously without the camera, the trip would have been impossible. I am attaching a press-release of the trip, and other details can be found on my website link: [http://www.alopexproductions.co.uk/index.php/2011/01/01/402/](http://www.alopexproductions.co.uk/index.php/2011/01/01/402/) . As you can see, this is a major trip, and it has interested parties including newspapers, magazines, wolf trusts, and National Geographic. 
+I have been recommended to ask for compensation with regard to this case, as I had purchased other accessories for this camera such as the battery grip, lens hood (for the 15-85mm), and lens filters (for the 15-85mm). In addition I have also had to pay out for a new camera body, as my trip to the US on Feb 1st has been specifically for photography purposes, requiring the camera that is due to be returned (hence why it went to Canon for a service). The trip was obviously a significant outlay, as was the camera 8 months ago. Obviously without the camera, the trip would have been impossible. I am attaching a press-release of the trip, and other details can be found on my website link: [http://www.alopexproductions.co.uk/index.php/2011/01/01/402/](http://www.alopexproductions.co.uk/index.php/2011/01/01/402/) . As you can see, this is a major trip, and it has interested parties including newspapers, magazines, wolf trusts, and National Geographic.
 
 I leave the ball in your court, but would be grateful if you would consider the above when handling the case.
 
@@ -428,7 +433,7 @@ Tristan
 
 Dear Tristan,
 
-Thank you for your email. 
+Thank you for your email.
 
 Please be advised that you may use our email correspondence as a proof of the item authorized to be returned to us for your refund. Also, please be advised that should we arrange pick up, we cannot confirm to you at this time as to when the item will be collected or by whom as this will be arranged by a different department.  
 
@@ -458,7 +463,7 @@ If you could please respond to the questions in the previous email regarding com
 
 Please understand that this return is under hte condition that it is for a Full refund for the total amount as detailed on the invoice from Google order number: <redacted> dated **24 April 2010**, with a total cost of **£1549.90**. With regard to the refund, I would expect the refund no less than 7 days after receipt of goods.
 
-The items will be boxed for return to yourselves at the address detailed in your previous email. 
+The items will be boxed for return to yourselves at the address detailed in your previous email.
 
 Details from the courier company will be required, including a receipt of collection. If there are problems with anything of this, then please contact me. I will take the arrangement of a courier / generation of the RMA as acceptance of this.
 
@@ -500,7 +505,7 @@ Kelly Returns Service Executive
 
 Thank you for sorting this out.
 
-Please can the refund be processed straight to a bank account. The credit card used for this transaction no longer works as it was reported as stolen less than a year ago, and subsequently closed. 
+Please can the refund be processed straight to a bank account. The credit card used for this transaction no longer works as it was reported as stolen less than a year ago, and subsequently closed.
 
 Please send the refund to my account, which is the following:
 
@@ -514,7 +519,7 @@ Tristan
 
 14th February 2011 - Tristan > Simply Electronics
 
-Would you please update me on the progress of this case? 
+Would you please update me on the progress of this case?
 
 Best regards
 
@@ -606,13 +611,13 @@ Dear Tristan,
 
 Thank you for your email.
 
-Please be advised that your refund is still being processed. However, rest assured that we will have your case followed up. 
+Please be advised that your refund is still being processed. However, rest assured that we will have your case followed up.
 
 As soon as your refund has been completely processed, an email notification will be sent to you to confirm this. Please note that this may take 3 more working days.
 
 Meanwhile, should you need further assistance, please feel free to email us again.
 
-Best Regards, 
+Best Regards,
 
 Chester Customer Service Executive
 

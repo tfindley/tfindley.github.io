@@ -38,7 +38,7 @@ The programme is built around four modules, each pairing Mindgym-facilitated wor
 
 The foundation of effective leadership is self-knowledge. This module explores personal strengths and blind spots through a range of profiling, feedback, and reflection activities. Key themes include understanding unconscious bias, developing emotional intelligence, and building time and energy management habits.
 
-*Mindgym workshops: Give Me Strength | Me PLC*
+Mindgym workshops: *Give Me Strength* | *Me PLC*
 
 #### Tools & frameworks
 
@@ -78,7 +78,7 @@ A tool for mapping your energy and focus levels across the working day, enabling
 
 Building on self-awareness, this module focuses outward onto the team. Core topics include motivational theory, coaching skills, active listening, and leading by example. Practical activities cover building shared goals, establishing team norms, and developing trust through structured individual engagement.
 
-*Mindgym workshops: The In Crowd | Coach*
+Mindgym workshops: *The In Crowd* | *Coach*
 
 #### Tools & frameworks
 
@@ -103,7 +103,7 @@ A widely used coaching framework structuring conversations across four stages: G
 
 This module tackles the broader organisational context in which leaders operate — governance, compliance, resource management, and stakeholder engagement. Activities include reviewing HR policy, delivering a cost and efficiency analysis, and building a stakeholder communication plan. Conflict management and building trust across an organisation are also key themes.
 
-*Mindgym workshops: Influence and Persuade | The Big Picture*
+Mindgym workshops: *Influence and Persuade* | *The Big Picture*
 
 #### Tools & frameworks
 
@@ -124,7 +124,7 @@ The capstone module brings all prior learning together through the delivery of a
 
 For my capstone project I applied the Agile SCRUM methodology — see [The Scrum Guide](https://scrumguides.org/scrum-guide.html) for a full reference.
 
-*Mindgym workshops: Motivate | Negotiation*
+Mindgym workshops: *Motivate* | *Negotiation*
 
 #### Tools & frameworks
 

@@ -40,6 +40,13 @@ identifier = "rev3255s2"
 weight = 14
 
 [[main]]
+name = "Hobby"
+parent = "lZAy3sY8et"
+pageRef = "categories/hobby"
+identifier = "hob42q9k15"
+weight = 15
+
+[[main]]
 name = "About"
 pageRef = "about"
 identifier = "cAVLZkfSlh"
@@ -47,19 +54,19 @@ weight = 20
 
 [[main]]
 name = "Professional Experience"
-pageRef = "about/experience/professional"
+pageRef = "about/experience"
 parent = "cAVLZkfSlh"
 weight = 21
 
 [[main]]
-name = "Technology Experience"
-pageRef = "about/experience/technology"
+name = "Skills"
+pageRef = "about/skills"
 parent = "cAVLZkfSlh"
 weight = 22
 
 [[main]]
-name = "Creative Experience"
-pageRef = "about/experience/creative"
+name = "What People Say"
+pageRef = "about/testimonials"
 parent = "cAVLZkfSlh"
 weight = 23
 
@@ -117,6 +124,12 @@ weight = 50
 name = "Photography"
 pageRef = "photo"
 identifier = "0I1hfmImIJ"
+weight = 60
+
+[[main]]
+name = "Creative & Film"
+parent = "0I1hfmImIJ"
+pageRef = "photo/creative"
 weight = 60
 
 [[main]]

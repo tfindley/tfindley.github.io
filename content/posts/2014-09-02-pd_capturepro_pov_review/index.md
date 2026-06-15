@@ -2,14 +2,19 @@
 title: Peak Design Capture Pro and POV Kit - Review
 date: 2014-09-02
 categories:
-    - Photography
-    - Reviews
-tags: 
+  - Photography
+  - Reviews
+tags:
+  - vintage
   - photography
   - review
 description: "Hands-on review of the Peak Design Capture Pro camera clip and POV Kit for action and outdoor photography."
+build:
+  list: never
+  render: always
+  publishResources: true
 ---
-<img align="left" width="150" height="150" src="transparent-logo-pd-alt.png">
+<img align="left" width="150" height="150" src="transparent-logo-pd-alt.png" alt="Peak Design Capture Pro">
 Peak Design are a USA-Base company who started out in 2010 with the Capture Clip, their first camera clip that was designed to solve camera carrying problems of creator Peter Dering. The original design pioneered on [Kickstarter](https://www.kickstarter.com) [Capture Camera Clip System](https://www.kickstarter.com/projects/peak-design/capture-camera-clip-system) **$364,698**. A brief history of the company can be found on [About Us | Peak Design](https://peakdesignltd.com/about/) their website, or on [Capture Camera Clip System: How to Lose 20 Pounds in 3 Seconds](http://news.smugmug.com/2012/01/05/capture-camera-clip-system-how-to-lose-20-pounds-in-3-seconds/) - The SmugMug Blog.
 
 {{< youtubeLite id="MC1nNg3NpUM" label="We are Peak Design" >}}
@@ -48,21 +53,21 @@ The Capture Pro comes in three options. The following pictures and information a
 
 ---
 
-<img align="right" width="150" height="150" src="capturepro-arca-transparency-small.png">
+<img align="right" width="150" height="150" src="capturepro-arca-transparency-small.png" alt="Peak Design Capture Pro — Specs">
 **ARCAplate**
 
 This is our standard PROplate™. Fits most ARCA tripod heads, slides into Capture in 4 directions, 4 loops for Micro Anchors™ or hand straps.
 
 ---
 
-<img align="right" width="150" height="150" src="capturepro-dual-transparency-small.png">
+<img align="right" width="150" height="150" src="capturepro-dual-transparency-small.png" alt="Peak Design Capture Pro — Specs">
 **DUALplate**
 
 Got a Manfrotto® RC2 tripod head? You want DUALplate™. Fits in Manfrotto RC2 and ARCA tripods, slides into Capture in 2 directions, and contains 2 strap loops.
 
 ---
 
-<img align="right" width="150" height="150" src="capturepro-micro-transparency-small.png">
+<img align="right" width="150" height="150" src="capturepro-micro-transparency-small.png" alt="Peak Design Capture Pro — Specs">
 **MICROplate**
 
 If you're primarily using Capture with a slim-body or point-and-shoot camera, consider MICROplate. Extra-small footprint, fits ARCA tripods, and has 1 strap loop.
@@ -74,11 +79,11 @@ I personally opted for the Capture Pro with Arca Plate, as this provides the bes
 ### Unboxing
 
 {{< gallery >}}
-  <img src="featured.jpg" class="grid-w25" />
-  <img src="p6200242.jpg" class="grid-w25" />
-  <img src="p6200243.jpg" class="grid-w25" />
-  <img src="p6200244.jpg" class="grid-w25" />
-  <img src="p6200245.jpg" class="grid-w25" />
+  <img src="featured.jpg" class="grid-w25" alt="Peak Design Capture Pro — Unboxing" />
+  <img src="p6200242.jpg" class="grid-w25" alt="Peak Design Capture Pro — Unboxing" />
+  <img src="p6200243.jpg" class="grid-w25" alt="Peak Design Capture Pro — Unboxing" />
+  <img src="p6200244.jpg" class="grid-w25" alt="Peak Design Capture Pro — Unboxing" />
+  <img src="p6200245.jpg" class="grid-w25" alt="Peak Design Capture Pro — Unboxing" />
 {{< /gallery >}}
 
 Upon receiving the Capture Pro, I was amazed with the quality of the packaging. The box definitely has a premium look and feel not usually associated with a product at this price range. Another thing - the box was much smaller than I expected it to be!
@@ -94,23 +99,24 @@ On the left of the clip is a red plastic button that triggers the quick release 
 On the right of the clip is a Plate Lock knob that allows you to increase the friction on the plate once it is inserted into the clip. Doing this will remove any shake / rattle from the plate, and also prevent easy removal from the clip. I would recommend reducing the friction on the plate before trying to remove it from the clip, otherwise you might damage the finish on your plate. While the usefulness of this plate might not seem readily apparent, once you combine the clip with the POV Kit (reviewed below) it is a very useful feature!
 
 {{< gallery >}}
-  <img src="img_2465.jpg" class="grid-w33" />
-  <img src="img_2463.jpg" class="grid-w33" />
-  <img src="img_2461.jpg" class="grid-w33" />
-  <img src="img_2460.jpg" class="grid-w33" />
-  <img src="img_2459.jpg" class="grid-w33" />
-  <img src="img_2458.jpg" class="grid-w33" />
+  <img src="img_2465.jpg" class="grid-w33" alt="Peak Design Capture Pro — The Capture Pro Clip" />
+  <img src="img_2463.jpg" class="grid-w33" alt="Peak Design Capture Pro — The Capture Pro Clip" />
+  <img src="img_2461.jpg" class="grid-w33" alt="Peak Design Capture Pro — The Capture Pro Clip" />
+  <img src="img_2460.jpg" class="grid-w33" alt="Peak Design Capture Pro — The Capture Pro Clip" />
+  <img src="img_2459.jpg" class="grid-w33" alt="Peak Design Capture Pro — The Capture Pro Clip" />
+  <img src="img_2458.jpg" class="grid-w33" alt="Peak Design Capture Pro — The Capture Pro Clip" />
 {{< /gallery >}}
 
 ### The ARCAplate
+
 As explained further up, the Peak Design Capture Pro clips are available with three different plates. I went with the ARCAplate option as it gave me maximum compatibility with other ARCA standard plates and accessories, of which there are loads!
 
 The ARCAplate looks like your typical small-style tripod quick-release plate made of black aluminium. Atop the plate (and surrounding the center bolt) is a red rubberised surface that provides a good amount of friction against your camera body. Around the outside of the plate are four tethering points for neck or wrist straps, or for the Peak Design<a title="Peak Design on Kickstarter - Slide and Clutch" href="https://www.kickstarter.com/projects/peak-design/slide-and-clutch-versatile-camera-sling-and-hand-s/" target="_blank" rel="noopener"> Clutch</a> or <a title="Peak Design - Cuff" href="https://peakdesignltd.com/store/cuff" target="_blank" rel="noopener">Cuff</a>
 
 {{< gallery >}}
-  <img src="img_2454.jpg" class="grid-w33" />
-  <img src="img_2455.jpg" class="grid-w33" />
-  <img src="img_2456.jpg" class="grid-w33" />
+  <img src="img_2454.jpg" class="grid-w33" alt="Peak Design Capture Pro — The ARCAplate" />
+  <img src="img_2455.jpg" class="grid-w33" alt="Peak Design Capture Pro — The ARCAplate" />
+  <img src="img_2456.jpg" class="grid-w33" alt="Peak Design Capture Pro — The ARCAplate" />
 {{< /gallery >}}
 
 The biggest and most pleasant surprise with the  ARCAplate is that the bolt includes a D-Ring that is fully compatible with camera straps from manufacturers like <a href="http://www.amazon.co.uk/s/?_encoding=UTF8&amp;camp=1634&amp;creative=19450&amp;keywords=black%20rapid&amp;linkCode=ur2&amp;qid=1404138077&amp;rh=i%3Aaps%2Ck%3Ablack%20rapid&amp;tag=tfindphoto-21" target="_blank" rel="noopener">Black Rapid</a>. I personally use this with my <a href="http://www.amazon.co.uk/gp/product/B0056ACQU6/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=B0056ACQU6&amp;linkCode=as2&amp;tag=tfindphoto-21">Black Rapid RS-Sport Strap</a><img style="border: none !important; margin: 0px !important;" src="http://ir-uk.amazon-adsystem.com/e/ir?t=tfindphoto-21&amp;l=as2&amp;o=2&amp;a=B0056ACQU6" alt="" width="1" height="1" border="0" /> as it gives me the best of both worlds of a Tripod Mount, a Shoulder Strap, and a Belt/Bag Mount.
@@ -144,14 +150,15 @@ The POV kit was designed by Peak Design to allow you to attach a GoPro or other
 The POV Kit was the primary reason for me purchasing a Capture Pro clip, as I needed a method of mounting my GoPro to myself without drawing too much attention. While the official GoPro Chest Mount is an excellent product (and one that I now frequently use for skiing) I don't find it very useful or visually pleasing to others having a camera mounted in the middle of your chest. Also, you look like a bit of a dork wearing the chest harness unless you're doing an extreme sporting activity.
 
 ### Unboxing
+
 As with the Capture Pro clip, the POV kit comes in a high quality white box with various product photos on it. As with the clip, the box was far smaller than I was expecting.
 
 {{< gallery >}}
-  <img src="p6200246.jpg" class="grid-w25" />
-  <img src="p6200247.jpg" class="grid-w25" />
-  <img src="p6200248.jpg" class="grid-w25" />
-  <img src="p6200249.jpg" class="grid-w25" />
-  <img src="p6200250.jpg" class="grid-w25" />
+  <img src="p6200246.jpg" class="grid-w25" alt="Peak Design Capture Pro — Unboxing" />
+  <img src="p6200247.jpg" class="grid-w25" alt="Peak Design Capture Pro — Unboxing" />
+  <img src="p6200248.jpg" class="grid-w25" alt="Peak Design Capture Pro — Unboxing" />
+  <img src="p6200249.jpg" class="grid-w25" alt="Peak Design Capture Pro — Unboxing" />
+  <img src="p6200250.jpg" class="grid-w25" alt="Peak Design Capture Pro — Unboxing" />
 {{< /gallery >}}
 
 Even over a week after I've received the product, I'm still amazed at how much Peak Design managed to cram into such a small package.
@@ -177,6 +184,7 @@ Either mounting solutions only give you movement in two planes. To compensate f
 When the GoPro is attached, the connection from the GoPro to the clip and the clip to you is very secure. It never feels like the assembly will come adrift from your bag, nor that the POV mount will come loose from the clip
 
 ### Where to mount your Capture Clip with POV Kit
+
 There are a number of places to mount your POV kit. The most obvious (and probably most useful) is on the arm strap of your rucksack. With the GoPro facing forward, the best strap is the left (as this biases the lens on the GoPro more towards the centre of your chest) and at around the same height as your armpit (this keeps it clear of your arm movement and stops it digging into your pecks during your normal movement). For the photographers among you, mounting the GoPro here should give you a consistent forward view even when your camera is raised to your eye, as your left arm / hand (used to support the body or lens) sits slightly lower than your right (used on the shutter button and controls).
 
 One of the more unusual mounting points that I've seen is on a ski-boot. A really helpful video from [GoPro Tips and Tricks](https://www.youtube.com/channel/UC15_JWyO0xsrV-W-pYdFtBQ)explains how:
@@ -184,6 +192,7 @@ One of the more unusual mounting points that I've seen is on a ski-boot. A reall
 {{< youtubeLite id="-fu-Rw1Iow0" label="Peak Design POV Kit Ski Boot Mount" >}}
 
 ## Conclusion
+
 The POV Kit along with a Capture Clip is an extremely versatile solution. It gives you a lot more flexibility than the GoPro Chest Mount when using it for your GoPro HD Hero camera. Is it a replacement for the GoPro Chest Mount? I would personally say No, but I would also say that it is worth owning both! My chest mount is used exclusively when I ski. My Capture Pro and POV kit is used when I'm doing less extreme activities, or simply want a first person view of the goings on for the day.
 
 My one and only complaint about the POV kit is that the actual parts themselves are made out of plastic. Granted, it is high quality plastic, but still plastic. Given that the Capture Clips are almost entirely metal construction, I would prefer the POV kit to be made out of the same material. Maybe Peak Design could offer a POV Pro kit which has more options and metal construction.

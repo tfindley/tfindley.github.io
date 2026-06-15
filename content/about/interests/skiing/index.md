@@ -30,7 +30,7 @@ Places I’ve skied:
 | 2008 | Avoriaz, France |
 | 2007 | Bad Hofgastein, Austria |
 | 2006 | ?? |
-| 2005 | ??
+| 2005 | ?? |
 | 2004 | St. Anton, Austria |
 | 2003 | Whistler / Blackcombe, BC, Canada |
 | 2002 | Bad Hofgastein, Austria |
@@ -47,12 +47,12 @@ Places I’ve skied:
 
 | Equipment |   |
 | --------- | - |
-| Helmet | Salomon Allium ’08 Custom Air
-| Goggles | Smith Optics Knowledge OTG
-| Boots | Tecnica Dragon 100
-| Skis | Salomon X-Wing Tornado Ti with Salomon Z12 B80 bindings
-| Blades | Atomic ETL 123  with Salomon Z12 B80 bindings
-| Camera | GoPro Hero 5 Black Edition
+| Helmet | Salomon Allium ’08 Custom Air |
+| Goggles | Smith Optics Knowledge OTG |
+| Boots | Tecnica Dragon 100 |
+| Skis | Salomon X-Wing Tornado Ti with Salomon Z12 B80 bindings |
+| Blades | Atomic ETL 123  with Salomon Z12 B80 bindings |
+| Camera | GoPro Hero 5 Black Edition |
 
 ---
 

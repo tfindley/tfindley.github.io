@@ -24,7 +24,7 @@ What is Monitoring, and how does it relate to the business, especially through C
 
 > The operational risks of IT need to be managed just like any other business risks.
 
-IT exists 
+IT exists
 
 ## Kinds of monitoring
 
@@ -33,17 +33,20 @@ IT exists
 #### Internal Systems Monitoring
 
 For VM's that will likely be
+
 - CPU
 - Memory
 - Network
 
 For Physical systems, we'll look at all of the above but also add some physical and environmental monitoring:
+
 - CPU / Memory / Board / Chassis temperature
 - Component Health - e.g: Disk SMART data
 - Fan RPM
 - Power draw
 
 For these physical systems we can start taking the approach of proactive maintenance in order to reduce IT risk, but this is only possible with some components:
+
 - Disks will likely raise SMART errors before the disk fails
 - Fans (at least in servers) will often be installed in a bank of more than one, allowing a system to absorb the impact of a fan failure
 - PSU's are often installed in pairs (or sometimes more), allowing a system to run with N-1 (so long as the current power draw doesn't exceed C*(N-1) (where C is the capacity of a single PSU))
@@ -55,9 +58,10 @@ While most IT Managers will be loathed dealing with budgets, annual costings sho
 #### Resource monitoring
 
 Resource monitoring is a lot like Internal Systems Monitoring, but on a grander scale. This time we're not looking at resources that make individual CIs tick, but we're looking at what capacity we have in our platforms. These could include:
+
 - CPU and Memory of a Hypervisor
 - Disk space of a storage array
-- Internet Bandwidth 
+- Internet Bandwidth
 
 #### Endpoint Monitoring
 
@@ -84,10 +88,12 @@ Is that service providing 'good' (expected) content?
 #### Customer Churn
 
 #### Ticketing
+
     - Number generated
     - Time to completion
 
 #### Change metrics
+
     - Input
     - Success
     - Failure
@@ -99,13 +105,13 @@ Is that service providing 'good' (expected) content?
 
 #### Skills awareness
 
-A good manager needs to constantly monitor the skills and capabilities of their teams. It is critical for an IT team to be current in the skills that the company currently requires, but also either have or be able to gain the skills required to elevate the company technology and services over the foreseeable future. A wide number of these skills will likely be driven by market direction, business need, and of course the technology industry itself. 
+A good manager needs to constantly monitor the skills and capabilities of their teams. It is critical for an IT team to be current in the skills that the company currently requires, but also either have or be able to gain the skills required to elevate the company technology and services over the foreseeable future. A wide number of these skills will likely be driven by market direction, business need, and of course the technology industry itself.
 
 A commonly accepted way to track internal skills is through the use of a Skills Matrix. This can be used to map current business skill requirements and to identify areas of weakness or risk within IT teams. This can also be a useful platform for highlighting areas of possible peer-learning (a useful way to further improve the skills of the peer providing the knowledge
 
 > The best way to become an expert in a subject is to teach it.
 
-#### 
+####
 
 #### Customer Satisfaction
 
@@ -118,4 +124,3 @@ Well, those researchers and staff and students *are* the customers. So are other
 ## Monitoring and Change Management
 
 ## Monitoring and Major Incident Management
-

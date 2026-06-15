@@ -1,0 +1,32 @@
+name: Quality checks
+
+on:
+  pull_request:
+    branches:
+      - main
+      - 'release/**'
+  push:
+    branches:
+      - 'release/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  markdownlint:
+    name: Markdown lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+          fetch-depth: 1
+      - name: Run markdownlint-cli2
+        # Pinned to match the version run by the .githooks/pre-commit hook.
+        # Node is preinstalled on ubuntu-latest, so npx needs no setup step.
+        run: npx -y markdownlint-cli2@0.14.0 "content/**/*.md" "!content/projects/**" "!themes/**"
+
+# Link checking (lychee) lives in the .githooks/pre-commit hook, not CI:
+# it needs a Hugo build to resolve internal links, and external link health
+# is too noisy (anti-bot 403s, link rot) to gate merges on. See README.

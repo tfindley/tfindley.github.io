@@ -4,12 +4,13 @@ date: 2024-12-12
 author: Tristan Findley
 categories:
   - Technical
-  - Ansible
 tags:
   - technical
   - dns
-  - DoT
-  - DoH
+  - dot
+  - doh
+  - ansible
+description: "How to generate DNS Stamps so you can configure DoT and DoH upstream resolvers in UniFi (and anywhere else that wants the sdns:// format)."
 showTableOfContents: true
 draft: false
 ---
@@ -21,7 +22,7 @@ Put simply, a DNS Stamp encodes all details required to connect to a secure DNS 
 
 ## Pre-requisites
 
-In order to generate a DNS Stamp, you will require a DNS Provider that supports DNS-over-HTTPS (DoH). I recommend using (NextDNS)[https://nextdns.io] for this!
+In order to generate a DNS Stamp, you will require a DNS Provider that supports DNS-over-HTTPS (DoH). I recommend using [NextDNS](https://nextdns.io) for this!
 
 You will also require a network appliance or downstream DNS service that supports DNS Stamp (`sdns://`).
 
@@ -56,7 +57,7 @@ For the examples below, we will use NextDNS information. You will require your u
 
 ## Applying DNS String
 
-###  UniFi Network
+### UniFi Network
 
 1. Open your [UniFi Network Console](https://unifi.ui.com)
 2. Select the site you want to configure

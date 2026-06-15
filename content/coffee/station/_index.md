@@ -20,6 +20,8 @@ Our coffee station as it was in February 2025
 ## Machines
 
 - **Espresso:** [Sage Bambino](https://www.sageappliances.com/en-gb/product/bes450?sku=SES450BSS4GUK1)
+  - Steam wand tip upgrade - Sage SP0024830
+  - Group head shower screen upgrade -  ISM Precision Nanotech Shower screen BV200NT
 - **Filter:** [Moccamaster KBG Select](https://www.moccamaster.nl/kbg-select) - Copper (no longer available)
 
 ## Grinders

@@ -2,12 +2,17 @@
 title: The Big Switch - Canon to Sony
 date: 2015-07-29
 categories:
-    - Photography
+  - Photography
 tags:
-    - sony
-    - canon
-    - photography
+  - vintage
+  - sony
+  - canon
+  - photography
 description: "Why I switched from Canon to Sony — leaving a decade of Canon gear behind for the Sony A7rII mirrorless system."
+build:
+  list: never
+  render: always
+  publishResources: true
 ---
 
 So it's the night before my new Sony α7rII is due to arrive. From all indications, I could be one of the very first people in the world to get my hands on a retail version. It's exciting. It feels a little like the night before Christmas Morning. I'm also a touch nervous as I've dived in with both feet. I've sold all of my Canon Gear (all bar two lenses) so right now I'm a Pro Photographer with no camera... kind of embarrassing, but it does make me laugh a little. I find myself contemplating how I go to this point?
@@ -26,7 +31,6 @@ So I understandably started looked around at a replacement Canon body. The 7D M
 
 Nothing of this added up. Had Canon really not innovated or even upgraded at all since the original 7D and 1D Mark IV? It seemed that way, until I took a step back. Canon HAVE innovated. Their 7D Mark II is a great camera, and their 5DS and 5DSr are good cameras, but the core fundimentals of Canon still exist behind these cameras, and they stop them from being GREAT cameras. So what are these problems?
 
-
 - Canon's sensory technology is unable to keep up now compared to the likes of the sensors from Sony
 - Canon has an ethos of building a camera that can 'technically' do lots of things, but then crippling its functionality (Magic Lantern exists exclusively because of this)
 - Canon try to dictate to the 'Pro' market, and continually hold them over the proverbial barrel by charging stupid prices to add basic functionality to their cameras, such as WiFi.
@@ -42,7 +46,6 @@ The final nail in the coffin happened when my personal circumstances looked like
 Then, along came the Sony α7rII... Seemingly out of the blue came this camera that not only had an excellent sensor, but was small, light, well featured and had an awesome autofocus system to boot. To top it off, the early reviews indicated that AF performance with third-party lenses was snappy and nearly (if not AS good) as on the bodies for which the lenses were designed.
 
 So here I sit, the night before my α7rII is due to arrive, thinking back about how I got to this point... Over the last few weeks I've been gradually selling off all my Canon camera gear. The 1D Mark IV and 24-70 ƒ/2.8L has gone off to WEX. My Canon Speedlites have been sold to friends, as has my collection of PocketWizard Flash Trigger. Is all of this a massive risk? Absolutely, but sometimes you've just got to take a chance. I just hope I've put my faith in the right place.
-
 
 ## Why the Sony α7rII?
 
@@ -60,4 +63,5 @@ While its not directly linked to TFindley Photography, it is directly linked to 
 A massive benefit of moving to a Mirrorless is the size and weight. As I mentioned above, the 1D Mark IV never came out the house unless it was going for a pro shoot. Back in my days of the 50D / 7D, it used to go everywhere with me, but with the 1D Mark IV and ƒ/2.8 glass I feel encumbered. My brief foray with the Olympus range proved to me that portability really was a big thing to me, even if I didn't initially realise it.
 
 ## Good Decision?
+
 So was this a good decision? I think so!I really hope so! On the eve of getting my α7rII, it feels right. I'm sure there will be things about the Sony's that will annoy me, and I'm sure there will be things about the Canon that I miss. At this point, I've already bought a few bits of Sony gear to replace the Canon gear that was sold, so I'm already invested. Time will tell if it was a sound investment. All I can do now is try everything out and feed back in a few months to let everyone know how I'm getting on.

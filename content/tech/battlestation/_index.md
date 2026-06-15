@@ -25,7 +25,7 @@ classes: wide
 | **Headset**       | Logitech G Pro X Wired |
 | **Controller**    | Stream Deck + |
 | **Handheld**      | Steam Deck (LCD) 512GB - Upgraded to 1TB |
-| **Handheld Dock** | UGREEN 9-in-1 USB-C Hub
+| **Handheld Dock** | UGREEN 9-in-1 USB-C Hub |
 | **HOTAS**         | Thrustmaster Warthog (with slew upgrade) |
 | **Pedals**        | Thrustmaster TPR |
 | **VR Headset**    | Meta Quest 2 Pro |
@@ -35,7 +35,6 @@ classes: wide
 | **Banana**        | For scale - [LTTstore.com](https://lttstore.com) |
 | **Laptop**        | Lenovo Yoga 9i Gen 10 |
 | **Dock**          | Dell WD22TB4 |
-
 
 ## Gaming Rig 2025
 
@@ -58,11 +57,9 @@ Prices below are listed purely for recording pre-tariff (2025) pricing and for c
 |                   | *Prices excludes shipping but includes taxes, rebates and vouchers*               |                               |               |
 |                   | **Total**                                                                         | **€2517.84**                  |               |
 
-
 ### Build information
 
 - Batch: 2505 PGE
-
 
 ### Configuration
 
@@ -70,14 +67,11 @@ EXPO enabled @ 6000Mhz
 
 No further overclocking
 
-
 ### Benchmarks
-
 
 ## Previous systems
 
 When I got my first ever PC, I had a distinct fascination in understanding how it worked, and how I could take it apart and upgrade it. Custom PC Builds have always been something I've enjoyed making, both for myself and for others. While I originally got into it with the intention of building better and faster (and cooler looking) PC's for gaming, this has now morphed into building rigs for high-end computation, video / image manipulation and Virtualisation. Every desktop that I've owned since my teens has been built by my own two hands, and today's PC is no exception.
-
 
 ### Gaming Rig 2015
 

@@ -11,7 +11,7 @@ tags:
   - "ha"
 description: "Building my first 10-inch network rack for a compact homelab setup."
 showTableOfContents: true
-draft: false
+draft: true
 ---
 
 A little sneak peak:

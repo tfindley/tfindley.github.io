@@ -2,9 +2,11 @@
 title: "Bash script: Disk Quota check for Project Spaces"
 date: 2019-01-11
 categories:
-    - Technical
-    - Reviews
-tags: 
+  - Technical
+series:
+  - ansible-foundations
+series_order: 2
+tags:
   - technical
   - bash
   - quantum
