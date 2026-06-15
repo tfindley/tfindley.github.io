@@ -1,0 +1,86 @@
+#!/usr/bin/env bash
+#
+# Pre-commit quality gate for tfindley.co.uk
+#
+# Runs only when a commit touches build-relevant files. Blocks the commit on
+# markdownlint errors and broken INTERNAL links; reports external/dead links
+# without blocking (external link health is noisy and out of our control).
+#
+# Activate once per clone:   git config core.hooksPath .githooks
+# Bypass in a pinch:         git commit --no-verify
+#
+# Requires (see README "Git hooks"): hugo (extended), lychee, node/npx.
+# Missing tools are skipped with a warning rather than failing the commit.
+
+set -uo pipefail
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root" || exit 1
+
+have() { command -v "$1" >/dev/null 2>&1; }
+
+# Skip entirely unless something build-relevant is staged.
+staged="$(git diff --cached --name-only --diff-filter=ACMR)"
+if ! grep -qE '^(content/|layouts/|config/|hugo\.toml)' <<<"$staged"; then
+  exit 0
+fi
+
+MDLINT_VERSION="0.14.0"   # keep in sync with .github/workflows/quality.yaml
+fail=0
+
+# 1. Markdownlint (blocking) — only the staged content markdown, pinned to match
+# CI. Linting staged files (not the whole tree) keeps untracked WIP drafts from
+# blocking commits; CI lints the whole committed tree as the catch-all.
+mapfile -t md_files < <(git diff --cached --name-only --diff-filter=ACMR \
+  | grep -E '^content/.+\.md$' | grep -vE '^content/projects/')
+if [ "${#md_files[@]}" -gt 0 ]; then
+  if have npx; then
+    echo "▶ markdownlint (${#md_files[@]} staged file(s))…"
+    if ! npx -y "markdownlint-cli2@${MDLINT_VERSION}" "${md_files[@]}"; then
+      echo "✖ markdownlint failed — auto-fix most of it with:"
+      echo "    npx markdownlint-cli2@${MDLINT_VERSION} --fix \"content/**/*.md\" \"!content/projects/**\" \"!themes/**\""
+      fail=1
+    fi
+  else
+    echo "⚠ npx not found — skipping markdownlint (install Node, see README)"
+  fi
+fi
+
+# 2. Link checking needs a built site (Hugo links don't resolve from raw markdown).
+if have hugo && have lychee; then
+  echo "▶ building site for link check…"
+  if ! hugo --gc --minify --quiet --baseURL "https://tfindley.co.uk/"; then
+    echo "✖ hugo build failed — fix the build before committing"
+    exit 1
+  fi
+
+  # 2a. Internal links + local images (blocking, offline → resolves against public/).
+  echo "▶ internal link check (offline)…"
+  if ! lychee --offline --root-dir "$repo_root/public" --no-progress 'public/**/*.html'; then
+    echo "✖ broken internal links above — fix them"
+    fail=1
+  fi
+
+  # 2b. External links (report-only — never blocks). --root-dir lets internal
+  # root-relative links resolve to local files so only real external URLs are
+  # network-checked; the site's own domain is excluded (new pages aren't live yet).
+  echo "▶ external link check (report only)…"
+  lychee --cache --max-cache-age 7d --no-progress \
+    --root-dir "$repo_root/public" \
+    --accept '200..=204,403,429' \
+    --exclude 'mailto:' \
+    --exclude 'linkedin\.com' \
+    --exclude 'youtube\.com' --exclude 'youtu\.be' \
+    --exclude 'tfindley\.co\.uk' \
+    'public/**/*.html' \
+    || echo "⚠ external link issues above (report only — not blocking the commit)"
+else
+  echo "⚠ hugo or lychee not found — skipping link check (see README 'Git hooks')"
+fi
+
+if [ "$fail" -ne 0 ]; then
+  echo
+  echo "Commit aborted by pre-commit hook. Bypass with: git commit --no-verify"
+  exit 1
+fi
+exit 0

@@ -23,36 +23,10 @@ jobs:
           submodules: false
           fetch-depth: 1
       - name: Run markdownlint-cli2
-        uses: DavidAnson/markdownlint-cli2-action@v17
-        with:
-          globs: |
-            content/**/*.md
-            !content/projects/**
-            !themes/**
+        # Pinned to match the version run by the .githooks/pre-commit hook.
+        # Node is preinstalled on ubuntu-latest, so npx needs no setup step.
+        run: npx -y markdownlint-cli2@0.14.0 "content/**/*.md" "!content/projects/**" "!themes/**"
 
-  linkcheck:
-    name: Link check (lychee)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: false
-          fetch-depth: 1
-      - name: Restore lychee cache
-        uses: actions/cache@v4
-        with:
-          path: .lycheecache
-          key: cache-lychee-${{ github.sha }}
-          restore-keys: cache-lychee-
-      - name: lychee
-        uses: lycheeverse/lychee-action@v2
-        with:
-          args: >-
-            --no-progress
-            --cache
-            --max-cache-age 7d
-            --exclude '^mailto:'
-            --exclude 'linkedin\.com'
-            --max-concurrency 6
-            content/
-          fail: true
+# Link checking (lychee) lives in the .githooks/pre-commit hook, not CI:
+# it needs a Hugo build to resolve internal links, and external link health
+# is too noisy (anti-bot 403s, link rot) to gate merges on. See README.

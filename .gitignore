@@ -52,3 +52,6 @@ lighthouse-*.json
 
 # Drafts (kept local, not published)
 content/projects/
+
+# lychee link-checker cache (pre-commit hook)
+.lycheecache

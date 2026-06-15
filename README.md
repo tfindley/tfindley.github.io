@@ -20,6 +20,31 @@ hugo --gc --minify
 
 Requires Hugo Extended (CI version is pinned in [.github/workflows/hugo.yaml](.github/workflows/hugo.yaml)) and Dart Sass.
 
+### Tooling for the pre-commit hook
+
+The [pre-commit hook](#git-hooks) shells out to two extra tools — install them if you want the hook to run its checks (it skips gracefully if they're missing):
+
+| Tool | Used for | Install |
+|---|---|---|
+| [`lychee`](https://github.com/lycheeverse/lychee) | Link checking (internal + external) | `cargo install lychee`, or a prebuilt binary from the [releases page](https://github.com/lycheeverse/lychee/releases) onto your `PATH` |
+| `markdownlint-cli2` | Markdown lint (same check as CI) | Runs on demand via `npx` — just needs Node.js |
+
+## Git hooks
+
+A version-controlled pre-commit hook lives in [.githooks/pre-commit](.githooks/pre-commit). Activate it once per clone:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+When a commit touches `content/`, `layouts/`, `config/`, or `hugo.toml`, the hook:
+
+- runs **markdownlint** (pinned to the same version as CI) — **blocks** the commit on errors;
+- builds the site and checks **internal links** offline against `public/` — **blocks** on broken links;
+- checks **external links** and **reports** dead/aging ones — does **not** block (external link health is noisy and outside our control).
+
+Bypass it when needed with `git commit --no-verify`. Link checking is intentionally **not** in CI — it needs a Hugo build to resolve internal links, and external checks are too flaky to gate merges on. Markdownlint runs in **both** the hook and CI ([.github/workflows/quality.yaml](.github/workflows/quality.yaml)); CI is the authoritative gate.
+
 ## Theme submodule (Blowfish)
 
 The Blowfish theme lives at `themes/blowfish/` as a **git submodule** tracking the upstream `main` branch.
