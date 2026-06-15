@@ -70,7 +70,7 @@ This was early automation in practice — scripted, repeatable provisioning long
 
 ### VOME Research Project
 
-I was approached by the lead researcher of the VOME project (Visualisation and Other Methods of Expression) to handle the project's systems administration. VOME was a three-year collaborative research project between Royal Holloway's ISG, Salford and Cranfield Universities, Consult Hyperion, and Sunderland City Council, exploring how people engage with concepts of information privacy and consent online. My responsibilities included web server creation and maintenance, WordPress and Moodle platform management, and acting as creative consultant for the project's web presence.
+I was approached by the lead researcher of the [VOME project](vome.md) (Visualisation and Other Methods of Expression) to handle the project's systems administration. VOME was a three-year collaborative research project between Royal Holloway's ISG, Salford and Cranfield Universities, Consult Hyperion, and Sunderland City Council, exploring how people engage with concepts of information privacy and consent online. My responsibilities included web server creation and maintenance, WordPress and Moodle platform management, and acting as creative consultant for the project's web presence.
 
 ### Virtualisation & Storage
 
