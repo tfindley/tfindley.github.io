@@ -1,11 +1,9 @@
 ---
-permalink: /about/larch/
 title: "Larch Computer Services"
-excerpt: ""
-toc: false
+aliases:
+    - /about/experience/professional/larch/
 date: 2005-06-01
 description: "IT Support Technician & Solutions Architect"
-showWordcount: false
 showReadingTime: false
 ---
 

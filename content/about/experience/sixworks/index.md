@@ -1,18 +1,16 @@
 ---
 title: "SiXworks Ltd"
-excerpt: "Platform Services Team Lead"
-toc: false
-date: 2024-03-06
-description: "Platform Services Team Lead"
-showWordcount: false
+excerpt: "Platform Services Team Lead — UK defence digital innovation"
+date: 2023-02-01
+description: "Platform Services Team Lead — automation-first platforms for classified, air-gapped defence environments"
 showReadingTime: false
+aliases:
+    - /about/experience/professional/sixworks/
 ---
 
-**Duration:** February 2023 – January 2024 (~11 months)
-**Location:** Farnborough, Hampshire (Cody Technology Park) — Hybrid
 **Role:** Platform Services Team Lead
 
----
+February 2023 – January 2024 · Farnborough, Hampshire (Cody Technology Park) · Hybrid
 
 ## The Company
 
@@ -78,10 +76,9 @@ Beyond application deployment, the team automated the deployment, configuration,
 
 **Platform tooling:**
 
-- Secrets management
+- Secrets management (HSM-backed)
 - Version control
 - Documentation
-- Service desk and ticketing
 - Automation orchestration
 
 **Core infrastructure:**
@@ -184,10 +181,9 @@ During this role I completed the **CMI People Leadership Programme** with a **Di
 
 ### Supporting Services (Deployed & Maintained)
 
-- Secrets management platform
+- Secrets management platform (HSM-backed)
 - Version control platform
 - Documentation platform
-- Service desk and ticketing platform
 - Automation orchestration platform
 - Monitoring platform
 - Core services: identity, databases, NTP, repositories, federated services, logging
@@ -195,6 +191,7 @@ During this role I completed the **CMI People Leadership Programme** with a **Di
 ### Security & Practices
 
 - OS hardening — supply chain level (base image)
+- HSM-backed secrets and encryption-key management
 - Classification-aware, auditable deployment
 - Immutable infrastructure — [flock of sheep, not pets](/devops/principles/flock-not-pets)
 - DevSecOps

@@ -3,6 +3,9 @@ public/
 resources/_gen
 themes/blowfish/exampleSite
 
+# Local development files
+Website-Migration/
+
 # Binaries for programs and plugins
 *.exe
 *.exe~

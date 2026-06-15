@@ -1,5 +1,7 @@
 ---
 title: "BSc (Hons) Computer Network Management and Design"
+aliases:
+    - /about/education/
 date: 2006-07-01
 description: "University of Portsmouth - 2003 to 2006"
 showHero: false

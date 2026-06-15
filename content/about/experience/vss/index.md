@@ -1,19 +1,16 @@
 ---
-permalink: /about/vss/
-title: "Vodafone Secure Services, Vodafone Ltd"
-excerpt: "Linux Systems Administrator / DevOps Engineer"
-toc: false
-date: 2019-06-03 
-description: "Systems Administrator"
-showWordcount: false
+title: "Vodafone Secure Sector (VSS)"
+excerpt: "Systems Administrator — Vodafone Business"
+date: 2019-06-03
+description: "Systems Administrator — secure infrastructure for critical national infrastructure"
 showReadingTime: false
+aliases:
+    - /about/experience/professional/vss/
 ---
 
-**Duration:** June 2019 – January 2020 (~7 months)
-**Location:** Farnborough, Hampshire (On-site)
-**Role:** Systems Administrator
+**Role:** Systems Administrator — Vodafone Business, Vodafone Secure Sector (VSS)
 
----
+June 2019 – January 2020 · Farnborough, Hampshire · On-site
 
 ## The Starting Point
 
@@ -46,11 +43,11 @@ This was hands-on security work at a time when "DevSecOps" wasn't yet a job titl
 - Migrated platforms and services from legacy hardware, OS, and networks to supported infrastructure
 - Consolidated legacy physical hardware to virtual instances on VMware (P2V)
 
-### Automation — The Beginning
+### Automation Delivery
 
-I began developing Bash scripts and Ansible playbooks here to automate deployment, configuration, and maintenance tasks. At the time it was early, exploratory work. In hindsight, it was the start of a deliberate trajectory: Ansible at VSS, Ansible mastery at UKCloud, automation-first as a company standard at SiXworks.
+I delivered a complete Ansible automation solution for the team — automating base-OS configuration across systems, and standing up a high-availability deployment of StableNet, the network monitoring platform. I'd already been working with Ansible before I joined, so this wasn't first steps; it was real, production automation in a secure environment.
 
-At the time it just felt like useful scripting. Only later did it look like the start of a specialism.
+It's the same thread that deepened into Ansible mastery at UKCloud and an automation-first company standard at SiXworks.
 
 ---
 
@@ -66,11 +63,11 @@ Statelessness was a deliberate choice. It's more secure — nothing carries over
 
 This was early-2019 experience with the kind of cross-domain data security problem I'd run into again, in different forms, at UKCloud and SiXworks.
 
-### Ansible Deployment Framework
+### Ansible Automation Solution
 
-I implemented an Ansible-based system deployment, configuration, and management solution for the team. Alongside Bash scripting for day-to-day automation, this was my first real exposure to infrastructure-as-code thinking: the idea that system state should be defined, version-controlled, and reproducible rather than manually applied and remembered.
+I delivered a complete Ansible automation solution for the team, targeting two things in particular: automated base-OS configuration across systems, and a high-availability deployment of StableNet, the network monitoring platform. This was infrastructure-as-code applied in a secure, production environment — system state defined, version-controlled, and reproducible rather than applied by hand and remembered.
 
-It wasn't sophisticated by the standards of what came later — but it's where the infrastructure-as-code habit started for me.
+I'd been writing Ansible for a while by this point, so it was a real delivery rather than a first experiment — the kind of automation that became the through-line of every role that followed.
 
 ---
 

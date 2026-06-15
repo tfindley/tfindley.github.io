@@ -7,5 +7,6 @@
   "MD025": false,    // multiple top-level headings — some legacy posts use H1 inside body
   "MD033": false,    // inline HTML — Hugo shortcodes and intentional <img align=> use it
   "MD041": false,    // first line must be H1 — front matter handles this
-  "MD034": false     // bare URLs — many posts intentionally show full URLs
+  "MD034": false,    // bare URLs — many posts intentionally show full URLs
+  "MD028": false     // blank line between blockquotes — consecutive testimonials/pull-quotes use this intentionally
 }

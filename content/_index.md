@@ -1,6 +1,6 @@
 ---
 title: Tristan Findley
-description: "Personal site of Tristan Findley — Technical Team Lead & Platform Engineer writing about DevOps, infrastructure, homelab, photography, and more."
+description: "Personal site of Tristan Findley — a security-first, automation-first DevOps engineer writing about DevOps, infrastructure, homelab, photography, and more."
 cardView: true
 cardViewScreenWidth: false
 constrainItemsWidth: false
@@ -14,18 +14,18 @@ constrainItemsWidth: false
   breakLines=true
   lifeLike=true
   waitUntilVisible=true
-  initialString="Building and leading platform engineering teams"
+  initialString="Security-first, automation-first infrastructure"
 >}}
-"DevOps Team Lead"
+"DevOps Engineer"
 "Platform Engineer"
 "Site Reliability Engineer"
 {{< /typeit >}}
 
-I'm a Technical Team Lead and Platform Engineer with 19+ years of experience across defence, cloud, telecommunications, biotechnology, and higher education. I build and lead DevOps teams that deliver reliable, automated infrastructure — and I write about the work, the tools, and the people side of it here.
+I'm a DevOps engineer with two decades building secure, automated infrastructure across defence, sovereign cloud, telecommunications, biotechnology, and higher education. Security-first by training, automation-first by instinct — I came to DevOps from the [*Ops* side](/devops), and I build platforms that work, and keep working long after I've moved on. I write about the work, the tools, and the people side of it here.
 
 ## Currently
 
-> **Automation Engineer & Change Manager at [VIB](https://vib.be) in Belgium.** Chairing the Change Advisory Board, coordinating Major Incidents, and driving NIS2 adoption across critical research infrastructure. Selectively open to senior platform engineering and engineering management conversations in the EU.
+> **DevOps Engineer & Change Manager at [VIB](https://vib.be) in Belgium.** Building secure, automated infrastructure for genomic research — chairing the Change Advisory Board, coordinating Major Incidents, and driving NIS2 adoption across critical research infrastructure. Selectively open to senior (IC) platform engineering, DevOps, and SRE conversations in the EU.
 
 *(Edit this block in [content/_index.md](https://github.com/tfindley/tfindley.github.io/blob/main/content/_index.md) — refresh quarterly so it stays honest.)*
 

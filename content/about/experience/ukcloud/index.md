@@ -1,16 +1,16 @@
 ---
 title: "UKCloud Ltd"
+excerpt: "Automation & Service Reliability Engineer → DevOps Engineer, Pastoral Manager, Agile Lead"
 date: 2020-01-06
-description: "DevOps Engineer, Pastoral Manager, Scrum Master, Infrastructure Engineer"
-showWordcount: false
+description: "Automation & Service Reliability Engineer → DevOps Engineer — UK sovereign cloud"
 showReadingTime: false
+aliases:
+    - /about/experience/professional/ukcloud/
 ---
 
-Duration:** January 2020 – February 2023 (3 years)
-**Location:** Farnborough, Hampshire (Hybrid)
-**Roles:** Automation and Service Reliability Engineer → DevOps Engineer, Pastoral Manager, Agile Lead
+**Role:** Automation and Service Reliability Engineer → DevOps Engineer · Pastoral Manager · Agile Lead
 
----
+January 2020 – February 2023 · Farnborough, Hampshire · Hybrid
 
 ## The Role
 
@@ -164,17 +164,9 @@ When UKCloud entered administration, I chose to continue the programme independe
 
 ### Patching as a Service
 
-**Period:** Designed year 1 (2020); ran operationally for ~1 year until company closure
+A team-run service delivering reliable, compliant patch management across customer Linux and Windows infrastructure, with full reporting for compliance and audit. I was a supporting engineer on it rather than its owner — contributing chiefly on the Linux side, where patching was automated with Ansible for both deployment and reporting (Windows used Ivanti Security Controls).
 
-**The Challenge:** Deliver reliable, compliant patch management across customer Linux and Windows infrastructure while maintaining uptime and compliance audit trails.
-
-**The Approach:**
-
-- Linux: Ansible-based automation for both deployment and reporting
-- Windows: Ivanti Security Controls, integrated into the service workflow
-- Built to run reliably without manual intervention, with full reporting for compliance and audit purposes
-
-**The Outcome:** Flawless operational record—zero customer system outages from patching throughout the service's operational life.
+The service ran with a flawless operational record: zero customer system outages from patching throughout its life.
 
 ### Portal Deployment Automation
 

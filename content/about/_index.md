@@ -1,33 +1,28 @@
 ---
 title: "About Me"
-description: "About Tristan Findley — Technical Team Lead and Platform Engineer with 19+ years of experience in DevOps, infrastructure automation, and team leadership."
-# date = '2024-12-06T10:31:00+01:00'
-# layout: 'basic'
-showHero:  true
-# # heroStyle = "big"
+description: "About Tristan Findley — a security-first, automation-first DevOps engineer with two decades building secure, automated infrastructure across defence, sovereign cloud, telecoms, and life-sciences research."
+showHero: true
 showBreadcrumbs: false
 showAuthor: false
 showDateUpdated: false
-# type: page
 layout: simple
-# featureimage: img/tfindley_banner.png
 ---
 
-I'm Tristan -- a technical team lead and platform engineer with 19+ years of experience across the public and private sectors.
+I'm Tristan — a DevOps engineer with a rare shape: deep, hands-on automation expertise, forged in some of the most security-constrained environments there are.
 
-> Taking a holistic view of IT
+> Security-first by training, automation-first by instinct.
 
-I build and lead DevOps teams that deliver reliable, automated infrastructure. My career spans defence, cloud infrastructure, telecommunications, biotechnology, and higher education -- and throughout all of it, my focus has been on enabling teams to deliver with confidence through automation, strong processes, and clear technical direction.
+My career has two beginnings. The first is **security** — eleven years embedded in Royal Holloway's Information Security Group, one of the world's leading cyber-security research groups, where data protection was the starting point for every decision. The second is **automation** — which began when I learned Infrastructure-as-Code at the University of Surrey and never looked back.
 
-In 2023 I completed the [People Leadership Programme](training/plp) with Multiverse, earning a **Distinction in People Leadership** from the Chartered Management Institute. I've been a practising manager since 2022, most recently leading a team of four DevOps engineers at SiXworks, delivering automation-first platform services across multiple classified environments in the UK defence sector.
+Those two threads became one, and led somewhere unusual: secure systems for critical national infrastructure at **Vodafone**, sovereign cloud for UK government and defence at **UKCloud**, classified air-gapped platforms for the RAF's combat-cloud programme at **SiXworks** — work that contributed to the capabilities IBM acquired the company for — and now secure, governed infrastructure for genomic research at **[VIB](https://vib.be)**, one of Europe's leading life-sciences institutes. Different domains, one philosophy: build it once, build it right, make it auditable, and automate the rest.
 
-In 2024 I made a deliberate decision to relocate to Belgium, stepping away from the team I had built at SiXworks to join the [Vlaams Instituut voor Biotechnologie (VIB)](https://vib.be) as an Automation Engineer and Change Manager. Rather than immediately pursuing a leadership role, I chose to take time to understand a new working culture and organisation first -- I believe good leadership requires genuine understanding of the people and environment you work within. That period of deliberate observation has been invaluable, and the role has given me the opportunity to apply my process design and leadership experience in a new context -- chairing the Change Advisory Board, coordinating Major Incidents, coaching team members, and driving the adoption of NIS2 standards across critical research infrastructure.
+I came to DevOps from the *Ops* side — systems-rooted, infrastructure-as-code (more on [what I mean by that](/devops)) — and I build platforms that work, and keep working long after I've moved on.
 
 ---
 
 ## What I bring
 
-My technical foundation is in Linux systems administration, infrastructure automation (Ansible, Terraform), and platform engineering. I combine this with hands-on experience in ITIL process design -- having authored and implemented Change Management and Major Incident Management processes from scratch -- and a genuine commitment to developing the people around me.
+My technical foundation is **Linux systems administration, infrastructure automation (Ansible, Terraform, Vault), and platform engineering** — built on more than a decade of doing the work by hand before I ever automated it. Alongside the engineering runs a governance thread that's followed me my whole career: from learning ITIL, to working inside formal change control, to authoring Change and Major Incident Management processes from scratch and chairing a Change Advisory Board as a FitSM Process Owner at VIB.
 
 I believe the best infrastructure teams are built on trust, clear ownership, and a culture where automation is the default, not the exception.
 
@@ -35,17 +30,22 @@ I believe the best infrastructure teams are built on trust, clear ownership, and
 
 ## Beyond the day job
 
-Outside of work, I'm a [photographer and filmmaker](experience/creative) with credits on several independent productions ([IMDB](http://www.imdb.com/name/nm4271719/)). I run a [homelab](/tech) that doubles as a testing ground for the tools I use professionally, and I write about what I learn in my [blog](/posts).
+Outside work, I'm a [photographer and filmmaker](/photo) with credits on several independent productions ([IMDb](http://www.imdb.com/name/nm4271719/)) — something I'm actively getting back into. I run a [homelab](/tech) that doubles as a testing ground for the tools I use professionally, and I write about what I learn on my [blog](/posts).
 
-I'm also into [motorcycling](interests/motorcycling), [martial arts](interests/martial_arts), [skiing](interests/skiing), [travel](/travel), [photography](/photo), and [coffee](/coffee).
+I'm also into [motorcycling](interests/motorcycling), [martial arts](interests/martial_arts), [skiing](interests/skiing), [travel](/travel), and [coffee](/coffee).
 
 ---
 
 ## Explore
 
-- [Professional Experience](experience/professional)
-- [Technology Stack](skills/technology)
-- [Creative Experience](experience/creative)
+- [Professional Experience](experience) — the full career story, role by role
+- [Skills](skills) — what I work with, and how I work
+- [What People Say](testimonials) — recommendations from colleagues and managers
 - [Training & Qualifications](training)
+- [Photography & Creative Work](/photo)
 - [Reading List](readinglist)
 - [FAQ](faq)
+
+<!-- Restore these two Explore links when their pages flip draft:false (beyond.md, tfindley.md):
+     - [Beyond the Day Job](beyond) — photography, martial arts, motorcycling, and more
+     - [TFindley](tfindley) — my independent IT & creative practice -->

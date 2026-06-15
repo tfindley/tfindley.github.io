@@ -20,7 +20,7 @@ My original CV was fairly standard, and it served me well -- it got me interview
 
 ## So what exactly do you do?
 
-My day job is in DevOps, Platform Engineering and Team Leadership. But I also have a background in [photography and filmmaking](/about/experience/creative), and I've done IT contracting for small businesses over the years. These may seem like wildly different fields, but they come together in a synergy of creativity and technology -- the ability to take a project from technical design through to digital asset creation and delivery.
+My day job is in DevOps, Platform Engineering and Team Leadership. But I also have a background in [photography and filmmaking](/photo/creative), and I've done IT contracting for small businesses over the years. These may seem like wildly different fields, but they come together in a synergy of creativity and technology -- the ability to take a project from technical design through to digital asset creation and delivery.
 
 ## What about everything else?
 

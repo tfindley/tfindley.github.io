@@ -1,31 +1,31 @@
 ---
 title: 'Photography'
-description: "TFindley Photography — wildlife, film-set, event, and portrait photography since 2010."
+description: "TFindley Photography — wildlife, film-set, event, and portrait photography since 2010. The creative thread that's run alongside my technical career."
 layout: simple
 showPagination: false
 ---
 
-In conjunction with my IT career I have taken it upon myself to developed a set of creative skills. While originally centred around Photography, my areas of experience have quickly diverged into Video Production, Desktop Publishing and Audio Engineering.
+Running alongside my technical career is a creative one. It started with **wildlife photography** and grew from there — into film-set work, events, portraiture, and eventually video, audio, and design. After a few quieter years, it's something I'm actively getting back into.
 
-I originally began working as a Behind The Scenes (BTS) photographer in the North London film industry using skills I developed from photographing Wildlife. Working as a BTS photographer allowed me to branch out into the film industry, gathering valuable experience as a Runner, Boom Operator, Camera Operator, Assistant Director and Second Unit Director.
+My first photographic love was — and still is — **wildlife**. That's where it began, and it's the eye I bring to everything else: patience, anticipation, and waiting for the moment. From there I moved behind the scenes in the North London film industry as a Behind-The-Scenes (BTS) photographer, which opened doors into the industry itself — Runner, Boom Operator, Camera Operator, and eventually Assistant Director and Second Unit Director. Along the way I picked up event and portrait work, and the design and desktop-publishing skills (Photoshop, Illustrator, InDesign) that come with promoting yourself.
 
-I also branched out into Wedding and Event photography, photographing numerous events from corporate to sports. Desktop Publishing came out of the requirement to advertise myself and my services, as well as to develop digital assets for use on websites. This got me into using Adobe Photoshop in conjunction with Adobe Illustrator and InDesign.
+---
 
 ## TFindley Photography
 
-Originally founded in 2010 as Alopex Productions, TFindley Photography has gone through various phases over the decade and a half since its foundation. Covering various aspects of photography from Wildlife to film-set photography, this Farnborough-based company can turn its lens to almost anything they set their sights on, providing excellent results every time with a personal and customer focused touch.
+Founded in 2010 (originally as Alopex Productions), TFindley Photography has been through several phases over the years. Rooted in wildlife, it grew a long portfolio across film-set photography, events, portraiture, and sports — a Farnborough-based practice built on a personal, customer-focused approach and a lot of repeat clients.
 
-While our first photographic love (and our roots) will always be in Wildlife photography, we have a long distinguished portfolio of Film-Set Photography, Event Photography, Portraiture and Sports photography.
+**Clients have included:** After Dark Productions · Kinetic Energy Films · Film Theatre · B3 Media · Karluk Siberian Huskies · UK Wolf Conservation Trust · Royal Holloway, University of London · Oak Hill Park Café · L'altro Uomo (men's fashion magazine) · RP Photography by Design.
 
-### Clients
+I spent two years doing promotional photography for the **UK Wolf Conservation Trust**, with my shots used in their quarterly publication and in promotional material around the site.
 
-- **After Dark Production** - After Dark Productions are an award-winning movie company based in North London.
-- **Kinetic Energy Films** - Kinetic Energy Films, a freelance film and video based in Birmingham and Newcastle-under-Lyme, serving businesses and people nationwide.
-- **Film Theatre**
-- **B3 Media**
-- **Karluk Siberian Huskies**
-- **UK Wolf Conservation Trust**
-- **Royal Holloway University**
-- **Oak Hill Park Café**
-- **L'altro Uomo** - Mens Fashion Magazine
-- **RP Photography by Design** - Subcontracting work
+---
+
+## Explore
+
+- [**Creative & Film Work**](creative) — my film-industry experience and full filmography ([IMDb](http://www.imdb.com/name/nm4271719/))
+- [**The Gear**](gear) — the kit I shoot with
+- [**The Brand**](brand) — TFindley Photography brand and logo
+
+> There is nothing in this world that does not have a decisive moment.
+> — Cardinal de Retz

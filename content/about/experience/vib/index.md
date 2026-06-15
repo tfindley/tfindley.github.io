@@ -1,18 +1,16 @@
 ---
 title: "Vlaams Instituut voor Biotechnologie"
-excerpt: "Automation Engineer, Change Manager, Major Incident Coordinator"
-toc: false
+excerpt: "DevOps Engineer, Data Core · Change Manager · Major Incident Coordinator"
 date: 2024-03-06
-description: "Automation Engineer (DevOps), Change Manager, Major Incident Coordinator"
-showWordcount: false
+description: "DevOps Engineer, Data Core · Change Manager · Major Incident Coordinator — secure, governed infrastructure for genomic research"
 showReadingTime: false
+aliases:
+    - /about/experience/professional/vib/
 ---
 
-Duration:** March 2024 – Present
-**Location:** Ghent, Belgium (Hybrid)
-**Role:** DevOps Engineer, Data Core | Change Manager | Major Incident Coordinator
+**Role:** DevOps Engineer, Data Core · Change Manager · Major Incident Coordinator
 
----
+March 2024 – Present · Ghent, Belgium · Hybrid
 
 ## A New Chapter
 
@@ -204,6 +202,6 @@ VIB is where the two sides of my career come together.
 
 The technical side — infrastructure automation, security-first design, building things that stay up — runs from VSS through UKCloud and SiXworks and into life-sciences research. The tools have changed; the way I work hasn't.
 
-The governance side has travelled the same way: I learned ITIL at Royal Holloway, ran my first change process at Surrey, worked inside formal change control at UKCloud, made the case for automation-first at SiXworks — and here I write the policies and chair the board. I'm not just working inside a governance structure; I helped build this one.
+The governance side has travelled the same way: I learned ITIL at Royal Holloway, first worked inside a change process at Surrey, formed my change-management instincts inside formal ITIL change control at UKCloud, made the case for automation-first at SiXworks — and here I write the policies and chair the board. I'm not just working inside a governance structure; I helped build this one.
 
 And the work feels different here. Infrastructure that supports cancer research, immunology, and genomics carries a weight that defence systems and cloud platforms didn't, for me. The data is more personal, the people relying on it are closer to hand, and getting it right — technically and ethically — matters just as much.

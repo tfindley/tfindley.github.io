@@ -1,5 +1,8 @@
 ---
 title: 'Technology Stack Experience'
+aliases:
+    - /about/experience/technology/
+    - /about/experience/technology/wordpress/
 description: "Summary of technologies used professionally, grouped by proficiency — from Ansible and Terraform to Linux, containers, and cloud platforms."
 layout: simple
 showPagination: false
